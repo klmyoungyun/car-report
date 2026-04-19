@@ -649,6 +649,475 @@ const PAIRS: Record<string, Omit<Insight, "pair">> = {
     verdict: "합리·첫차 → Tucson. 승차감·브랜드 → XC60.",
   },
 
+  // ────── BYD Atto 3 추가 쌍 (12) ──────
+  "byd-atto-3|tesla-model-y": {
+    headline: "가성비 극단 vs 테크 생태계",
+    whenA: [
+      "실구매 2천만원대 후반 — Model Y 대비 1,500만원+ 저렴",
+      "12가지 ADAS·서라운드뷰·무선 CarPlay/AA 모두 기본",
+      "LFP 블레이드 배터리 안전성·8년/16만km 보증",
+    ],
+    whenB: [
+      "주행거리 500 > 321km",
+      "슈퍼차저·OTA 생태계",
+      "잔존가치 우위",
+    ],
+    verdict: "주행거리·브랜드 중시 → Model Y. 최저가 첫 EV·안전성 중시 → Atto 3.",
+  },
+  "byd-atto-3|kia-ev6": {
+    headline: "엔트리 EV vs 준프리미엄 EV",
+    whenA: [
+      "가격 2,300만원 이상 저렴",
+      "LFP 배터리 열안정성",
+      "ADAS 풀세트 기본 + 파노라마 루프 기본",
+    ],
+    whenB: [
+      "주행 494 > 321km",
+      "800V 초급속 18분 vs 88kW DC (크게 느림)",
+      "E-GMP 실내공간",
+    ],
+    verdict: "충전 속도·주행거리 중시 → EV6. 첫 EV·가격·안전성 → Atto 3.",
+  },
+  "byd-atto-3|hyundai-ioniq-5": {
+    headline: "소형 엔트리 vs 준중형 실용",
+    whenA: [
+      "IONIQ 5 대비 2,000만원+ 저렴",
+      "3D 서라운드 뷰·12가지 ADAS 기본",
+      "파노라믹 선루프·V2L 기본",
+    ],
+    whenB: [
+      "주행 485km + 3,000mm 휠베이스 실내",
+      "800V 초급속·V2L 3.6kW",
+      "국산 A/S·잔존가치",
+    ],
+    verdict: "공간·장기 보유 → IONIQ 5. 예산 최우선·가성비 EV → Atto 3.",
+  },
+  "byd-atto-3|genesis-gv60": {
+    headline: "체급·가격 극단",
+    whenA: [
+      "GV60 대비 3천만원+ 저렴",
+      "핵심 기능 기본 탑재",
+      "보조금 후 실구매 2천만원대",
+    ],
+    whenB: [
+      "프리미엄 감성·27\" OLED",
+      "84kWh · 800V 초급속",
+      "국산 프리미엄 잔존가치",
+    ],
+    verdict: "완전히 다른 세그먼트. 프리미엄 → GV60, 가성비 EV → Atto 3.",
+  },
+  "byd-atto-3|volvo-ex40": {
+    headline: "중국 vs 스웨덴 소형 EV",
+    whenA: [
+      "EX40 대비 3,300만원+ 저렴",
+      "3D 서라운드 뷰·12 ADAS 기본",
+      "LFP 배터리 안전성",
+    ],
+    whenB: [
+      "252마력·주행 434km > 321km",
+      "북유럽 안전·하만카돈·파일럿 어시스트 기본",
+      "수입 브랜드 잔존가치",
+    ],
+    verdict: "예산 최우선·첫 EV → Atto 3. 브랜드·승차감·주행거리 → EX40.",
+  },
+  "byd-atto-3|lexus-nx": {
+    headline: "EV 가성비 vs HEV 프리미엄",
+    whenA: [
+      "실구매 2천만원대 후반 — NX 대비 3,500만원+ 저렴",
+      "전기 운영비",
+      "풀 ADAS 기본",
+    ],
+    whenB: [
+      "렉서스 정숙성·잔존가치",
+      "14.0km/L·LSS+ 안전",
+      "충전 인프라 무관",
+    ],
+    verdict: "아파트 충전 有 + 예산 민감 → Atto 3. 브랜드·장기 소유 → NX.",
+  },
+  "byd-atto-3|kia-sportage-hev": {
+    headline: "중국 EV vs 국산 HEV",
+    whenA: [
+      "실구매 2천만원대 후반 — Sportage 대비 1,600만원 저렴",
+      "전기 운영비 연 100만원+ 절약",
+      "ADAS 풀세트 기본",
+    ],
+    whenB: [
+      "16.3km/L·637L·출고 즉시",
+      "국산 A/S 접근성",
+      "주행거리 걱정 無",
+    ],
+    verdict: "아파트 충전 + 단거리 → Atto 3. 출고 빠름·가솔린 안심 → Sportage.",
+  },
+  "byd-atto-3|hyundai-tucson-hev": {
+    headline: "중국 EV vs 국산 HEV 엔트리",
+    whenA: [
+      "실구매 2천만원대 후반으로 Tucson H-Pick(3,611만)보다도 저렴",
+      "전기 운영비",
+      "풀 ADAS·서라운드 뷰 기본",
+    ],
+    whenB: [
+      "16.2km/L·622L 트렁크",
+      "5년 A/S·신속 출고",
+      "장거리 충전 걱정 無",
+    ],
+    verdict: "아파트 충전·초단거리 → Atto 3. 가솔린 안심·A/S 신뢰 → Tucson.",
+  },
+  "byd-atto-3|kia-sorento-hev": {
+    headline: "소형 EV vs 중형 HEV 7인승",
+    whenA: [
+      "1,200만원+ 저렴",
+      "전기 운영비",
+      "도심 주차 유리",
+    ],
+    whenB: [
+      "7인승·813L 트렁크",
+      "주말 장거리·가족 이벤트",
+      "검증된 상품성",
+    ],
+    verdict: "체급 다름. 1-2인 도심 → Atto 3. 가족 확장 → Sorento.",
+  },
+  "byd-atto-3|volvo-xc60": {
+    headline: "엔트리 EV vs 수입 프리미엄 MHEV",
+    whenA: [
+      "XC60 Plus(6,570만) 대비 3,200만원 저렴",
+      "전기 운영비",
+      "12 ADAS·서라운드뷰 기본",
+    ],
+    whenB: [
+      "에어 서스펜션(Ultra)·B&W·스칸디 감성",
+      "중형 공간",
+      "수입 브랜드 잔존가치",
+    ],
+    verdict: "체급·가격차 큼. 합리·EV → Atto 3. 프리미엄·승차감 → XC60.",
+  },
+  "byd-atto-3|volvo-xc40": {
+    headline: "중국 EV vs 수입 MHEV 컴팩트",
+    whenA: [
+      "실구매 2천만원대 후반 — XC40(5,190만) 대비 2,300만원+ 저렴",
+      "전기 운영비",
+      "보조금 대상",
+    ],
+    whenB: [
+      "볼보 안전 철학·픽셀 LED·BLIS",
+      "48V MHEV로 충전 걱정 無",
+      "수입 브랜드",
+    ],
+    verdict: "예산·EV 선호 → Atto 3. 가솔린·브랜드 → XC40.",
+  },
+  "byd-atto-3|zeekr-7x": {
+    headline: "중국 EV 두 극단 — 엔트리 vs 프리미엄",
+    whenA: [
+      "실구매 2천만원대 후반 — Zeekr 대비 2천만원+ 저렴",
+      "단일 구성·검증된 LFP 블레이드",
+      "BYD 한국 출시 1년+ 경과, A/S 네트워크 가동",
+    ],
+    whenB: [
+      "준중형급 615km WLTP 주행",
+      "800V 초급속 13분·36인치 AR-HUD",
+      "SEA 플랫폼(볼보·폴스타 공유)",
+    ],
+    verdict: "같은 중국 EV지만 체급 다름. Atto 3는 '첫 EV 가성비', Zeekr 7X는 'GV70 대안 프리미엄'.",
+  },
+
+  // ────── Zeekr 7X 추가 쌍 (10) ──────
+  "tesla-model-y|zeekr-7x": {
+    headline: "테크 리더 vs 신흥 프리미엄",
+    whenA: [
+      "OTA·슈퍼차저·Autopilot 검증된 생태계",
+      "2026 주니퍼 페이스리프트",
+      "국내 판매 1위 EV, A/S 안정",
+    ],
+    whenB: [
+      "100kWh·615km WLTP > Model Y 500km",
+      "800V 480kW 초급속 vs 250kW",
+      "36\" AR-HUD·16\" 3.5K OLED",
+      "동급 대비 저렴(GV70 절반가)",
+    ],
+    verdict: "검증된 브랜드·충전소 → Model Y. 최신 기술·공간 → Zeekr 7X (보조금 확정 후 재평가).",
+  },
+  "kia-ev6|zeekr-7x": {
+    headline: "국산 준중형 EV vs 중국 프리미엄 EV",
+    whenA: [
+      "800V 초급속·검증된 성능",
+      "국내 A/S 촘촘",
+      "보조금 570만원 확정",
+    ],
+    whenB: [
+      "100kWh·615km (EV6 494km)",
+      "프리미엄 인테리어·AR-HUD",
+      "SEA 플랫폼(볼보 공유)",
+    ],
+    verdict: "안정성·A/S → EV6. 주행거리·신기술·공간 → Zeekr 7X. 가격 비슷(추정).",
+  },
+  "hyundai-ioniq-5|zeekr-7x": {
+    headline: "E-GMP 실용 vs SEA 프리미엄",
+    whenA: [
+      "V2L·검증된 기술",
+      "국산 A/S·보조금 567만원",
+      "실내 공간 3,000mm",
+    ],
+    whenB: [
+      "100kWh 배터리·615km",
+      "나파 가죽·AR-HUD",
+      "Zeekr Sound Pro 21스피커",
+    ],
+    verdict: "안정·검증 → IONIQ 5. 신기술·프리미엄 감성 → Zeekr 7X.",
+  },
+  "genesis-gv60|zeekr-7x": {
+    headline: "국산 프리미엄 EV vs 중국 프리미엄 EV",
+    whenA: [
+      "27\" OLED·페이스 커넥트",
+      "검증된 A/S·잔존가치",
+      "보조금 확정",
+    ],
+    whenB: [
+      "주행 615km > 481km",
+      "16\" 3.5K OLED + 36\" AR-HUD",
+      "637마력 퍼포먼스 옵션",
+    ],
+    verdict: "브랜드·A/S → GV60. 최신 하드웨어·가성비 프리미엄 → Zeekr 7X.",
+  },
+  "volvo-ex40|zeekr-7x": {
+    headline: "Geely 형제 — 소형 vs 준중형",
+    whenA: [
+      "볼보 브랜드·검증된 A/S",
+      "단일 트림 옵션 고민 無",
+      "보조금·세제혜택 확정",
+    ],
+    whenB: [
+      "같은 Geely 산하·SEA 플랫폼",
+      "준중형 체급+615km",
+      "프리미엄 인테리어·가성비",
+    ],
+    verdict: "소형·검증된 볼보 → EX40. 준중형·최신 기술 → Zeekr 7X.",
+  },
+  "lexus-nx|zeekr-7x": {
+    headline: "일본 하이브리드 전통 vs 중국 EV 혁신",
+    whenA: [
+      "렉서스 정숙성·잔존가치",
+      "충전 인프라 무관",
+      "LSS+ 안전",
+    ],
+    whenB: [
+      "전기 운영비",
+      "주행 615km·800V 초급속",
+      "AR-HUD·OLED 디스플레이",
+    ],
+    verdict: "아파트 충전 있으니 Zeekr 7X의 총소유비용이 우위. NX는 잔존가치 중시 시.",
+  },
+  "kia-sportage-hev|zeekr-7x": {
+    headline: "가솔린 HEV vs 프리미엄 EV",
+    whenA: [
+      "Sportage 4,200만원 — 1,600만 저렴(추정)",
+      "16.3km/L·출고 즉시",
+      "국산 A/S",
+    ],
+    whenB: [
+      "체급 한 단계 위(중형)",
+      "전기 운영비·주행 615km",
+      "프리미엄 인테리어",
+    ],
+    verdict: "가성비 HEV → Sportage. 한 체급 업그레이드·EV → Zeekr 7X.",
+  },
+  "hyundai-tucson-hev|zeekr-7x": {
+    headline: "엔트리 HEV vs 프리미엄 EV",
+    whenA: [
+      "3,611만원 — 2,200만원 저렴",
+      "16.2km/L·5년 A/S",
+      "출고 즉시",
+    ],
+    whenB: [
+      "체급 위(중형 프리미엄)",
+      "전기 운영비·615km 주행",
+      "최신 인포테인먼트",
+    ],
+    verdict: "예산 민감 → Tucson. 프리미엄 원함 → Zeekr 7X.",
+  },
+  "kia-sorento-hev|zeekr-7x": {
+    headline: "가족 HEV vs 프리미엄 EV 중형",
+    whenA: [
+      "7인승·813L",
+      "주말 장거리·검증된 상품성",
+      "국산 A/S",
+    ],
+    whenB: [
+      "EV 운영비·615km",
+      "프리미엄 인테리어 + AR-HUD",
+      "1-2인엔 오버스펙 대비 사이즈 적정",
+    ],
+    verdict: "가족 확장 → Sorento. 1-2인 프리미엄 EV → Zeekr 7X.",
+  },
+  "volvo-xc60|zeekr-7x": {
+    headline: "스웨덴 MHEV vs 중국 EV (Geely 계열)",
+    whenA: [
+      "볼보 안전·잔존가치",
+      "에어 서스펜션(Ultra)·B&W",
+      "검증된 수입 브랜드 A/S",
+    ],
+    whenB: [
+      "같은 Geely·SEA 플랫폼",
+      "EV 운영비·주행 615km",
+      "가격 추정 비슷(XC60 Plus 6,570만 vs Zeekr 추정 5,800만)",
+    ],
+    verdict: "같은 Geely 계열이지만 볼보는 검증·Zeekr는 최신. 수입 브랜드 신뢰 → XC60, 최신 EV 하드웨어 → Zeekr 7X.",
+  },
+  "volvo-xc40|zeekr-7x": {
+    headline: "소형 수입 MHEV vs 중형 중국 EV",
+    whenA: [
+      "볼보 브랜드 + 검증된 A/S",
+      "48V MHEV·충전 걱정 無",
+      "Plus 5,190만원 진입",
+    ],
+    whenB: [
+      "체급 위 (중형) + EV",
+      "주행 615km",
+      "가격 추정 5,800만원대",
+    ],
+    verdict: "브랜드·출고 즉시 → XC40. 체급 업 + EV → Zeekr 7X.",
+  },
+
+  // ────── Volvo XC40 MHEV 추가 쌍 (10) ──────
+  "tesla-model-y|volvo-xc40": {
+    headline: "전기 테크 vs 수입 컴팩트 MHEV",
+    whenA: [
+      "Model Y RWD 4,999만 — XC40 대비 200만원 저렴",
+      "전기 운영비",
+      "500km 주행·OTA",
+    ],
+    whenB: [
+      "볼보 안전·픽셀 LED·BLIS 기본",
+      "출고 즉시·충전 걱정 無",
+      "프리미엄 컴팩트 감성",
+    ],
+    verdict: "전기·테크 → Model Y. 수입 브랜드·검증 → XC40.",
+  },
+  "kia-ev6|volvo-xc40": {
+    headline: "국산 EV vs 수입 MHEV (컴팩트)",
+    whenA: [
+      "주행 494km·800V 초급속",
+      "보조금 570만원 → 실구매 약 4,900만원대",
+      "V2L·OTA",
+    ],
+    whenB: [
+      "Plus 5,190만원 — EV6 보조금 반영가와 비슷",
+      "파일럿 어시스트·360 카메라 기본",
+      "충전 걱정 無",
+    ],
+    verdict: "보조금 반영 가격 비슷. 장기 운영비·EV → EV6. 브랜드·가솔린 → XC40.",
+  },
+  "hyundai-ioniq-5|volvo-xc40": {
+    headline: "준중형 EV vs 소형 MHEV",
+    whenA: [
+      "보조금 후 실구매 약 4,800만원",
+      "주행 485km·V2L",
+      "실내 공간 (휠베이스 3,000mm)",
+    ],
+    whenB: [
+      "Plus 5,190만원, 수입 프리미엄 감성",
+      "BLIS·픽셀 LED 기본",
+      "4,440mm 소형 도심 주차 유리",
+    ],
+    verdict: "공간·EV 운영 → IONIQ 5. 도심 컴팩트·브랜드 → XC40.",
+  },
+  "genesis-gv60|volvo-xc40": {
+    headline: "국산 프리미엄 EV vs 수입 MHEV",
+    whenA: [
+      "EV 보조금·전기 운영비",
+      "27\" OLED·프리미엄 UX",
+      "800V 초급속",
+    ],
+    whenB: [
+      "1,300만원 저렴(5,190만 vs 6,490만)",
+      "출고 즉시·충전 걱정 無",
+      "볼보 안전·감성",
+    ],
+    verdict: "예산·가솔린 → XC40. 전기·프리미엄 → GV60.",
+  },
+  "volvo-ex40|volvo-xc40": {
+    headline: "같은 볼보 컴팩트 — EV vs MHEV",
+    whenA: [
+      "전기차 보조금·세제혜택",
+      "전기 운영비 (XC40 대비 연 100만원+ 절약)",
+      "주행 434km로 일상 충분",
+    ],
+    whenB: [
+      "1,500만원+ 저렴 (5,190만 vs 6,670만)",
+      "AWD + 8단 자동(즉각 가속)",
+      "충전 걱정 無·출고 빠름",
+    ],
+    verdict: "아파트 충전 有 → EX40이 장기 우위. 가솔린 편의 + 예산 → XC40.",
+  },
+  "lexus-nx|volvo-xc40": {
+    headline: "일본 HEV vs 스웨덴 MHEV",
+    whenA: [
+      "1,500만원 비쌈(6,695만 vs 5,190만)",
+      "잔존가치 우위",
+      "14.0km/L·LSS+",
+    ],
+    whenB: [
+      "볼보 안전·BLIS·파일럿 어시스트",
+      "360 카메라 Plus 기본 (NX는 Luxury 이상만)",
+      "수입 프리미엄 컴팩트 감성",
+    ],
+    verdict: "서라운드 뷰 Plus부터 기본인 XC40이 예산 내 더 완성된 구성. NX는 잔존가치 중시 시.",
+  },
+  "kia-sportage-hev|volvo-xc40": {
+    headline: "국산 HEV 가성비 vs 수입 MHEV 프리미엄",
+    whenA: [
+      "Sportage 4,200만원 — XC40 대비 990만원 저렴",
+      "16.3 > 10.3km/L 연비",
+      "637L 트렁크 > 452L",
+    ],
+    whenB: [
+      "볼보 안전·BLIS·픽셀 LED",
+      "파일럿 어시스트·360 카메라",
+      "수입 프리미엄",
+    ],
+    verdict: "합리 → Sportage. 브랜드·수입 감성 → XC40.",
+  },
+  "hyundai-tucson-hev|volvo-xc40": {
+    headline: "국산 HEV vs 수입 MHEV (엔트리)",
+    whenA: [
+      "Tucson H-Pick 3,611만 — XC40 대비 1,600만원 저렴",
+      "16.2km/L > 10.3km/L",
+      "622L 트렁크",
+    ],
+    whenB: [
+      "볼보 안전 · 파일럿 어시스트",
+      "BLIS·픽셀 LED",
+      "수입 프리미엄",
+    ],
+    verdict: "가성비·연비 → Tucson. 브랜드·프리미엄 → XC40.",
+  },
+  "kia-sorento-hev|volvo-xc40": {
+    headline: "중형 HEV 7인승 vs 소형 MHEV",
+    whenA: [
+      "7인승·813L 트렁크",
+      "15.7km/L·국산 A/S",
+      "Noblesse 4,280만원 — 910만원 저렴",
+    ],
+    whenB: [
+      "컴팩트 도심 주차 유리",
+      "볼보 안전·프리미엄 감성",
+      "10.3km/L",
+    ],
+    verdict: "가족·공간 → Sorento. 1-2인 도심·브랜드 → XC40.",
+  },
+  "volvo-xc40|volvo-xc60": {
+    headline: "볼보 컴팩트 MHEV vs 중형 MHEV",
+    whenA: [
+      "1,400만원 저렴(5,190만 vs 6,570만)",
+      "도심 주차 유리(4,440 vs 4,708mm)",
+      "같은 볼보 브랜드·안전",
+    ],
+    whenB: [
+      "중형 공간(트렁크 483 vs 452L)",
+      "8단 AT·6.9초 가속",
+      "에어 서스펜션(Ultra) 옵션",
+    ],
+    verdict: "가격·도심 → XC40. 여유 공간·프리미엄 승차감 → XC60.",
+  },
+
   // ────── Kia Sorento 기준 1쌍 ──────
   "kia-sorento-hev|volvo-xc60": {
     headline: "중형급 — 가족 다목적 vs 프리미엄",

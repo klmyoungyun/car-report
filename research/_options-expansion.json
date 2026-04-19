@@ -1,0 +1,613 @@
+{
+  "_meta": {
+    "dataAsOf": "2026-04-19",
+    "currency": "KRW",
+    "scope": "한국 시장 실구매 시 추가 비용이 드는 개별 옵션 (기본 트림 포함 옵션 제외)",
+    "categories": ["안전", "편의", "외관", "실내", "오디오", "ADAS", "기타"],
+    "sourceNotes": [
+      "Tesla: somipapa.com 주니퍼 옵션 정리(128.6만/192.9만/275.9만), teslacharger.co.kr 견적, blog.carlab.kr 2026 가격, top-rider 출시 기사",
+      "Volvo EX40: carnoon 11784, volvocars.com/kr, getcha 출시 정리, accessories.volvocars.com 순정 액세서리",
+      "Volvo XC60: carnoon 11808, rgbstance 2270 상세 기사(B&W 1,410W/20\" 휠/에어서스 기본), chachacha.cardong 11028, dailycar 58325",
+      "Lexus NX: carnoon 11086, blog.carlab.kr 2026 NX2세대, car-information-expert zeroonerich 136, lexus.co.kr NX 액세서리 페이지",
+      "볼보/렉서스 일부 '옵션'은 단품 판매 없이 상위 트림 묶음(Plus→Ultra, Premium→Luxury) 형태이므로 priceKRW에 트림 업그레이드 차액을 기재하거나 0원(기본 포함) 표시",
+      "공식가 미공개인 순정 액세서리(토우바/루프박스/매트)는 볼보/렉서스 딜러 통상 장착비 포함가 추정치"
+    ]
+  },
+  "tesla-model-y": [
+    {
+      "id": "stealth-grey",
+      "name": "Stealth Grey (스텔스 그레이) 기본 색상",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "2026년형 기본 무료 외장 색상 (기존 Midnight Silver 대체). 주니퍼 페이스리프트의 신규 기본 컬러"
+    },
+    {
+      "id": "pearl-white",
+      "name": "Pearl White Multi-Coat (펄 화이트 멀티코트)",
+      "category": "외관",
+      "priceKRW": 1286000,
+      "description": "멀티코트 펄 화이트. 국내 Tesla 견적 기준 128.6만원",
+      "recommended": true
+    },
+    {
+      "id": "glacier-blue",
+      "name": "Glacier Blue (글레이셔 블루)",
+      "category": "외관",
+      "priceKRW": 1929000,
+      "description": "2026년형 주니퍼 신규 청량 블루 메탈릭"
+    },
+    {
+      "id": "diamond-black",
+      "name": "Diamond Black (다이아몬드 블랙)",
+      "category": "외관",
+      "priceKRW": 1929000,
+      "description": "2026년 국내 도입된 입체 펄 블랙 메탈릭"
+    },
+    {
+      "id": "ultra-red",
+      "name": "Ultra Red (울트라 레드)",
+      "category": "외관",
+      "priceKRW": 2759000,
+      "description": "선명한 펄 레드 프리미엄 멀티코트"
+    },
+    {
+      "id": "quicksilver",
+      "name": "Quicksilver (퀵실버)",
+      "category": "외관",
+      "priceKRW": 2759000,
+      "description": "반짝이는 메탈릭 실버 프리미엄 컬러"
+    },
+    {
+      "id": "wheels-20-induction",
+      "name": "20\" Induction/Helix 휠 (Long Range 전용)",
+      "category": "외관",
+      "priceKRW": 2571000,
+      "description": "Long Range AWD 기본 19\" Gemini → 20\" 인덕션 휠 업그레이드. 주행거리 약 5~10% 감소, 스포티 외관",
+      "recommended": false
+    },
+    {
+      "id": "interior-black-white",
+      "name": "Black & White 투톤 프리미엄 인테리어",
+      "category": "실내",
+      "priceKRW": 1286000,
+      "description": "기본 All Black → 시트/도어/대시 상부 화이트 투톤 구성",
+      "recommended": true
+    },
+    {
+      "id": "tow-package",
+      "name": "Tesla 토우 패키지 (1,600kg 견인)",
+      "category": "기타",
+      "priceKRW": 1700000,
+      "description": "고강도 강철 토우바 + 2\" 히치 리시버 + 토우 소프트웨어. Tesla 서비스센터 전용 장착 (OnlineordersKorea@tesla.com)"
+    },
+    {
+      "id": "eap",
+      "name": "Enhanced Autopilot (향상된 오토파일럿, EAP)",
+      "category": "ADAS",
+      "priceKRW": 4522000,
+      "description": "자동 차선 변경 + Autopark + Summon + Navigate on Autopilot 포함. 기본 오토파일럿(차선유지+ACC)은 전 트림 기본"
+    },
+    {
+      "id": "fsd",
+      "name": "Full Self-Driving 감독형 (FSD)",
+      "category": "ADAS",
+      "priceKRW": 9043000,
+      "description": "신호/정지표지 인식, 내비게이트 온 오토파일럿 고도화. 한국 규제 + HW4 한정으로 기능 활성화 범위 제한. 2026년부터 구독 전환 추세(월 약 10만원대)",
+      "recommended": false
+    },
+    {
+      "id": "premium-connectivity",
+      "name": "프리미엄 커넥티비티 (월 구독)",
+      "category": "편의",
+      "priceKRW": 118800,
+      "description": "연간 환산 약 11.88만원 (월 9,900원 VAT 포함). 스트리밍 미디어/실시간 교통/위성 지도 기능"
+    }
+  ],
+  "volvo-ex40": [
+    {
+      "id": "onyx-black",
+      "name": "Onyx Black Metallic (오닉스 블랙) 기본 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "기본 무료 메탈릭. 대부분 한국 딜러 구성에서 Standard 색상으로 제공"
+    },
+    {
+      "id": "vapour-grey",
+      "name": "Vapour Grey (베이퍼 그레이)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "무광 느낌 차콜 그레이. 볼보 시그니처 스탠다드 컬러 (무료)",
+      "recommended": true
+    },
+    {
+      "id": "crystal-white",
+      "name": "Crystal White Pearl (크리스탈 화이트 펄)",
+      "category": "외관",
+      "priceKRW": 800000,
+      "description": "EX40 시리즈 유일 프리미엄 펄 페인트. 국내 딜러 기준 약 80만원 추가",
+      "recommended": true
+    },
+    {
+      "id": "denim-blue",
+      "name": "Denim Blue Metallic (데님 블루)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "청바지 톤 블루 메탈릭 (기본/무료)"
+    },
+    {
+      "id": "silver-dawn",
+      "name": "Silver Dawn Metallic (실버 던)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "따뜻한 톤의 골드 실버 메탈릭 (기본/무료)"
+    },
+    {
+      "id": "fjord-blue",
+      "name": "Fjord Blue Metallic (피요르 블루)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "북유럽 감성의 딥 블루 메탈릭"
+    },
+    {
+      "id": "cloud-blue",
+      "name": "Cloud Blue (클라우드 블루)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "라이트 블루 파스텔 메탈릭"
+    },
+    {
+      "id": "aurora-silver",
+      "name": "Aurora Silver Metallic (오로라 실버)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "밝은 실버 메탈릭"
+    },
+    {
+      "id": "roof-contrast-black",
+      "name": "투톤 블랙 컨트라스트 루프",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "EX40 시그니처 투톤 스타일링 (루프만 블랙). 일부 본체 색상과 조합 한정"
+    },
+    {
+      "id": "wheels-20-black-diamond-cut",
+      "name": "20\" 5-Y Spoke 블랙 다이아몬드 컷 휠",
+      "category": "외관",
+      "priceKRW": 1500000,
+      "description": "Ultra 트림에서 휠 디자인 업그레이드 옵션. 기본 20\" 실버 대비 블랙 다이아몬드 컷 디자인"
+    },
+    {
+      "id": "black-edition-package",
+      "name": "Black Edition 외장 블랙 패키지",
+      "category": "외관",
+      "priceKRW": 2000000,
+      "description": "외장 크롬 요소 전체 블랙아웃 + 전용 20\" 블랙 휠 (과거 한정판 패키지 구성가 참고)",
+      "recommended": false
+    },
+    {
+      "id": "interior-nordico-premium",
+      "name": "노르디코(Nordico) 프리미엄 인테리어",
+      "category": "실내",
+      "priceKRW": 1500000,
+      "description": "친환경 바이오 기반 노르디코 소재 + 프리미엄 텍스타일 조합 업그레이드"
+    },
+    {
+      "id": "tow-bar-semi-electric",
+      "name": "세미 전동식 토우바 (1,500kg 견인)",
+      "category": "기타",
+      "priceKRW": 2000000,
+      "description": "볼보 순정 리트렉터블 토우바 + 장착 공임. 자전거 캐리어/소형 트레일러 호환"
+    },
+    {
+      "id": "roof-crossbar",
+      "name": "알루미늄 크로스바 (루프박스 기반)",
+      "category": "기타",
+      "priceKRW": 450000,
+      "description": "루프박스/자전거 캐리어 장착용 볼보 순정 크로스바"
+    },
+    {
+      "id": "roof-box-430l",
+      "name": "볼보 순정 루프박스 430L",
+      "category": "기타",
+      "priceKRW": 900000,
+      "description": "볼보 디자인 하드 루프박스. 크로스바 별도 필요"
+    },
+    {
+      "id": "winter-mat-package",
+      "name": "올 웨더 러버 매트 + 트렁크 라이너 세트",
+      "category": "편의",
+      "priceKRW": 250000,
+      "description": "1/2열 러버 매트 + 트렁크 라이너 순정 번들 (눈/비/레저 대응)"
+    },
+    {
+      "id": "mud-flaps",
+      "name": "머드 플랩 전/후",
+      "category": "외관",
+      "priceKRW": 200000,
+      "description": "앞/뒤 휠 머드 플랩 순정 액세서리"
+    }
+  ],
+  "volvo-xc60": [
+    {
+      "id": "onyx-black",
+      "name": "Onyx Black Metallic (오닉스 블랙) 기본 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "기본 무료 메탈릭 블랙",
+      "recommended": true
+    },
+    {
+      "id": "crystal-white",
+      "name": "Crystal White Pearl (크리스탈 화이트 펄)",
+      "category": "외관",
+      "priceKRW": 1200000,
+      "description": "XC60 시리즈 유일 펄 페인트. 한국 딜러 업차지 약 120만원",
+      "recommended": true
+    },
+    {
+      "id": "denim-blue",
+      "name": "Denim Blue (데님 블루) 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "기본 메탈릭 블루"
+    },
+    {
+      "id": "vapour-grey",
+      "name": "Vapour Grey (베이퍼 그레이) 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "기본 메탈릭 그레이"
+    },
+    {
+      "id": "mulberry-red",
+      "name": "Mulberry Red (멀베리 레드) 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "딥 베리 레드 메탈릭 (신형 XC60 시그니처)"
+    },
+    {
+      "id": "aurora-silver",
+      "name": "Aurora Silver (오로라 실버) 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "기본 실버 메탈릭"
+    },
+    {
+      "id": "forest-lake",
+      "name": "Forest Lake (포레스트 레이크) 메탈릭",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "2026년형 신규 딥 그린 메탈릭"
+    },
+    {
+      "id": "dark-theme",
+      "name": "Dark Exterior Theme (Ultra 한정 다크 테마)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "Ultra 트림에서 Bright와 무상 선택 가능. 고광택 블랙 프레임/그릴/윈도우 트림. Bright vs Dark 동일 가격",
+      "recommended": true
+    },
+    {
+      "id": "upgrade-ultra-bundle",
+      "name": "Ultra 트림 번들 업그레이드 (Plus → Ultra)",
+      "category": "편의",
+      "priceKRW": 7600000,
+      "description": "Plus(6,570만원) → Ultra(7,330만원) 차액 760만원. 에어 서스펜션, B&W 1,410W 하이파이, HUD, 전동 사이드 서포트/통풍/마사지 시트, 4존 공조, 20\" 휠, 천연 우드 트림 일괄 포함",
+      "recommended": true
+    },
+    {
+      "id": "wheels-20-5-double-spoke",
+      "name": "20\" 5-Double Spoke 다이아몬드 컷 휠",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "Plus 기본 19\" → Ultra에서 20\" 업그레이드 (Ultra 트림에 기본 포함. 개별 단품 옵션 불가)"
+    },
+    {
+      "id": "air-suspension",
+      "name": "에어 서스펜션 + Four-C Active Chassis",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Ultra 트림 기본(Plus 미제공/옵션 불가). 초당 500회 노면/주행 감지 및 댐핑 조절"
+    },
+    {
+      "id": "bowers-wilkins-audio",
+      "name": "Bowers & Wilkins 1,410W 15스피커 하이파이",
+      "category": "오디오",
+      "priceKRW": 0,
+      "description": "Ultra 트림 기본(Plus 미제공). 노틸러스 트위터 + 에어 벤틸레이션 서브우퍼"
+    },
+    {
+      "id": "head-up-display",
+      "name": "헤드업 디스플레이 (HUD)",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Ultra 트림 기본(Plus 미제공)"
+    },
+    {
+      "id": "massage-ventilated-seats",
+      "name": "전동 사이드 서포트 + 통풍 + 마사지 시트 (1열)",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "Ultra 트림 기본(Plus 미제공)"
+    },
+    {
+      "id": "four-zone-climate",
+      "name": "4존 독립 공조",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Ultra 트림 기본(Plus는 2존)"
+    },
+    {
+      "id": "panoramic-sunroof",
+      "name": "파노라마 선루프",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Plus/Ultra 전 트림 기본 포함"
+    },
+    {
+      "id": "nappa-leather-blond",
+      "name": "나파 가죽 Blond 인테리어",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "Ultra에서 Charcoal과 무상 선택 가능한 베이지 톤 나파 레더"
+    },
+    {
+      "id": "nappa-leather-cardamom",
+      "name": "나파 가죽 Cardamom 인테리어",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "올리브 브라운 톤 나파 레더 (일부 테마 한정)"
+    },
+    {
+      "id": "tow-bar-electric",
+      "name": "전동 접이식 토우바 (2,400kg 견인)",
+      "category": "기타",
+      "priceKRW": 2200000,
+      "description": "볼보 순정 전동 리트렉터블 토우바 + 장착 공임. 자전거 캐리어/트레일러 호환"
+    },
+    {
+      "id": "roof-crossbar",
+      "name": "알루미늄 크로스바",
+      "category": "기타",
+      "priceKRW": 500000,
+      "description": "루프박스/자전거/스키 캐리어 장착용 볼보 순정 크로스바"
+    },
+    {
+      "id": "roof-box-430l",
+      "name": "볼보 순정 루프박스 430L",
+      "category": "기타",
+      "priceKRW": 900000,
+      "description": "볼보 디자인 하드 루프박스. 크로스바 별도 필요"
+    },
+    {
+      "id": "winter-mat-package",
+      "name": "올 웨더 러버 매트 풀세트 (매트 + 트렁크)",
+      "category": "편의",
+      "priceKRW": 300000,
+      "description": "1/2열 러버 매트 + 트렁크 라이너 순정 번들"
+    },
+    {
+      "id": "mud-flaps",
+      "name": "머드 플랩 전/후",
+      "category": "외관",
+      "priceKRW": 220000,
+      "description": "앞/뒤 휠 머드 플랩 순정 액세서리"
+    }
+  ],
+  "lexus-nx": [
+    {
+      "id": "sonic-chrome",
+      "name": "Sonic Chrome (소닉 크롬) 기본",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "무료 기본 실버 메탈릭 (소닉 프로세스)"
+    },
+    {
+      "id": "ultra-white",
+      "name": "Ultra White (울트라 화이트) 솔리드",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "무료 기본 솔리드 화이트",
+      "recommended": true
+    },
+    {
+      "id": "sonic-titanium",
+      "name": "Sonic Titanium (소닉 티타늄)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "무료 다크 그레이 메탈릭 (소닉 프로세스)"
+    },
+    {
+      "id": "white-nova-glass-flake",
+      "name": "화이트 노바 글래스 플레이크 (프리미엄 화이트)",
+      "category": "외관",
+      "priceKRW": 1500000,
+      "description": "렉서스 시그니처 트리플 레이어 펄 화이트. 수작업 도장 프리미엄 페인트",
+      "recommended": true
+    },
+    {
+      "id": "graphite-black",
+      "name": "Graphite Black Glass Flake (그라파이트 블랙)",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "펄 이펙트 블랙 프리미엄 페인트"
+    },
+    {
+      "id": "red-mica",
+      "name": "Red Mica Crystal Shine (레드 마이카)",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "딥 레드 크리스탈 펄 페인트"
+    },
+    {
+      "id": "copper-crest",
+      "name": "Copper Crest (코퍼 크레스트) 2026 신규",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "2026MY 신규 추가된 카퍼 브라운 메탈릭"
+    },
+    {
+      "id": "nori-green-pearl",
+      "name": "Nori Green Pearl (노리 그린 펄)",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "해조류 그린 톤 펄 페인트"
+    },
+    {
+      "id": "grecian-water",
+      "name": "Grecian Water (그리시안 워터)",
+      "category": "외관",
+      "priceKRW": 500000,
+      "description": "터콰이즈 블루 신규 컬러"
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared (인프라레드) 프리미엄 레드",
+      "category": "외관",
+      "priceKRW": 1500000,
+      "description": "2026MY F SPORT 전용 선명한 메탈릭 레드"
+    },
+    {
+      "id": "upgrade-luxury-trim",
+      "name": "Luxury 트림 업그레이드 (Premium → Luxury)",
+      "category": "편의",
+      "priceKRW": 9180000,
+      "description": "NX350h Premium(6,695만원) → Luxury(7,613만원) 차액 약 918만원. 트리플빔 LED + 마크 레빈슨 17스피커 + 파노라마 선루프 + 디지털 리어 미러 + 10\" HUD + 파노라믹 뷰 모니터 + 20\" 휠 일괄 포함",
+      "recommended": true
+    },
+    {
+      "id": "mark-levinson-audio",
+      "name": "Mark Levinson 17스피커 프리미엄 오디오",
+      "category": "오디오",
+      "priceKRW": 0,
+      "description": "NX350h Luxury / NX450h+ F SPORT 기본 포함. Premium 트림에서는 단품 옵션 불가 - 트림 업그레이드 필요"
+    },
+    {
+      "id": "panoramic-sunroof",
+      "name": "파노라마 글래스 선루프",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "NX350h Luxury / NX450h+ Premium 기본. F SPORT는 HUD/트리플빔 대체로 제외. Premium 350h에선 미제공"
+    },
+    {
+      "id": "head-up-display-10",
+      "name": "10\" 컬러 헤드업 디스플레이 (HUD)",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Luxury / F SPORT 기본. Premium 트림에는 미제공 (트림 업그레이드 필요)"
+    },
+    {
+      "id": "panoramic-view-monitor",
+      "name": "파노라믹 뷰 모니터 (360° 서라운드뷰)",
+      "category": "안전",
+      "priceKRW": 0,
+      "description": "Luxury / F SPORT 기본. Premium은 후방카메라만"
+    },
+    {
+      "id": "digital-rear-mirror",
+      "name": "디지털 리어 뷰 미러",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "Luxury 기본 포함"
+    },
+    {
+      "id": "triple-beam-led",
+      "name": "트리플 빔 LED 헤드램프 (BladeScan AHS)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "Luxury / F SPORT 기본. Premium은 일반 LED"
+    },
+    {
+      "id": "f-sport-package",
+      "name": "F SPORT 패키지 (NX450h+ 한정)",
+      "category": "외관",
+      "priceKRW": 7600000,
+      "description": "NX450h+ Premium(7,471만원) → F SPORT(8,231만원) 차액 약 760만원. F 전용 메쉬 그릴 + 블랙 20\" 휠 + 전자 제어 가변 서스펜션(AVS) + 퍼포먼스 댐퍼 + 전용 스포츠 시트 + 알루미늄 페달",
+      "recommended": false
+    },
+    {
+      "id": "wheels-20-dark-sputter",
+      "name": "20\" 다크 스퍼터 알로이 휠 (F SPORT 전용)",
+      "category": "외관",
+      "priceKRW": 0,
+      "description": "F SPORT 패키지 내 기본. 다크 스모키 피니시 전용 디자인"
+    },
+    {
+      "id": "avs-adaptive-suspension",
+      "name": "AVS 전자 제어 가변 서스펜션",
+      "category": "편의",
+      "priceKRW": 0,
+      "description": "NX450h+ F SPORT 기본. 드라이브 모드에 따라 실시간 댐퍼 감쇠력 조절"
+    },
+    {
+      "id": "interior-rioja-red-fsport",
+      "name": "Rioja Red (리오하 레드) 인테리어 - F SPORT",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "F SPORT 전용 선명한 적색 세미 아닐린 가죽"
+    },
+    {
+      "id": "interior-flare-red-fsport",
+      "name": "Flare Red / Circuit Red 인테리어 - F SPORT",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "F SPORT 전용 인테리어 조합. 다크 그래파이트 알루미늄 트림"
+    },
+    {
+      "id": "interior-palomino",
+      "name": "Palomino (팔로미노) 세미 아닐린 가죽",
+      "category": "실내",
+      "priceKRW": 0,
+      "description": "Luxury 트림에서 Black과 무상 선택. 밝은 탄/베이지"
+    },
+    {
+      "id": "black-emblem-package",
+      "name": "블랙 엠블럼 패키지 (350h/450h+ 전용)",
+      "category": "외관",
+      "priceKRW": 350000,
+      "description": "전·후방 L 엠블럼 블랙아웃 오버레이 순정 액세서리"
+    },
+    {
+      "id": "acc-active-drive-package",
+      "name": "NX Active Drive 액세서리 패키지",
+      "category": "편의",
+      "priceKRW": 800000,
+      "description": "올 웨더 트렁크 매트 + 플로어 라이너 + 루프랙 크로스바 + 사이드 스텝 번들"
+    },
+    {
+      "id": "acc-style-package",
+      "name": "NX Style 액세서리 패키지",
+      "category": "외관",
+      "priceKRW": 650000,
+      "description": "일루미네이션 도어 스커프 + 카고 실 + 리어 퍼들 램프 + 리어 범퍼 프로텍터 번들"
+    },
+    {
+      "id": "acc-roof-crossbar",
+      "name": "루프 레일 & 크로스바 (단품)",
+      "category": "기타",
+      "priceKRW": 500000,
+      "description": "알루미늄 순정 크로스바 단품 (루프박스/캐리어 기반)"
+    },
+    {
+      "id": "acc-side-step-powered",
+      "name": "전동식 사이드 스텝",
+      "category": "외관",
+      "priceKRW": 1500000,
+      "description": "도어 오픈 연동 자동 전개/수납 전동 사이드 스텝 (순정 프리미엄 액세서리)"
+    },
+    {
+      "id": "acc-all-weather-mat",
+      "name": "올 웨더 플로어 라이너 (1/2열 + 트렁크)",
+      "category": "편의",
+      "priceKRW": 300000,
+      "description": "TPE 재질 순정 매트 세트 (최대 147kg 하중)"
+    },
+    {
+      "id": "tow-hitch",
+      "name": "견인 히치 패키지 (NX350h 약 907kg / NX450h+ 약 1,500kg)",
+      "category": "기타",
+      "priceKRW": 900000,
+      "description": "순정 히치 리시버 + 장착 공임. NX450h+ F SPORT는 더 높은 견인 용량"
+    }
+  ]
+}

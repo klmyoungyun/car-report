@@ -911,6 +911,291 @@ export const VEHICLES: Vehicle[] = [
     ],
     dataAsOf: "2026-04-19",
   },
+
+  // =========================================================================
+  // 11. BYD Atto 3
+  // =========================================================================
+  {
+    slug: "byd-atto-3",
+    name: "BYD Atto 3",
+    brand: "BYD",
+    segment: "COMPACT",
+    fuelType: "EV",
+    origin: "IMPORT",
+    images: {
+      hero: "https://upload.wikimedia.org/wikipedia/commons/3/3e/BYD_Atto_3_1X7A6491.jpg",
+    },
+    specs: {
+      length_mm: 4455,
+      width_mm: 1875,
+      height_mm: 1615,
+      wheelbase_mm: 2720,
+      weight_kg: 1750,
+      trunk_liters: 440,
+      seats: 5,
+      drivetrain: "FWD",
+      powerHp: 204,
+      torqueNm: 310,
+      efficiency: "4.7km/kWh",
+      range_km: 321,
+      battery_kwh: 60.48,
+      charging: "88kW DC",
+    },
+    pricing: {
+      baseTrim: { name: "ATTO 3 (기본형)", priceKRW: 31_500_000 },
+      recommendedTrim: {
+        name: "ATTO 3 Plus",
+        priceKRW: 33_500_000,
+        includedOptionPackages: [
+          "운전석/동승석 통풍 시트",
+          "전동 테일게이트",
+          "Dirac HD 사운드 (8스피커)",
+          "PM 2.5 공기정화",
+          "파노라믹 글래스 루프",
+          "15.6인치 회전형 터치스크린",
+          "3D 서라운드 뷰 모니터",
+          "무선 CarPlay / Android Auto",
+          "12가지 ADAS 기본",
+          "V2L 2.2kW",
+        ],
+      },
+      fullOption: { priceKRW: 33_500_000 },
+      essentials: {
+        surroundView: "기본",
+        rearCamera: "기본",
+        carplayAndroidAuto: "기본",
+        adas: "기본",
+      },
+    },
+    subsidy: {
+      nationalKRW: 1_450_000,
+      seongnamKRW: 560_000,
+      totalKRW: 2_010_000,
+      realPurchasePriceKRW: 33_500_000 - 2_010_000,
+      note: "중국산 LFP 배터리 환경성 계수로 보조금 국산 EV 대비 제한적. 성남시 시비는 2026 추정 56만원.",
+    },
+    taxes: {
+      acquisitionTaxKRW: Math.max(0, 33_500_000 * 0.07 - 1_400_000),
+      estimatedRegistrationKRW: 400_000,
+      evExemptions: [
+        "취득세 최대 140만원 감면 (Atto 3 가격대 전액 면제 해당)",
+        "개별소비세 최대 300만원 감면",
+        "교육세 최대 90만원 감면",
+      ],
+    },
+    media: {
+      youtube: [
+        { videoId: "F5p4vL1-Km8", title: "[리뷰] 2025 BYD 아토 3 / 오토뷰 로드테스트", channel: "오토뷰" },
+        { videoId: "5Rsol5gIVe0", title: "BYD 아토3 시승기... 기아 EV3, 캐스퍼와 비교", channel: "자동차 리뷰" },
+        { videoId: "ESP4M7MSdKw", title: "BYD 아토3 Plus 1박 2일 시승", channel: "한상기의 운전여행" },
+      ],
+      blogs: [
+        { url: "https://www.autoview.co.kr/news/articleView.html?idxno=94368", title: "[시승기] BYD 아토 3(ATTO 3) 플러스", source: "오토뷰" },
+        { url: "https://biz.heraldcorp.com/article/10471337", title: "'전기차 입문'에 최적화…실주행 300㎞ 거뜬", source: "헤럴드경제" },
+        { url: "https://www.motoya.co.kr/news/articleView.html?idxno=42413", title: "'만족'시킬 수 없어도 '납득'은 시킬 수 있다", source: "모토야" },
+      ],
+      officialUrl: "https://www.bydauto.kr/car/byd-atto3",
+    },
+    pros: [
+      "3,150~3,350만원의 파격가 + 보조금 → 실구매가 2천만원대 후반 진입",
+      "BYD 블레이드 LFP 배터리(60.48kWh) 열 안전성 우수, 배터리 8년/16만km 보증",
+      "기본부터 12가지 ADAS·3D 서라운드 뷰·무선 CarPlay/AA·15.6\" 회전 디스플레이 기본",
+      "204PS·0-100 7.3초의 준수한 가속, 항력계수 0.29Cd",
+      "히트펌프 기본 - 저온 주행거리 방어력 우수",
+    ],
+    cons: [
+      "DC 급속 최대 88kW (E-GMP 350kW 대비 느림)",
+      "음성인식·내비 연동 부족, 넷플릭스 등 스트리밍 미지원",
+      "중국 브랜드 인식·잔존가치 우려, ADAS 셋업이 공격적",
+    ],
+    dataAsOf: "2026-04-19",
+  },
+
+  // =========================================================================
+  // 12. Zeekr 7X (2026 출시 예정, 한국 공식가 미발표 - 추정치)
+  // =========================================================================
+  {
+    slug: "zeekr-7x",
+    name: "Zeekr 7X (2026 페이스리프트)",
+    brand: "Zeekr",
+    segment: "MIDSIZE",
+    fuelType: "EV",
+    origin: "IMPORT",
+    images: {
+      hero: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zeekr_7X_005_%28cropped%29.jpg",
+    },
+    specs: {
+      length_mm: 4825,
+      width_mm: 1930,
+      height_mm: 1656,
+      wheelbase_mm: 2925,
+      weight_kg: 2415,
+      trunk_liters: 539,
+      seats: 5,
+      drivetrain: "RWD / AWD",
+      powerHp: 416,
+      torqueNm: 440,
+      efficiency: "6.5km/kWh",
+      range_km: 615,
+      battery_kwh: 100,
+      charging: "480kW DC (800V)",
+    },
+    pricing: {
+      baseTrim: { name: "Core RWD (75kWh LFP, 추정)", priceKRW: 46_000_000 },
+      recommendedTrim: {
+        name: "Long Range RWD (100kWh NCM, 추정)",
+        priceKRW: 58_000_000,
+        includedOptionPackages: [
+          "CATL Qilin 100kWh NCM 배터리",
+          "주행 615km (WLTP), 추정 국내 500~600km",
+          "800V / 480kW DC 초급속 (10→80% 약 13분)",
+          "16인치 3.5K Mini-LED OLED",
+          "36인치 AR-HUD",
+          "Qualcomm Snapdragon 8295",
+          "NVIDIA Orin ADAS",
+          "360° 서라운드 뷰",
+          "무선 CarPlay / Android Auto",
+          "파노라마 글라스 루프",
+        ],
+      },
+      fullOption: { priceKRW: 68_000_000 },
+      essentials: {
+        surroundView: "기본",
+        rearCamera: "기본",
+        carplayAndroidAuto: "기본",
+        adas: "기본",
+      },
+    },
+    subsidy: {
+      nationalKRW: null,
+      seongnamKRW: null,
+      totalKRW: null,
+      realPurchasePriceKRW: null,
+      note: "2026년 5~6월 한국 출시 예정. 환경부 인증 및 보조금 대상 지정 대기. Long Range RWD 추정 5,800만원은 50% 감액 구간 진입 가능성.",
+    },
+    taxes: {
+      acquisitionTaxKRW: Math.max(0, 58_000_000 * 0.07 - 1_400_000),
+      estimatedRegistrationKRW: 400_000,
+      evExemptions: [
+        "전기차 취득세 최대 140만원 감면",
+        "개별소비세 최대 300만원 감면",
+        "교육세 최대 90만원 감면",
+      ],
+    },
+    media: {
+      youtube: [
+        { videoId: "Y2zpN8S4ARA", title: "2026 Zeekr 7X Review | Premium Power", channel: "Global Review" },
+        { videoId: "1Wwx8-o3BOk", title: "Zeekr 7X 2026 — Premium EV Without the Premium Price!", channel: "Global Review" },
+        { videoId: "7SGX9f3yFaA", title: "2026 NEW ZEEKR 7X 802km range walk-around", channel: "Geely/China" },
+      ],
+      blogs: [
+        { url: "https://web.getcha.kr/blog/zeekr-7x-2026-korea-launch-electric-suv-price-subsidy", title: "지커 7X 국내 출시 정보·실구매가·보조금 총정리", source: "겟차" },
+        { url: "https://autocarnews.co.kr/carnews/zeekr-7x-korea-launch-ev-suv-2026/", title: "'GV70 절반 가격'… 지커 7X 국내 출시 확정", source: "오토카뉴스" },
+        { url: "https://www.motortrend.kr/news/articleView.html?idxno=1979", title: "지커 7X, Don't Have to Be Cheap to Compete", source: "모터트렌드 코리아" },
+      ],
+      officialUrl: "https://www.zeekrlife.com/global/vehicles/7x",
+    },
+    pros: [
+      "GV70 EV 대비 30-40% 저렴 (추정 5천만원대 후반~6천만원 초반)",
+      "800V 초급속 13~16분 (2026 페이스리프트 900V는 10분)",
+      "볼보·폴스타와 동일 SEA 플랫폼 + Euro NCAP 5스타",
+      "16\" 3.5K OLED + 36\" AR-HUD + 나파 가죽 등 프리미엄 인테리어",
+      "CATL Qilin 100kWh 배터리, WLTP 615km",
+    ],
+    cons: [
+      "중국 브랜드 인식 장벽 + 잔존가치 우려",
+      "A/S 네트워크 초기 단계 (딜러 4곳 확정)",
+      "한국 보조금 대상 미확정, 배터리 환경성 계수 불이익 가능성",
+    ],
+    dataAsOf: "2026-04-19",
+    researchNotes: "2026년 5~6월 출시 예정. 가격·주행거리·보조금은 업계 추정치이며 환경부 인증 후 확정.",
+  },
+
+  // =========================================================================
+  // 13. Volvo XC40 B4 MHEV
+  // =========================================================================
+  {
+    slug: "volvo-xc40",
+    name: "Volvo XC40 B4 (MHEV)",
+    brand: "Volvo",
+    segment: "COMPACT",
+    fuelType: "MHEV",
+    origin: "IMPORT",
+    images: {
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2019_Volvo_XC40_T5_Momentum_in_Bright_Silver_Metallic%2C_front_left%2C_2025-09-22.jpg/1280px-2019_Volvo_XC40_T5_Momentum_in_Bright_Silver_Metallic%2C_front_left%2C_2025-09-22.jpg",
+    },
+    specs: {
+      length_mm: 4440,
+      width_mm: 1875,
+      height_mm: 1640,
+      wheelbase_mm: 2702,
+      weight_kg: 1795,
+      trunk_liters: 452,
+      seats: 5,
+      drivetrain: "AWD",
+      powerHp: 197,
+      torqueNm: 300,
+      efficiency: "10.3km/L",
+      range_km: null,
+      battery_kwh: null,
+      charging: null,
+    },
+    pricing: {
+      baseTrim: { name: "B4 AWD Plus Bright", priceKRW: 51_900_000 },
+      recommendedTrim: {
+        name: "B4 AWD Plus Bright",
+        priceKRW: 51_900_000,
+        includedOptionPackages: [
+          "360° 서라운드 뷰",
+          "파일럿 어시스트 (ACC + 차선유지)",
+          "무선 Apple CarPlay / Android Auto",
+          "티맵 오토 + Volvo Car UX",
+          "파노라마 글라스 선루프",
+          "픽셀 LED 헤드램프",
+          "9\" 센터 + 12.3\" 디지털 클러스터",
+          "BLIS 사각지대 경보",
+        ],
+      },
+      fullOption: { priceKRW: 55_200_000 },
+      essentials: {
+        surroundView: "기본",
+        rearCamera: "기본",
+        carplayAndroidAuto: "기본",
+        adas: "기본",
+      },
+    },
+    taxes: {
+      acquisitionTaxKRW: 51_900_000 * 0.07,
+      estimatedRegistrationKRW: 400_000,
+      evExemptions: ["48V MHEV는 2026년 현재 별도 감면 없음"],
+    },
+    media: {
+      youtube: [
+        { videoId: "F0x95gZXunY", title: "볼보 XC40 B4 AWD 리뷰", channel: "제이오토플랜 박팀장" },
+        { videoId: "Qjyzrs1Lo3E", title: "[리뷰] 2023 볼보 XC40 페이스리프트 B4 AWD / 오토뷰 4K", channel: "오토뷰" },
+        { videoId: "CSgPdf_zsAo", title: "[리뷰] 볼보 XC40 B4 시승기 / 오토뷰 2021", channel: "오토뷰" },
+      ],
+      blogs: [
+        { url: "https://v.daum.net/v/xAFanL2upk", title: "2026 볼보 XC40, '가성비 프리미엄 컴팩트 SUV'", source: "오우택의카라이프" },
+        { url: "https://roadtestmedia.com/%EB%B3%BC%EB%B3%B4-xc40-2026%EB%85%84%EC%8B%9D-%EB%AA%A8%EB%8D%B8-%EA%B5%AD%EB%82%B4-%EC%B6%9C%EC%8B%9C-%EA%B0%80%EA%B2%A9%EC%9D%80-5190%EB%A7%8C-%EC%9B%90%EB%B6%80%ED%84%B0/", title: "볼보 XC40 2026 국내 출시", source: "로드테스트미디어" },
+        { url: "https://www.carnoon.co.kr/newcar/vehicle/11110", title: "볼보 The New XC40 가격표·제원", source: "카눈" },
+      ],
+      officialUrl: "https://www.volvocars.com/kr/cars/xc40/",
+    },
+    pros: [
+      "Plus 기본부터 360 카메라·파일럿 어시스트·파노라마 선루프·픽셀 LED 헤드램프 모두 포함",
+      "2.0L I4 터보 + 48V MHEV로 부드러운 발진, 197hp·30.6kgm",
+      "볼보 브랜드 안전 철학, BLIS·후측방 경보 등 풀세트 ADAS",
+      "복합 10.3km/L (실주행 약 11.2km/L)",
+      "수입 프리미엄 컴팩트 SUV에서 5천만원대 진입가",
+    ],
+    cons: [
+      "48V MHEV는 EV/HEV 세제혜택 비해당 (취득세 감면 없음)",
+      "HUD 미탑재 (XC60 Ultra와 차이)",
+      "Plus ↔ Ultra 차이 300~330만원이 대부분 감성 옵션",
+    ],
+    dataAsOf: "2026-04-19",
+  },
 ];
 
 export function getVehicleBySlug(slug: string): Vehicle | undefined {

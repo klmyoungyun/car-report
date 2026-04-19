@@ -1,0 +1,500 @@
+{
+  "slug": "zeekr-x",
+  "name": "Zeekr X",
+  "brand": "Zeekr",
+  "brandKorean": "지커",
+  "segment": "SUBCOMPACT",
+  "fuelType": "EV",
+  "origin": "IMPORT",
+  "bodyType": "SUV",
+  "modelYear": 2026,
+  "releaseDate": null,
+  "dataAsOf": "2026-04-19",
+
+  "koreaMarketStatus": {
+    "launched": false,
+    "status": "NOT_LAUNCHED",
+    "plannedLaunchDate": null,
+    "note": "Zeekr는 2026년 5~6월경 한국 시장 진출 예정이지만, 첫 출시 모델은 중형 SUV인 Zeekr 7X로 확정됨. Zeekr X(소형 SUV)는 후속 도입 가능성이 언급되었으나 공식 일정은 없음. 본 자료의 가격은 유럽/호주 판매가 기준 추정치임.",
+    "confirmedKoreanEntryModels": ["Zeekr 7X (2026년 상반기 최초 출시)"],
+    "futurePotentialModels": ["Zeekr X", "Zeekr 007"],
+    "koreanDealerPartners": ["H Mobility ZK", "Iron EV", "KCC Mobility", "ZK Mobility (2025년 12월 계약 체결)"]
+  },
+
+  "images": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/3/34/2023_Zeekr_X_%28front%29.jpg",
+    "rear": "https://upload.wikimedia.org/wikipedia/commons/5/50/2023_Zeekr_X_%28rear%29.jpg",
+    "interior": "https://upload.wikimedia.org/wikipedia/commons/2/23/2025_Zeekr_X_interior.jpg",
+    "frontLeft": "https://upload.wikimedia.org/wikipedia/commons/b/bd/2025_Zeekr_X%2C_front_left.jpg",
+    "flagshipAwd": "https://upload.wikimedia.org/wikipedia/commons/7/75/2024_Zeekr_X_Flagship_AWD.jpg",
+    "autoZurich2025": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Zeekr_X_Auto_Zuerich_2025_DSC_3417.jpg",
+    "note": "이미지 모두 Wikimedia Commons 공개 라이선스. thumb 경로가 아닌 원본 파일 경로 사용 권장."
+  },
+
+  "specs": {
+    "dimensions": {
+      "lengthMm": 4432,
+      "widthMm": 1836,
+      "heightMm": 1566,
+      "wheelbaseMm": 2750,
+      "curbWeightKg": 1885,
+      "curbWeightMaxKg": 1945,
+      "trunkCapacityL": 362,
+      "trunkCapacityMaxL": 1182,
+      "frunkCapacityL": 21,
+      "seatingCapacity": 5,
+      "dimensionsNote": "2026 MY 기준. 일부 자료(Wikipedia)에서는 4450mm로 표기되나 유럽/호주 공식 제원은 4432mm."
+    },
+    "powertrain": {
+      "drivetrainRWD": "RWD (Single Motor 후륜구동)",
+      "drivetrainAWD": "AWD (Dual Motor 사륜구동)",
+      "horsepowerHpRWD": 272,
+      "horsepowerKwRWD": 200,
+      "horsepowerHpRWDLongRange": 335,
+      "horsepowerKwRWDLongRange": 250,
+      "horsepowerHpAWD": 489,
+      "horsepowerKwAWD": 365,
+      "torqueNmRWD": 343,
+      "torqueNmAWD": 543,
+      "acceleration0to100SecRWD": 5.9,
+      "acceleration0to100SecRWDLongRange": 5.5,
+      "acceleration0to100SecAWD": 3.7,
+      "topSpeedKmh": 180,
+      "note": "2026 MY 기준 RWD는 200kW→250kW 업그레이드(Long Range RWD 기준). 0-100 가속이 RWD에서 5.6~5.9초 사이에서 소스별 차이 존재."
+    },
+    "battery": {
+      "capacityKwhCore": 49,
+      "capacityKwhLongRange": 61,
+      "capacityKwhAwd": 66,
+      "batteryTypeRWD": "Zeekr Golden LFP (Cell-to-Pack)",
+      "batteryTypeAWD": "NCM 리튬이온",
+      "batteryWarrantyYears": 8,
+      "batteryWarrantyKm": 160000,
+      "batteryNote": "2026 모델년도 갱신: RWD가 기존 NCM 69kWh에서 자체 개발 Golden LFP 61kWh로 변경, 230kW 급속충전 지원."
+    },
+    "range": {
+      "coreRwdWltpKm": 330,
+      "longRangeRwdWltpKm": 405,
+      "awdWltpKm": 415,
+      "longRangeRwdNcmWltpKm": 446,
+      "certification": "WLTP (유럽 인증)",
+      "rangeNote": "한국 환경부 인증 미출시 - WLTP 기준 수치. 한국 인증 시 약 10~15% 감소 예상 (통상 적용)."
+    },
+    "efficiency": {
+      "combinedKmPerKwhEstimate": 5.8,
+      "efficiencyNote": "Green Cars Compare 기준 Long Range RWD 실주행 약 5.83 km/kWh"
+    },
+    "charging": {
+      "dcFastChargingKwCore": 130,
+      "dcFastChargingKwLongRange": 230,
+      "dcFastChargingKwAwd": 150,
+      "acChargingKwRWD": 11,
+      "acChargingKwAWD": 22,
+      "dcTime10to80MinRWD": 18,
+      "dcTime10to80MinAWD": 30,
+      "connectorDc": "CCS Type 2 (유럽 표준)",
+      "connectorAc": "CCS Type 2",
+      "chargingNote": "한국 도입 시 DC콤보1(CCS1)으로 변환 예상. 400V 아키텍처 (800V 아님 - 주의: Zeekr 7X/9X는 800V이나 X는 400V)"
+    },
+    "wheelsAndTires": {
+      "standardWheelInch": 19,
+      "optionalWheelInch": 20,
+      "tireSize": "235/50 R19 / 235/45 R20 (AWD)"
+    },
+    "warranty": {
+      "vehicleYears": 5,
+      "vehicleAdditionalYearsExtendable": 5,
+      "vehicleKm": "무제한 (호주 기준)",
+      "batteryYears": 8,
+      "batteryKm": 160000,
+      "paintYears": 4,
+      "corrosionYears": 12,
+      "roadsideYears": 5,
+      "note": "유럽은 5+5년 연장 가능, 호주는 5년 무제한km 배터리 8년/160,000km"
+    }
+  },
+
+  "pricing": {
+    "currency": "EUR",
+    "referenceCurrency": "KRW",
+    "exchangeRateApplied": 1740,
+    "exchangeRateDate": "2026-04-19",
+    "exchangeRateNote": "EUR 1 ≈ KRW 1,740 (2026년 4월 기준)",
+    "priceNote": "한국 미출시. 유럽(스페인/그리스/네덜란드/독일) 판매가 기준 원화 환산 추정치. 한국 도입 시 관세(8%)·개별소비세·부가세 추가로 실제 가격은 상이할 수 있음.",
+    "baseTrim": {
+      "name": "Core RWD",
+      "priceEur": 37990,
+      "priceKrwEstimate": 6610,
+      "priceKrwEstimateUnit": "만원",
+      "powerHp": 272,
+      "battery": "49kWh LFP",
+      "rangeWltpKm": 330,
+      "note": "유럽 기본 트림. 일부 시장(네덜란드 2024년 최저가)은 €34,990 ≈ 6,088만원까지 낮아짐."
+    },
+    "recommendedTrim": {
+      "name": "Long Range RWD",
+      "priceEur": 42490,
+      "priceKrwEstimate": 7393,
+      "priceKrwEstimateUnit": "만원",
+      "powerHp": 335,
+      "battery": "61kWh Golden LFP",
+      "rangeWltpKm": 405,
+      "isRecommended": true,
+      "recommendationReason": "최대 230kW 급속충전(18분 10→80%), 405km WLTP 주행거리, 업그레이드된 250kW 모터로 성능/가격/주행거리 균형 최적. 호주/유럽 공통 베스트셀러 구성."
+    },
+    "fullOption": {
+      "name": "Privilege AWD",
+      "priceEur": 47490,
+      "priceKrwEstimate": 8263,
+      "priceKrwEstimateUnit": "만원",
+      "powerHp": 496,
+      "battery": "66kWh NCM",
+      "rangeWltpKm": 415,
+      "acceleration0to100": 3.7,
+      "note": "최상위 AWD 듀얼모터. 야마하 13스피커, 냉장고, 마사지 시트, AR HUD, 인텔리전트 B-Pillar 포함."
+    },
+    "essentials": {
+      "surroundViewCamera360": {
+        "standardInBaseTrim": true,
+        "additionalPriceKrw": 0,
+        "note": "Core 트림부터 360도 서라운드 뷰 카메라 기본"
+      },
+      "rearViewCamera": {
+        "standardInBaseTrim": true,
+        "additionalPriceKrw": 0,
+        "note": "11개 HD 카메라 전 트림 기본"
+      },
+      "appleCarPlay": {
+        "standardInBaseTrim": true,
+        "additionalPriceKrw": 0,
+        "note": "유/무선 Apple CarPlay 전 트림 기본"
+      },
+      "androidAuto": {
+        "standardInBaseTrim": true,
+        "additionalPriceKrw": 0,
+        "note": "유/무선 Android Auto 전 트림 기본"
+      },
+      "adas": {
+        "standardInBaseTrim": true,
+        "additionalPriceKrw": 0,
+        "note": "Zeekr AD (어댑티브 크루즈+차선유지+AEB+사각지대 감지+교차로 경보) 전 트림 기본"
+      }
+    },
+    "allTrims": [
+      {
+        "name": "Core RWD",
+        "priceEur": 37990,
+        "priceKrwEstimate": 6610,
+        "powerHp": 272,
+        "powerKw": 200,
+        "battery": "49kWh LFP",
+        "rangeWltpKm": 330,
+        "acceleration0to100": 5.9,
+        "dcChargingKw": 130,
+        "note": "기본 트림"
+      },
+      {
+        "name": "Long Range RWD",
+        "priceEur": 42490,
+        "priceKrwEstimate": 7393,
+        "powerHp": 335,
+        "powerKw": 250,
+        "battery": "61kWh Golden LFP",
+        "rangeWltpKm": 405,
+        "acceleration0to100": 5.5,
+        "dcChargingKw": 230,
+        "note": "추천 트림 - 업그레이드된 모터 + Golden LFP 배터리 (2026 MY 신규)"
+      },
+      {
+        "name": "Privilege AWD",
+        "priceEur": 47490,
+        "priceKrwEstimate": 8263,
+        "powerHp": 496,
+        "powerKw": 365,
+        "battery": "66kWh NCM",
+        "rangeWltpKm": 415,
+        "acceleration0to100": 3.7,
+        "dcChargingKw": 150,
+        "note": "최상위 듀얼모터 AWD - 냉장고, 야마하 13스피커, 마사지 시트, AR HUD 기본"
+      }
+    ],
+    "addOnOptions": [
+      {"name": "프리미엄 외장 컬러 (Premium Paint)", "priceEur": 1000, "priceKrwEstimate": 174, "note": "전 트림 선택 가능"},
+      {"name": "비그레이 인테리어 트림", "priceEur": 1000, "priceKrwEstimate": 174, "note": "전 트림 선택 가능"},
+      {"name": "자동 도어 (Automatic Doors)", "priceEur": 2000, "priceKrwEstimate": 348, "note": "AWD 전용 옵션"},
+      {"name": "Matte Khaki Green 외장", "priceEur": 2000, "priceKrwEstimate": 348, "note": "AWD 전용"},
+      {"name": "Black 인테리어 + 레드 액센트 + 20인치 블랙 휠", "priceEur": 2000, "priceKrwEstimate": 348, "note": "AWD 전용 패키지"},
+      {"name": "22kW AC 충전 (Core/Long Range 옵션)", "priceEur": "TBD", "priceKrwEstimate": null, "note": "AWD는 기본, RWD는 옵션으로 업그레이드"}
+    ]
+  },
+
+  "requiredOptions": {
+    "surroundViewCamera360": {
+      "available": true,
+      "standard": true,
+      "note": "360도 서라운드 뷰 카메라 전 트림 기본"
+    },
+    "rearViewCamera": {
+      "available": true,
+      "standard": true,
+      "note": "11개 HD 카메라 탑재 - 후방 카메라 포함"
+    },
+    "appleCarPlay": {
+      "available": true,
+      "standard": true,
+      "note": "유선 + 무선 Apple CarPlay 기본 지원"
+    },
+    "androidAuto": {
+      "available": true,
+      "standard": true,
+      "note": "유선 + 무선 Android Auto 기본 지원"
+    },
+    "adas": {
+      "available": true,
+      "standard": true,
+      "note": "Zeekr AD: 5 HD 카메라 + 5 밀리미터파 레이더 + 12 초음파 센서. 어댑티브 크루즈 + 차선 중앙 유지 + AEB + 사각지대 + 교차로 경보 + 긴급 회피 + 자동 차선 변경 + 원격 주차 지원"
+    },
+    "headUpDisplay": {
+      "available": true,
+      "standard": false,
+      "note": "24.3인치 AR HUD - Privilege AWD 트림에 기본, Core/Long Range에는 없음"
+    },
+    "panoramicSunroof": {
+      "available": true,
+      "standard": true,
+      "note": "UV 99% 차단 고정식 파노라마 선루프 전 트림 기본"
+    },
+    "heatPump": {
+      "available": null,
+      "standard": null,
+      "note": "공식 사양표 확인 불가 (유럽 버전 히트펌프 기본 탑재 가능성 높음)"
+    },
+    "premiumAudio": {
+      "available": true,
+      "standard": false,
+      "note": "야마하 13스피커 프리미엄 사운드 - Privilege AWD 전용 기본. Core/Long Range는 스피커 수 축소 구성."
+    },
+    "wirelessCharging": {
+      "available": true,
+      "standard": true,
+      "note": "무선 스마트폰 충전 패드 전 트림 기본"
+    },
+    "massagingSeats": {
+      "available": true,
+      "standard": false,
+      "note": "마사지 프론트 시트 - Privilege AWD 전용"
+    },
+    "refrigerator": {
+      "available": true,
+      "standard": false,
+      "note": "콘솔 냉장고 - Privilege AWD 전용 기본"
+    },
+    "automaticDoors": {
+      "available": true,
+      "standard": false,
+      "note": "자동 도어 - AWD 옵션 (€2,000)"
+    },
+    "intelligentBPillar": {
+      "available": true,
+      "standard": false,
+      "note": "Privilege AWD 전용 - B필러 인텔리전트 디스플레이 (세계 최초)"
+    },
+    "v2l": {
+      "available": true,
+      "standard": true,
+      "note": "Vehicle-to-Load 전 트림 기본"
+    },
+    "otaUpdate": {
+      "available": true,
+      "standard": true,
+      "note": "OTA 무선 소프트웨어 업데이트 지원"
+    },
+    "ventilatedSeats": {
+      "available": true,
+      "standard": false,
+      "note": "프론트 시트 벤틸레이션 - Privilege AWD 전용"
+    },
+    "heatedSeats": {
+      "available": true,
+      "standard": true,
+      "note": "프론트 + 리어 시트 열선 2026 MY부터 전 트림 기본 (신규)"
+    }
+  },
+
+  "subsidy": {
+    "nationalKRW": null,
+    "seongnamKRW": null,
+    "totalKRW": null,
+    "realPurchasePriceKRW": null,
+    "note": "한국 미출시로 보조금 미적용. 참고용 추정 - 한국 도입 시 ① 수입 EV 브랜드에 대한 보조금 책정 확인 필요, ② LFP 배터리는 2026년 한국 보조금 체계에서 리사이클 금속 비중 기준 낮은 점수를 받아 불리할 수 있음, ③ Core(₩6,610만원) 기준 53,000,000원 보조금 100% 라인(5,300만원)을 초과하여 국고보조금 50% 감액 예상. 대략 국고 85~170만원 + 성남시 추가 시비 수준 추정.",
+    "subsidyEstimationNote": "한국 진출 확정 시 Core RWD(약 6,600만원)은 5,300~8,500만원 구간(50% 차감)으로 국고 약 170만원 + 성남 시비 추정 약 130만원 + 중국산 LFP 감점 -> 총 보조금 150~250만원 수준 추정."
+  },
+
+  "taxes": {
+    "individualConsumptionTaxMaxKRW": 3000000,
+    "educationTaxMaxKRW": 900000,
+    "acquisitionTaxMaxKRW": 1400000,
+    "importDuty": "8% (중국산 완성차 기준 FTA 미적용 시)",
+    "vatAppliedPct": 10,
+    "note": "한국 도입 시 EV 세제 혜택(개소세 최대 300만원, 취득세 최대 140만원 감면) 적용 가능. 중국산이므로 한-중 FTA 범위 확인 필요."
+  },
+
+  "media": {
+    "youtubeReviews": [
+      {
+        "title": "Zeekr X 2026 review Australia: Huge power boost for BMW iX1 & Genesis GV60 rivalling electric car",
+        "url": "https://www.youtube.com/watch?v=5Iqa4dACIKg",
+        "language": "EN",
+        "note": "2026 MY 호주 시장 상세 리뷰 - iX1/GV60 비교"
+      },
+      {
+        "title": "2026 Zeekr X Review | SO Much Cheaper!",
+        "url": "https://www.youtube.com/watch?v=59bNMBpUmxQ",
+        "language": "EN",
+        "note": "2026 업그레이드 포인트 집중 리뷰 - 가격 인하 분석"
+      },
+      {
+        "title": "Zeekr X Review - The Ultimate Luxury Electric SUV | Full In-Depth Test",
+        "url": "https://www.youtube.com/watch?v=BWlQPzVKvL0",
+        "language": "EN",
+        "note": "AWD 풀옵션 심층 리뷰 - 럭셔리 감각 초점"
+      },
+      {
+        "title": "Zeekr X: If A Volvo Is Just Too Ordinary For You…",
+        "url": "https://www.youtube.com/watch?v=s0ATicDDzos",
+        "language": "EN",
+        "note": "Volvo EX30 대비 비교 리뷰 (Zeekr X가 형제 차)"
+      }
+    ],
+    "blogReviews": [
+      {
+        "title": "[리뷰] 브랜드의 유럽 활동을 이끌 세 번째 EV - 지커 X",
+        "url": "https://www.sedaily.com/NewsView/2D7R7CJGN9",
+        "source": "서울경제",
+        "language": "KR",
+        "note": "지커 X 국내 리뷰 - 유럽 진출 배경 및 사양 분석"
+      },
+      {
+        "title": "지커(Zeekr) 2026 국내 출시 전망과 실구매가 체크포인트",
+        "url": "https://web.getcha.kr/blog/zeekr-korea-launch-2026-price-guide",
+        "source": "겟차(Getcha)",
+        "language": "KR",
+        "note": "지커 브랜드 국내 출시 전망 - X 포함 라인업 소개"
+      },
+      {
+        "title": "New Zeekr X Got Me Questioning My Feelings For Volvo",
+        "url": "https://www.carscoops.com/2025/11/zeekr-x-got-me-questioning-my-feelings-for-volvo-review/",
+        "source": "Carscoops",
+        "language": "EN",
+        "note": "Volvo EX30 대비 더 넓고 고급스럽다는 평가"
+      },
+      {
+        "title": "2026 Zeekr X price and specs: Updated EV gets massive price cuts",
+        "url": "https://www.carexpert.com.au/car-news/2026-zeekr-x-price-and-specs-updated-ev-gets-massive-price-cuts-1",
+        "source": "CarExpert (호주)",
+        "language": "EN",
+        "note": "2026 MY 가격/사양/옵션 최종 정리"
+      },
+      {
+        "title": "2026 Zeekr X in Europe - compact EV SUV updated, up to 230 kW DC charging",
+        "url": "https://paultan.org/2026/03/10/2026-zeekr-x-in-europe-compact-ev-suv-updated-up-to-230-kw-dc-charging-coming-to-malaysia-this-year/",
+        "source": "paultan.org",
+        "language": "EN",
+        "note": "2026 유럽 시장 출시 소식 - 230kW 충전 하이라이트"
+      },
+      {
+        "title": "Tested: 2026 Zeekr X - Full review, price & features",
+        "url": "https://www.autocar.co.uk/car-review/zeekr/x",
+        "source": "Autocar UK",
+        "language": "EN",
+        "note": "영국 시장 공식 테스트 리뷰"
+      }
+    ],
+    "officialUrls": {
+      "europeMain": "https://www.zeekr.eu/models/x",
+      "global": "https://www.zeekrlife.com/global/vehicles/x",
+      "wikipedia": "https://en.wikipedia.org/wiki/Zeekr_X",
+      "wikimediaCommons": "https://commons.wikimedia.org/wiki/Category:Zeekr_X"
+    }
+  },
+
+  "pros": [
+    "동급(서브컴팩트 EV) 최고 수준의 프리미엄 인테리어 마감 - Volvo EX30과 플랫폼(SEA2) 공유하나 실질 2열 헤드/레그룸이 더 넓고 소재가 더 고급스러움",
+    "Euro NCAP 5스타 인증 (2024년 가장 안전한 EV로 평가) - 7 에어백, HD 11 카메라, 미리미터파 레이더 5개, 초음파 12개 탑재한 종합 ADAS 'Zeekr AD'",
+    "2026 MY Long Range RWD 최대 230kW DC 급속충전 지원 - 10→80% 18분 (동급 iX1 149kW, EV3 128kW 대비 우위)",
+    "14.6인치 센터 스크린 + 8.8인치 디스플레이 + 24.3인치 AR HUD(Privilege) 등 대형 화면 구성, OTA + 5G WiFi 핫스팟 + V2L 등 최신 기술 전 트림 기본",
+    "유럽 기준 €37,990 (≒ 6,610만원) 시작 가격으로 BMW iX1·Genesis GV60 대비 25~40% 저렴, 제조 공유 모델인 Volvo EX30보다 실내 공간과 사양이 우수"
+  ],
+  "cons": [
+    "중국 EV 일반 이슈: 브랜드 인지도 부족 + 중국산 제품에 대한 한국 소비자 심리적 저항 + A/S 네트워크 검증 부족 (한국 딜러망 미확정)",
+    "Zeekr X 특유: 400V 플랫폼 (Zeekr 7X/9X가 800V인데 반해 X는 400V), 트렁크 362L로 서브컴팩트 해치백 수준으로 작고 프렁크도 21L에 불과",
+    "한국 시장 현실: 2026년 LFP 배터리에 불리한 보조금 체계(재활용 금속 비중 점수화) + 중국산 완성차 관세 8% + 수입 EV 보조금 한도로 실구매가 상승 불가피, 애초 한국 출시 자체가 미확정으로 당장 구매 불가",
+    "ADAS 기능은 Core부터 기본이지만 AR HUD/마사지 시트/냉장고/13스피커 야마하/자동 도어 등 Privilege AWD에만 집중된 구성으로 Core/Long Range에서는 프리미엄 체감 제한적"
+  ],
+
+  "competitors": [
+    "Volvo EX30 (동일 플랫폼 SEA2, 형제차)",
+    "BMW iX1 eDrive20",
+    "Mercedes-Benz EQA",
+    "Audi Q4 e-tron",
+    "Kia EV3",
+    "Hyundai Kona Electric",
+    "Genesis GV60 (상위 세그먼트)",
+    "Smart #1 (동일 Geely 그룹)"
+  ],
+
+  "keyFeatures": [
+    "SEA2 전용 전기차 플랫폼 (Volvo EX30/Smart #1과 공유)",
+    "싱글 모터 RWD (Core/Long Range) 또는 듀얼 모터 AWD (Privilege)",
+    "Core 272hp / Long Range 335hp / AWD 496hp",
+    "49/61/66 kWh 배터리 (Core LFP / Long Range Golden LFP / AWD NCM)",
+    "WLTP 주행거리 330/405/415 km",
+    "최대 230kW DC 급속충전 (Long Range RWD), 10→80% 18분",
+    "22kW AC 완속충전 (AWD 기본)",
+    "14.6인치 센터 터치스크린 + 8.8인치 계기판",
+    "24.3인치 AR HUD (Privilege)",
+    "야마하 13스피커 (Privilege)",
+    "360도 서라운드 뷰 + 11 HD 카메라",
+    "Zeekr AD ADAS (AEB, ACC, 차선유지, 원격주차)",
+    "무선/유선 Apple CarPlay & Android Auto",
+    "파노라마 선루프 (UV 99% 차단)",
+    "7 에어백 + Euro NCAP 5스타",
+    "V2L + OTA + 5G WiFi 핫스팟",
+    "콘솔 냉장고 (Privilege AWD 기본)",
+    "AWD 자동 도어 옵션"
+  ],
+
+  "researchNotes": {
+    "koreanLaunchStatus": "2026년 4월 19일 기준 Zeekr X는 한국 미출시. Zeekr 브랜드의 한국 진출은 확정되었으나(2026년 5~6월 상반기 예정), 첫 출시 모델은 중형 SUV Zeekr 7X로 확정됨. Zeekr X와 Zeekr 007은 후속 도입 가능성이 언급되나 공식 일정 없음.",
+    "priceBasis": "가격은 유럽 시장(스페인 €37,990~47,490) 기준 원화 환산. 환율은 2026년 4월 EUR 1 = KRW 1,740 적용. 한국 도입 시 관세(중국산 8%)·개별소비세·지역 물류비 등으로 유럽 대비 +10~15% 상승 예상.",
+    "priceSources": [
+      "스페인: Electromovilidad24 2026 가격표 (€37,990 / €42,490 / €47,490)",
+      "그리스: €34,990 / €39,990 / €44,990",
+      "네덜란드: 2024년 최저 €34,990, 현재 공식 시트 €43,490",
+      "호주: 2026 MY A$48,900 (RWD) / A$57,900 (AWD) 드라이브어웨이"
+    ],
+    "trimStructureNote": "유럽 트림: Core RWD / Long Range RWD / Privilege AWD 3단계. 중국 시장은 별도 6개 트림(Me/You 등)으로 운영되나 글로벌 수출 사양은 이 3개 구성.",
+    "batteryDiscrepancyWarning": "Wikipedia는 49/69 kWh 구배터리 정보, 2026 MY 공식 자료는 49/61/66 kWh. 본 자료는 최신 2026 MY 기준. 일부 영문 리뷰에서 69 kWh로 표기된 경우 이전 연식 기준임.",
+    "platformNote": "Zeekr X는 Geely SEA2 플랫폼 기반으로 Volvo EX30, Smart #1과 동일 플랫폼. 이로 인해 유럽에서 Volvo EX30과 직접 비교 리뷰가 많으며, Zeekr X가 더 저렴한 가격에 더 넓은 실내를 제공한다는 평가가 다수.",
+    "missingData": [
+      "한국 공식 가격 (미출시)",
+      "한국 환경부 주행거리 인증 (미출시)",
+      "한국 보조금 확정 금액 (미출시)",
+      "히트펌프 유럽 사양 기본/옵션 여부 (명시 자료 부족)",
+      "AC 완속충전 풀타임 (0→100%) 구체 시간",
+      "한국 도입 시 CCS1 변환 여부 (중국 내수 CCS2, 유럽 수출 CCS2)"
+    ],
+    "exchangeRateSource": "ExchangeRates.org.uk 2026년 4월 16일 EUR/KRW 1,739 기준 (반올림 1,740 적용)",
+    "sourcesVerified": [
+      "en.wikipedia.org/wiki/Zeekr_X (제원/역사)",
+      "zeekr.eu/models/x (유럽 공식 트림)",
+      "carexpert.com.au 2026 MY 호주 사양/옵션",
+      "greencarscompare.com 글로벌 사양",
+      "paultan.org 2026 유럽 업데이트",
+      "carscoops.com 2025년 11월 Volvo EX30 대비 리뷰",
+      "news1.kr/industry/auto-industry/6115943 (지커 한국 7X 첫 출시 확정)",
+      "koreaherald.com/article/10447840 (Zeekr Korea 법인 설립)",
+      "eu.36kr.com (Zeekr/BYD/XPeng 한국 진출 전략)"
+    ]
+  }
+}

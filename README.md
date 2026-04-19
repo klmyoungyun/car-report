@@ -118,7 +118,6 @@ git push -u origin main
 
 ## 비교 차량 제외 이유
 
-- **BYD** — 사용자 기피 브랜드
 - **Sorento(가솔린)** — 용도 대비 오버스펙. HEV 버전만 포함
 - **BMW iX1 / Mercedes EQB** — 7천만원 내 ADAS 풀옵 구성 타이트
 - **KG Torres EVX** — 필수옵션 충족도 낮음

@@ -1,0 +1,190 @@
+{
+  "slug": "byd-atto-3",
+  "name": "BYD Atto 3",
+  "brand": "BYD",
+  "segment": "COMPACT",
+  "fuelType": "EV",
+  "origin": "IMPORT",
+  "images": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/3/3e/BYD_Atto_3_1X7A6491.jpg"
+  },
+  "specs": {
+    "length_mm": 4455,
+    "width_mm": 1875,
+    "height_mm": 1615,
+    "wheelbase_mm": 2720,
+    "weight_kg": 1750,
+    "trunk_liters": 440,
+    "seats": 5,
+    "drivetrain": "FWD",
+    "powerHp": 204,
+    "torqueNm": 310,
+    "efficiency": "4.7km/kWh",
+    "range_km": 321,
+    "battery_kwh": 60.48,
+    "charging": "88kW DC"
+  },
+  "pricing": {
+    "baseTrim": {
+      "name": "ATTO 3 (기본형)",
+      "priceKRW": 31500000
+    },
+    "recommendedTrim": {
+      "name": "ATTO 3 Plus",
+      "priceKRW": 33500000,
+      "includedOptionPackages": [
+        "운전석/동승석 통풍 시트",
+        "전동 테일게이트",
+        "도어 그립 멀티컬러 앰비언트 라이트",
+        "Dirac HD 사운드 시스템 (8스피커)",
+        "PM 2.5 공기 정화 시스템",
+        "파노라믹 선루프",
+        "15.6인치 회전형 터치스크린",
+        "3D 서라운드 뷰 모니터",
+        "무선 폰 프로젝션 (CarPlay/Android Auto)",
+        "12가지 ADAS (ACC, LKA, LDW, BSD, RCTA, AEB 등)",
+        "V2L 2.2kW 외부 급전",
+        "파노라믹 글래스 루프"
+      ]
+    },
+    "fullOption": {
+      "name": "ATTO 3 Plus (풀옵션 색상 선택)",
+      "priceKRW": 33500000,
+      "note": "단일 트림/단일 구성으로 외장 색상(5종: Cosmos Black, Time Gray, Atlantis Gray, Ski White, Surf Blue) 및 내장 색상 선택 외 별도 유상 옵션 없음"
+    },
+    "essentials": {
+      "surroundView": "기본",
+      "rearCamera": "기본",
+      "carplayAndroidAuto": "기본",
+      "adas": "기본"
+    },
+    "allTrims": [
+      {
+        "name": "ATTO 3 (기본형)",
+        "priceKRW": 31500000,
+        "drivetrain": "FWD",
+        "keyFeatures": [
+          "60.48kWh 블레이드 LFP 배터리",
+          "204PS/310Nm 싱글 모터 FWD",
+          "1회 충전 321km (복합)",
+          "12가지 ADAS 전 기본 (ACC/LKA/LDW/BSD/RCTA/AEB)",
+          "3D 서라운드 뷰 모니터 기본",
+          "15.6인치 회전형 디스플레이 + T맵 내비",
+          "무선 Apple CarPlay / Android Auto",
+          "파노라믹 선루프",
+          "1열 열선 시트, 열선 스티어링",
+          "V2L 2.2kW 외부 급전",
+          "18인치 투톤 알로이 휠",
+          "히트펌프",
+          "인조가죽 시트",
+          "단일 컬러 앰비언트 라이트 (기본 8스피커)",
+          "스마트키/버튼 시동"
+        ]
+      },
+      {
+        "name": "ATTO 3 Plus",
+        "priceKRW": 33500000,
+        "drivetrain": "FWD",
+        "keyFeatures": [
+          "기본형 전 사양 + 운전석/동승석 통풍 시트",
+          "전동 테일게이트",
+          "Dirac HD 사운드 시스템 (8스피커 튜닝 업그레이드)",
+          "PM 2.5 공기 정화 시스템",
+          "도어 그립 멀티컬러 앰비언트 라이트"
+        ]
+      }
+    ],
+    "addOnOptions": [
+      {
+        "id": "exterior-color",
+        "name": "외장 색상 변경 (Surf Blue/Time Gray 등)",
+        "category": "외관",
+        "priceKRW": 0,
+        "description": "Cosmos Black/Time Gray/Atlantis Gray/Ski White/Surf Blue 5종 중 선택, 무상",
+        "recommended": false
+      },
+      {
+        "id": "interior-color",
+        "name": "내장 색상 (Black / Blue-Grey)",
+        "category": "실내",
+        "priceKRW": 0,
+        "description": "블랙 또는 블루/그레이 2종 중 선택, 무상",
+        "recommended": false
+      }
+    ]
+  },
+  "subsidy": {
+    "nationalKRW": 1450000,
+    "seongnamKRW": 560000,
+    "totalKRW": 2010000,
+    "realPurchasePriceKRW": 31490000,
+    "note": "2026년 기준 국고보조금 145만원(2025년 145만원 책정값 유지로 추정). 성남시 지자체 보조금은 2026년 확정 공시 전이라 56만원(2026 경기도 평균 수준)을 잠정 적용. 총 보조금 201만원 차감 시 Plus 트림 실구매가 약 3,149만원(3,350만원 - 201만원). 기본형 구매 시 3,150만원 - 201만원 = 2,949만원 수준. 2026년 환경부는 내연차 전환 시 전환지원금 100만원을 추가 지급하므로 기존 내연차 폐차 시 최대 301만원 + 지자체 보조금으로 더 낮아질 수 있음. 서울시는 약 37만원, 경남 합천 등 일부 지방은 228만원까지로 편차 큼."
+  },
+  "taxes": {
+    "acquisitionTaxKRW": 0,
+    "estimatedRegistrationKRW": 400000,
+    "evExemptions": [
+      "전기차 취득세 최대 140만원 감면 (2026년 12월 31일까지, Atto 3는 취득세 전액 면제 해당)",
+      "개별소비세 최대 300만원 감면",
+      "교육세 최대 90만원 감면 (개별소비세와 연동)",
+      "전기차 공영주차장/고속도로 통행료 50% 할인",
+      "혼잡통행료(서울 남산터널) 면제"
+    ]
+  },
+  "media": {
+    "youtube": [
+      {
+        "videoId": "F5p4vL1-Km8",
+        "title": "[리뷰] 2025 BYD 아토 3 / 오토뷰 로드테스트",
+        "channel": "오토뷰 Autoview"
+      },
+      {
+        "videoId": "5Rsol5gIVe0",
+        "title": "BYD 아토3 시승기... 기아 EV3, 현대 캐스퍼와 비교해보니!",
+        "channel": "미상 (국내 자동차 리뷰 채널)"
+      },
+      {
+        "videoId": "ESP4M7MSdKw",
+        "title": "BYD 아토3 플러스(ATTO 3) 1박 2일 시승 후기, 승차감과 차로중앙유지, 충전 속도, 편의 사양 등",
+        "channel": "한상기의 운전여행"
+      }
+    ],
+    "blogs": [
+      {
+        "url": "https://www.autoview.co.kr/news/articleView.html?idxno=94368",
+        "title": "[시승기] BYD 아토 3(ATTO 3) 플러스",
+        "source": "오토뷰"
+      },
+      {
+        "url": "https://www.bloter.net/news/articleView.html?idxno=630005",
+        "title": "국내 도로서 타본 BYD 아토3...무난한 ADAS, 아쉬운 음성인식[카미경]",
+        "source": "블로터"
+      },
+      {
+        "url": "https://biz.heraldcorp.com/article/10471337",
+        "title": "'전기차 입문'에 최적화…실주행거리 300㎞ 거뜬 [시승기-BYD 아토 3]",
+        "source": "헤럴드경제"
+      },
+      {
+        "url": "https://www.motoya.co.kr/news/articleView.html?idxno=42413",
+        "title": "'만족'시킬 수는 없어도 '납득'은 시킬 수 있다 - BYD 아토 3 시승기",
+        "source": "모토야"
+      }
+    ],
+    "officialUrl": "https://www.bydauto.kr/car/byd-atto3"
+  },
+  "pros": [
+    "3,150만원~3,350만원의 파격적인 가격 + 국고 145만원 + 지자체 보조금으로 실구매가 2천만원 후반~3천만원 초반 진입 가능, 동급 한국 전기차 대비 확실한 가성비",
+    "BYD 블레이드 배터리(LFP, 60.48kWh) 탑재로 열폭주 저항성과 안전성이 매우 우수하고, 차량 보증 6년/15만km + 배터리 8년/16만km의 긴 보증 기간 제공",
+    "기본 트림부터 12가지 ADAS(ACC, LKA, LDW, BSD, RCTA, AEB 등), 3D 서라운드 뷰 모니터, 무선 Apple CarPlay / Android Auto, 15.6인치 회전형 터치스크린, 파노라믹 선루프, V2L 2.2kW가 전부 기본 탑재",
+    "204PS/310Nm 출력으로 0→100km/h 7.3초의 준수한 가속력과 항력계수 0.29Cd의 우수한 공기역학, 유럽차 수준의 탄탄한 승차감·안정감(오토뷰 5점 만점 4.5점)",
+    "히트펌프 기본 탑재로 저온 주행거리(308km) 방어력이 우수하며, 321km 환경부 인증 주행거리 기준 실제 여유 있는 도심 운용 가능"
+  ],
+  "cons": [
+    "DC 급속충전 최대 88kW(실측 110kW 순간 가능)로 현대·기아 E-GMP 350kW 대비 충전 속도가 현저히 느리며, 800V 기반 신형 Atto 3 Evo 출시 전 구형 플랫폼 유지",
+    "BYD 자체 음성인식이 T맵 내비와 연동되지 않아 음성 목적지 설정 불가, 5인치 클러스터 시인성 부족, 넷플릭스/스포티파이 등 스트리밍 서비스 미지원",
+    "중국 브랜드에 대한 소비자 편견과 낮은 잔존가치 우려, 실내 디자인·내장재 품질이 한국 소비자 기준 대비 호불호 갈리며 ADAS 셋업이 지나치게 공격적이라는 리뷰 존재"
+  ],
+  "dataAsOf": "2026-04-19",
+  "researchNotes": "자료 기준일 2026-04-19. 한국 판매 트림은 2025년 1월 16일 출시 기준 기본형 3,150만원·Plus 3,330만원 2종으로 시작되었으며, 2026년형(2026년 4월 출시)에서 Plus 트림 가격이 3,350만원으로 조정됨(BYD 공식 홈페이지 기준). 기본형 3,150만원은 2025년 가격 유지 확인. 제원은 BYD Korea 공식 + Wikipedia + 카눈 교차검증: 전장 4,455mm / 전폭 1,875mm / 전고 1,615mm / 축거 2,720mm / 공차 1,750kg / 트렁크 440L(2열 폴드 시 1,340L) / 배터리 60.48kWh 블레이드 LFP / 204PS(150kW) / 310Nm(31.6kgf·m) / 복합 321km / 전비 4.7km/kWh / 0-100 7.3초 / DC 88kW(실측 110kW) 충전. powerHp는 국내 표기 204PS 기준 204로 기재(150kW를 PS로 환산 시 약 204PS로 일치). drivetrain은 FWD(전륜 싱글모터)이며 현재 RWD/AWD 트림은 한국 미도입(글로벌 Atto 3 Evo 신형은 RWD이나 한국 판매는 2026년 4월 현재 미정). 2026년 환경부 국고보조금은 145만원(2025년 145만원에서 큰 변동 없는 것으로 추정, 2026년 4월 현재 공식 환경부 ev.or.kr 공시 기준). 성남시 지자체 보조금은 2026년 환경부 공시에서 56만원 선으로 추정되지만 성남시 예산 공시 전이라 잠정치이며, 구매 시점 및 예산 소진 여부에 따라 변동 가능. 2026년 신설된 내연차→전기차 전환지원금 100만원 별도 적용 가능. 서울시는 37만원, 경남 합천 등 지방은 최대 228만원까지 편차. 전기차 취득세는 최대 140만원 감면으로 Atto 3 가격대에서 실질 전액 면제, 개별소비세 최대 300만원 감면. essentials: 3D 서라운드 뷰 모니터·후방 카메라·무선 CarPlay/AA·12가지 ADAS 모두 기본형부터 탑재 확인. Plus 트림 추가 사양은 통풍시트·전동테일게이트·Dirac 8스피커·PM2.5 공기정화·멀티컬러 앰비언트 라이트. BYD 공식 홈페이지 bydauto.kr/purchase/build-my-car/atto3는 동적 렌더링으로 옵션 상세 추출 실패하여 BYD 보도자료/오토뷰/엠투데이/카눈/다나와/블로터/헤럴드경제 교차검증. 2026 성남시 보조금 확정치 및 2026년 환경부 국고보조금 정식 공시값은 ev.or.kr 실시간 확인 권장. 단일 트림 단일 구성(제조사 유상 옵션 없음) 특성상 addOnOptions는 무상 색상 옵션만 기재. hero 이미지는 Wikimedia Commons의 공식 Atto 3 파일(upload.wikimedia.org 직접 URL) 사용."
+}

@@ -1,0 +1,520 @@
+{
+  "slug": "zeekr-7x",
+  "name": "Zeekr 7X (2026 페이스리프트)",
+  "brand": "Zeekr",
+  "brandGroup": "Geely (지리자동차) - 볼보/폴스타와 동일 모기업",
+  "segment": "MIDSIZE",
+  "fuelType": "EV",
+  "origin": "IMPORT",
+  "countryOfOrigin": "CHN",
+  "bodyType": "SUV",
+  "modelYear": 2026,
+  "releaseDate": "2026-05 (예정)",
+  "dataAsOf": "2026-04-19",
+
+  "images": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zeekr_7X_005_%28cropped%29.jpg",
+    "rear": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Zeekr_7X_006.jpg",
+    "interior": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Zeekr_7X_Auto_Zuerich_2025_DSC_3683.jpg",
+    "facelift2026Front": "https://upload.wikimedia.org/wikipedia/commons/1/19/Zeekr_7X_facelift_001.jpg",
+    "facelift2026Rear": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Zeekr_7X_facelift_002.jpg",
+    "officialGlobal": "https://www.zeekrlife.com/global/vehicles/7x",
+    "officialEurope": "https://www.zeekr.eu/models/7x",
+    "notes": "한국 공식 사이트는 출시 전이라 글로벌/유럽/Wikimedia 이미지 활용. Hero는 Wikipedia Commons 공식 이미지(2024 모델 프론트), 부분변경 2026 모델 이미지 별도 제공"
+  },
+
+  "pricing": {
+    "currency": "KRW",
+    "unit": "만원",
+    "priceNote": "한국 공식 가격 미공개 (2026년 5월 출시 시 발표 예정). 아래는 업계 예상치 + 유럽/중국가 환산 기반 추정",
+    "koreaOfficialPrice": null,
+    "baseTrim": {
+      "name": "Core RWD (75kWh LFP)",
+      "priceKRW": 4600,
+      "priceNote": "추정 - 업계 분석 '4천만원대~5천만원 초반'. 국내 전기차 보조금 100% 기준(5,300만원 이하) 맞추려는 포지셔닝 예상",
+      "battery": "75kWh LFP (Zeekr 자체 개발 Golden Battery, 5.5C)",
+      "rangeWltpKm": 480,
+      "horsepowerHp": 416,
+      "driveType": "RWD"
+    },
+    "recommendedTrim": {
+      "name": "Long Range RWD (100kWh NCM)",
+      "priceKRW": 5800,
+      "priceNote": "추정 - 업계 분석 '5천만원 후반~6천만원 초반'. 7천만원 예산 내 가장 적합. 100kWh CATL Qilin NCM 배터리로 615km WLTP 주행거리 확보, RWD로 실구매가 보조금 혜택 최대화",
+      "battery": "100kWh NCM (CATL Qilin)",
+      "rangeWltpKm": 615,
+      "horsepowerHp": 416,
+      "driveType": "RWD",
+      "isRecommended": true,
+      "recommendReason": "7천만원 예산 내에서 주행거리와 배터리 용량이 균형을 이루는 트림. AWD 퍼포먼스는 6천만원 초반 가능성이 있으나 보조금 선정 및 실구매 관점에서 Long Range RWD가 합리적"
+    },
+    "fullOption": {
+      "name": "Privilege AWD (100kWh Performance)",
+      "priceKRW": 6800,
+      "priceNote": "추정 - 업계 '6천만원 초반'. 가장 높은 트림이나 예산 내 진입 가능. 듀얼 모터 AWD 637hp / 710Nm / 3.8초 가속. 2026 페이스리프트 Ultra 버전은 103kWh 배터리 + 795hp로 국내 도입 여부 미정",
+      "battery": "100kWh NCM (CATL Qilin)",
+      "rangeWltpKm": 543,
+      "horsepowerHp": 637,
+      "torqueNm": 710,
+      "driveType": "AWD",
+      "acceleration0to100Sec": 3.8
+    },
+    "essentials": {
+      "trimName": "Long Range RWD + 주요 옵션 선택",
+      "estimatedTotalKRW": 6300,
+      "includesOptionsEstimate": "21 스피커 오디오, 냉온장고(-6~50도), 전좌석 자동문, 선택시 추가 300-500만원 수준 가능",
+      "note": "정확한 옵션 패키지는 국내 출시 시점 확정"
+    },
+    "allTrims": [
+      {
+        "name": "Core RWD",
+        "batteryKwh": 75,
+        "batteryType": "LFP",
+        "rangeWltpKm": 480,
+        "rangeCltcKm": 605,
+        "horsepowerHp": 416,
+        "driveType": "RWD",
+        "estimatedPriceKRW": 4600,
+        "priceRange": "4,600만원 수준 (추정)"
+      },
+      {
+        "name": "Long Range RWD",
+        "batteryKwh": 100,
+        "batteryType": "NCM (CATL Qilin)",
+        "rangeWltpKm": 615,
+        "rangeCltcKm": 780,
+        "horsepowerHp": 416,
+        "driveType": "RWD",
+        "estimatedPriceKRW": 5800,
+        "priceRange": "5,800만원 수준 (추정)"
+      },
+      {
+        "name": "Privilege AWD (Performance)",
+        "batteryKwh": 100,
+        "batteryType": "NCM (CATL Qilin)",
+        "rangeWltpKm": 543,
+        "rangeCltcKm": 705,
+        "horsepowerHp": 637,
+        "driveType": "AWD",
+        "estimatedPriceKRW": 6800,
+        "priceRange": "6,500~7,000만원 (추정)"
+      },
+      {
+        "name": "[참고] 2026 Ultra AWD (중국만 판매 중, 한국 도입 미정)",
+        "batteryKwh": 103,
+        "batteryType": "NCM 900V",
+        "rangeCltcKm": 802,
+        "horsepowerHp": 795,
+        "driveType": "AWD",
+        "acceleration0to100Sec": 2.98,
+        "estimatedPriceKRW": null,
+        "priceRange": "국내 도입 시 7천만원 초과 예상"
+      }
+    ],
+    "globalPriceReference": {
+      "chinaStartUSD": 31800,
+      "chinaStartKRWEquiv": 4400,
+      "europeNetherlandsEUR": 56990,
+      "europeGermanyEUR": 58950,
+      "europeStartKRWEquiv": 8400,
+      "exchangeRateNote": "2026-04-19 환율 기준(USD 1,380원 / EUR 1,470원) 단순 환산. 유럽가는 관세 25% 상당 포함으로 국내 예상가와 큰 차이",
+      "koreaStrategy": "업계는 지커가 한국 시장 초기 침투를 위해 중국가에 가까운 5,000만원 후반~6,000만원 초반 공격적 가격 책정 예상. 유럽가 직접 환산 X"
+    },
+    "addOnOptions": [
+      {"name": "Zeekr Sound Pro 21 스피커 시스템", "estimatedPriceKRW": null, "note": "글로벌 기준 옵션, 국내 적용 여부 미정"},
+      {"name": "전좌석 자동문 (동급 최초)", "estimatedPriceKRW": null, "note": "글로벌 사양 포함 가능성 높음"},
+      {"name": "냉온장 스토리지 (-6도~+50도)", "estimatedPriceKRW": null, "note": "옵션 또는 상위 트림 포함 예상"},
+      {"name": "1,000 LED Stargate 라이트", "estimatedPriceKRW": null, "note": "옵션"},
+      {"name": "에어 서스펜션 + 어댑티브 댐퍼 (Privilege AWD)", "estimatedPriceKRW": null, "note": "상위 트림 전용"},
+      {"name": "5인승 / 7인승(글로벌 옵션) 구성", "estimatedPriceKRW": null, "note": "3열 시트 옵션은 글로벌 일부 시장. 한국 적용 미정"}
+    ]
+  },
+
+  "requiredOptions": {
+    "surroundViewCamera360": {
+      "available": true,
+      "standard": true,
+      "note": "360도 서라운드 뷰 카메라 + 주차 센서 탑재 (글로벌 표준)"
+    },
+    "rearViewCamera": {
+      "available": true,
+      "standard": true,
+      "note": "후방 카메라 기본 (360 서라운드 뷰 시스템에 포함)"
+    },
+    "appleCarPlay": {
+      "available": true,
+      "standard": true,
+      "note": "무선 Apple CarPlay 지원 (Zeekr OS 2.1+ 기준). 일부 초기 연결 안정성 이슈 리뷰 있음"
+    },
+    "androidAuto": {
+      "available": true,
+      "standard": true,
+      "note": "무선 Android Auto 지원. Qualcomm Snapdragon 8295 기반 인포테인먼트"
+    },
+    "adas": {
+      "available": true,
+      "standard": true,
+      "note": "Level 2 ADAS - 어댑티브 크루즈 컨트롤, 차선 유지, 자동 차선 변경 (한국은 LiDAR 미탑재 - 규제/가격 이슈)"
+    },
+    "headUpDisplay": {
+      "available": true,
+      "standard": false,
+      "note": "36인치 AR-HUD (상위 트림 Privilege 기본, 하위 트림 옵션 여부 확정 필요)"
+    },
+    "panoramicSunroof": {
+      "available": true,
+      "standard": true,
+      "note": "파노라마 유리 루프 + 전동 덮개/블라인드 기본"
+    },
+    "heatPump": {
+      "available": true,
+      "standard": true,
+      "note": "히트펌프 기본 탑재 (글로벌 사양 기준 확인)"
+    },
+    "premiumAudio": {
+      "available": true,
+      "standard": false,
+      "note": "Zeekr Sound Pro 21 스피커 / 2,160W (옵션 또는 상위 트림 기본)"
+    },
+    "wirelessCharging": {
+      "available": true,
+      "standard": true,
+      "note": "듀얼 50W 무선 충전 패드 기본"
+    },
+    "pixelLedHeadlamp": {
+      "available": true,
+      "standard": true,
+      "note": "LED 헤드램프 + 티얼 자율주행 표시등 (2026 페이스리프트)"
+    },
+    "automaticDoors": {
+      "available": true,
+      "standard": false,
+      "note": "동급 최초 전좌석 자동문 (옵션). 리뷰상 과도 민감하다는 지적 있음"
+    },
+    "napaLeather": {
+      "available": true,
+      "standard": true,
+      "note": "나파 가죽 시트 (상위 트림 기본)"
+    },
+    "airSuspension": {
+      "available": true,
+      "standard": false,
+      "note": "싱글 챔버 에어 서스펜션 + 어댑티브 댐퍼 (Privilege AWD 전용, ±45mm 조절)"
+    },
+    "coolerWarmerBox": {
+      "available": true,
+      "standard": false,
+      "note": "냉온장 스토리지 -6도~+50도 (옵션)"
+    },
+    "largeInfotainment": {
+      "available": true,
+      "standard": true,
+      "note": "16인치 3.5K Mini-LED OLED 중앙 디스플레이 + 13인치 LCD 계기판 기본"
+    },
+    "massageSeats": {
+      "available": true,
+      "standard": false,
+      "note": "전열/통풍/마사지 전좌석 (상위 트림)"
+    }
+  },
+
+  "specifications": {
+    "dimensions": {
+      "lengthMm": 4825,
+      "widthMm": 1930,
+      "heightMm": 1656,
+      "heightMaxMm": 1666,
+      "wheelbaseMm": 2925,
+      "groundClearanceMm": null,
+      "groundClearanceAdjustMm": 90,
+      "curbWeightKg": 2415,
+      "curbWeightMinKg": 2280,
+      "curbWeightMaxKg": 2475,
+      "trunkCapacityL": 539,
+      "trunkCapacityMaxL": 1978,
+      "frunkCapacityL": 62,
+      "seatingCapacity": 5,
+      "seatingCapacityOptional": 7,
+      "trunkNote": "유럽 사양 기준 539L / 2열 폴딩 시 1,978L / 프렁크 62L. 일부 자료에 765L 표기(중국 기준 최대 용량) 혼재",
+      "widthWithMirrorsMm": 2100,
+      "dimensionNote": "Privilege AWD는 에어 서스펜션으로 지상고 ±45mm 조절 가능"
+    },
+    "powertrain": {
+      "drivetrain": "RWD (Core, Long Range) 또는 AWD (Privilege)",
+      "drivetrainLabel": "후륜구동 / 듀얼 모터 사륜구동 (트림별)",
+      "motorLayoutRwd": "Single Motor (후륜 1모터)",
+      "motorLayoutAwd": "Dual Motor (전륜 + 후륜)",
+      "horsepowerHpRwd": 416,
+      "horsepowerKwRwd": 310,
+      "horsepowerHpAwd": 637,
+      "horsepowerKwAwd": 475,
+      "torqueNmRwd": 440,
+      "torqueNmAwd": 710,
+      "acceleration0to100SecRwd": 5.8,
+      "acceleration0to100SecAwdPerformance": 3.8,
+      "acceleration0to100SecUltraFacelift": 2.98,
+      "topSpeedKmh": 210,
+      "transmission": "자동 1단 감속기",
+      "platform": "SEA (Sustainable Experience Architecture) - Volvo/Polestar 공유"
+    },
+    "battery": {
+      "capacityKwhSmallLfp": 75,
+      "capacityKwhLargeNcm": 100,
+      "capacityKwhUsableLargeNcm": 94,
+      "capacityKwhUltraFacelift": 103,
+      "typeLfp": "리튬인산철 (Zeekr 자체 개발 Golden Battery 2세대, 5.5C 충전)",
+      "typeNcm": "니켈-망간-코발트 (CATL Qilin 프리즈매틱 셀)",
+      "architectureStandard": "800V",
+      "architectureFacelift": "900V (2026 Long Range 페이스리프트)",
+      "batteryNote": "한국 출시 모델은 75kWh LFP / 100kWh NCM 2가지 제공 확정. 103kWh Ultra는 중국 전용으로 한국 도입 미정"
+    },
+    "range": {
+      "combinedKmWltp100Ncm": 615,
+      "combinedKmWltp75Lfp": 480,
+      "combinedKmWltp100Awd": 543,
+      "combinedKmCltc100Ncm": 780,
+      "combinedKmCltc75Lfp": 605,
+      "combinedKmCltc103Ultra": 802,
+      "combinedKmKoreaEstimated": 500,
+      "certification": "한국 환경부(MoE) 인증 진행 중 - 2026년 5~6월 완료 예정. 현재 수치는 WLTP/CLTC 기준",
+      "koreaCertificationNote": "업계 추정 국내 인증 기준 500~600km (WLTP 대비 약 85-90% 수준)"
+    },
+    "efficiency": {
+      "combinedKwhPer100km": 15.3,
+      "combinedKmPerKwh": 6.5,
+      "realWorldKwhPer100km": 21.8,
+      "note": "WLTP 공식 15.3kWh/100km (약 6.5km/kWh) / 실제 호주 시승 측정치 21.8kWh/100km (약 4.6km/kWh). 국내 인증 전비 미확정"
+    },
+    "charging": {
+      "dcFastChargingKwMax": 480,
+      "dcFastChargingKwPrivilege": 430,
+      "acChargingKw": 22,
+      "dcTime10to80MinCore": 13,
+      "dcTime10to80MinLongRange": 14,
+      "dcTime10to80MinFacelift900V": 10,
+      "acFullChargeHr": 5.25,
+      "connectorDc": "CCS Combo Type 2 (유럽). 한국 인증 시 DC콤보 1 변경 예상",
+      "chargingNote": "800V 아키텍처 최대 480kW DC 급속충전, 10~80% 약 13~16분. 2026 페이스리프트 900V 적용 시 10분 달성. 한국 CCS1 컨버터/어댑터 적용 방식 확인 필요"
+    },
+    "wheelsAndTires": {
+      "standardWheelInch": 19,
+      "privilegeWheelInch": 21,
+      "tireSize": "확인 필요 (19인치 표준 / 21인치 Privilege)"
+    },
+    "safety": {
+      "euroNCAP": "5스타 (성인 탑승자 보호 91%)",
+      "ancap": "5스타",
+      "warranty": {
+        "vehicle": "확인 필요 (글로벌 4-8년)",
+        "battery": "8년",
+        "paint": "4년",
+        "corrosion": "12년"
+      }
+    }
+  },
+
+  "subsidy": {
+    "available": null,
+    "estimatedKoreaSubsidyKRW": null,
+    "note": "한국 미출시 상태로 2026년 전기차 보조금 대상 지정 대기. 업계 전망: (1) 5,300만원 이하 트림은 국고 100% 보조금 대상 가능성 - Core RWD/Long Range RWD 하위는 약 650~680만원 국고 + 지자체 최대 500만원 수준 예상. (2) Long Range RWD 5,800만원 예상가는 50% 감액 구간으로 추정. (3) 중국산 배터리(LFP/NCM) 탑재로 2026년 배터리 환경성 계수 가점 제한 가능. 정식 인증 후 환경부 발표 대기",
+    "asOfSubsidyPolicy": "2026-04-19",
+    "scenarioEstimates": [
+      {"trim": "Core RWD 4,600만원 추정", "estimatedPostSubsidyKRW": 3700, "note": "100% 보조금 구간 진입 가정 + 서울 지자체 최대"},
+      {"trim": "Long Range RWD 5,800만원 추정", "estimatedPostSubsidyKRW": 5400, "note": "50% 감액 구간 적용 예상 + 지자체 200~300"},
+      {"trim": "Privilege AWD 6,800만원 추정", "estimatedPostSubsidyKRW": 6500, "note": "5,700만원 이상으로 보조금 제외 가능성"}
+    ]
+  },
+
+  "media": {
+    "youtubeReviews": [
+      {
+        "title": "2026 Zeekr 7X Review | Premium Power",
+        "url": "https://www.youtube.com/watch?v=Y2zpN8S4ARA",
+        "language": "EN",
+        "note": "프리미엄 EV 크로스오버 종합 리뷰 - Audi/BMW/Porsche/Mercedes 비교"
+      },
+      {
+        "title": "Zeekr 7X 2026 Review — Premium EV Without the Premium Price!",
+        "url": "https://www.youtube.com/watch?v=1Wwx8-o3BOk",
+        "language": "EN",
+        "note": "가격 대비 프리미엄 가치 평가 리뷰"
+      },
+      {
+        "title": "2026 NEW ZEEKR 7X EV 802km range walk-around | Geely | China",
+        "url": "https://www.youtube.com/watch?v=7SGX9f3yFaA",
+        "language": "EN",
+        "note": "2026 페이스리프트 Ultra 802km 워크어라운드"
+      },
+      {
+        "title": "2026 Zeekr 7X FIRST LOOK – Full Review, Interior, Battery & Price Reveal",
+        "url": "https://www.youtube.com/watch?v=A0XEmK9_q9I",
+        "language": "EN",
+        "note": "페이스리프트 첫 공개 풀 리뷰"
+      },
+      {
+        "title": "지커 코리아 공식 '지커보고있다' Q&A 영상",
+        "url": "https://www.youtube.com/@ZeekrKorea",
+        "language": "KR",
+        "note": "지커 코리아 공식 유튜브 채널 - 한국 출시 Q&A 및 7X 정보 공개 영상 (정확한 비디오 ID는 채널 내 최신 업로드 확인)"
+      }
+    ],
+    "blogReviews": [
+      {
+        "title": "지커 7X 2026 국내 출시 정보 | 전기 SUV 실구매가·보조금 총정리",
+        "url": "https://web.getcha.kr/blog/zeekr-7x-2026-korea-launch-electric-suv-price-subsidy",
+        "source": "겟차(Getcha)",
+        "note": "국내 출시 실구매가/보조금/트림 종합"
+      },
+      {
+        "title": "\"GV70 절반 가격이라고?\"...괴물 성능 전기 SUV, 국내 출시 확정된 '이 차'",
+        "url": "https://autocarnews.co.kr/carnews/zeekr-7x-korea-launch-ev-suv-2026/",
+        "source": "오토카뉴스",
+        "note": "국내 출시 확정 분석 - GV70 대비 가격/성능 비교"
+      },
+      {
+        "title": "지커 7X 국내 출시 임박! 4천만 원대 고급 전기 SUV, 상세 가격 및 제원 총정리",
+        "url": "https://blog.carlab.kr/2026/02/04/%EC%A7%80%EC%BB%A4-7x-%EA%B5%AD%EB%82%B4-%EC%B6%9C%EC%8B%9C-%EC%9E%84%EB%B0%95-4%EC%B2%9C%EB%A7%8C-%EC%9B%90%EB%8C%80-%EA%B3%A0%EA%B8%89-%EC%A0%84%EA%B8%B0-suv-%EC%83%81%EC%84%B8-%EA%B0%80%EA%B2%A9/",
+        "source": "카랩 블로그",
+        "note": "4천만원대~5천만원대 트림별 상세 가격/제원"
+      },
+      {
+        "title": "출시 임박한 '지커 7X' 핵심 정보 총정리",
+        "url": "https://www.heydealer.com/blog/%EC%B6%9C%EC%8B%9C-%EC%9E%84%EB%B0%95%ED%95%9C-%EC%A7%80%EC%BB%A4-7x-%ED%95%B5%EC%8B%AC%EC%A0%95%EB%B3%B4-%EC%B4%9D%EC%A0%95%EB%A6%AC/",
+        "source": "헤이딜러",
+        "note": "핵심 정보 종합 - 트림 3종 + 가격 + 충전"
+      },
+      {
+        "title": "지커 7X, Don't Have to Be Cheap to Compete",
+        "url": "https://www.motortrend.kr/news/articleView.html?idxno=1979",
+        "source": "모터트렌드 코리아",
+        "note": "라스베가스 트랙 시승기 - 핸들링/성능 평가"
+      },
+      {
+        "title": "지커 7X 유럽 시승기: 이제 자동차의 시대가 바뀐다",
+        "url": "https://www.clien.net/service/board/cm_car/18959805",
+        "source": "클리앙 (커뮤니티)",
+        "note": "유럽 시승 커뮤니티 리뷰"
+      },
+      {
+        "title": "The Zeekr 7X review: Very quick, very polished, and hard to ignore",
+        "url": "https://thedriven.io/2025/12/23/the-zeekr-7x-review-very-quick-very-polished-and-hard-to-ignore/",
+        "source": "The Driven",
+        "note": "호주 시장 종합 리뷰"
+      },
+      {
+        "title": "Zeekr 7X review: Late to the party, but still convincing",
+        "url": "https://www.electrive.com/2026/04/01/zeekr-7x-review-late-to-the-party-but-still-convincing/",
+        "source": "electrive.com",
+        "note": "2026년 4월 유럽 언론 리뷰"
+      }
+    ],
+    "officialUrls": {
+      "globalMain": "https://www.zeekrlife.com/global/vehicles/7x",
+      "europe": "https://www.zeekr.eu/models/7x",
+      "koreaDealerNetwork": [
+        "H 모빌리티 ZK",
+        "아이언 EV",
+        "KCC 모빌리티",
+        "ZK 모빌리티"
+      ],
+      "koreaLaunchRegion": "서울, 경기, 인천 수도권 우선 + 지방 주요 도시"
+    }
+  },
+
+  "keyFeatures": [
+    "800V 초고속 충전 아키텍처 (2026 Long Range는 900V)",
+    "최대 480kW DC 급속충전, 10~80% 13~16분 (페이스리프트 10분)",
+    "CATL Qilin 100kWh NCM 배터리 - WLTP 615km",
+    "SEA 플랫폼 (볼보 EX90/폴스타 4와 공유)",
+    "16인치 3.5K Mini-LED OLED 중앙 디스플레이",
+    "13인치 LCD 계기판 + 36인치 AR-HUD",
+    "Qualcomm Snapdragon 8295 프로세서",
+    "NVIDIA Orin 기반 ADAS",
+    "Level 2 자율주행 (어댑티브 크루즈 + 차선유지 + 자동 차선 변경)",
+    "360도 서라운드 뷰 + 주차 보조 센서",
+    "무선 Apple CarPlay / Android Auto",
+    "나파 가죽 시트 + 전/후열 열선·통풍·마사지(상위)",
+    "에어 서스펜션 + 어댑티브 댐퍼 (Privilege AWD 전용)",
+    "전좌석 자동문 (동급 최초)",
+    "냉온장 스토리지 -6도 ~ +50도",
+    "21 스피커 Zeekr Sound Pro (2,160W)",
+    "파노라마 글라스 루프 + 전동 셰이드",
+    "듀얼 50W 무선 충전 패드",
+    "Euro NCAP / ANCAP 5스타 안전",
+    "배터리 8년 보증"
+  ],
+
+  "proCons": {
+    "pros": [
+      "동급 대비 파격적 가격 - 예상 5천만원대 후반~6천만원 초반으로 Genesis GV70 EV / Mercedes EQE SUV(8천만원 이상) 대비 30-40% 저렴",
+      "615km WLTP 장거리 주행 (국내 추정 500~600km) + 800V 초급속 충전 13~16분(페이스리프트 10분)으로 국내 EV 톱티어 수준",
+      "볼보/폴스타와 동일 SEA 플랫폼 기반 - 5스타 Euro NCAP + 검증된 샤시/안전 기술",
+      "프리미엄 인테리어 (나파 가죽, 16인치 3.5K OLED, 36인치 AR-HUD) - 실제 리뷰상 Audi/BMW 수준이라는 평가",
+      "784hp 최상위 트림 (페이스리프트 Ultra)로 0-100km/h 2.98초 - 슈퍼카급 성능 옵션 존재",
+      "CATL Qilin 프리즈매틱 셀 + 자체 개발 LFP Golden 2세대 - 배터리 기술력",
+      "Qualcomm 8295 + NVIDIA Orin 기반 최신 디지털 콕핏 및 ADAS",
+      "2,925mm 휠베이스로 준대형급 실내 공간 확보"
+    ],
+    "cons": [
+      "중국 브랜드 인식 장벽 - 국내 소비자 신뢰도/중고차 가치 우려 상존",
+      "A/S 네트워크 초기 단계 - 현재 4개 딜러(H모빌리티ZK, 아이언EV, KCC모빌리티, ZK모빌리티)만 확정, 지방 서비스 센터 확보 전",
+      "한국 보조금 확정 전 - 5,800만원 Long Range RWD는 보조금 50% 감액 구간 진입 가능성 (100% 대상은 5,300만원 이하)",
+      "실제 전비는 21.8kWh/100km (4.6km/kWh) 수준으로 공차중량 2,415kg의 영향, 동급 국산 EV 대비 다소 열위",
+      "한국 도입 시 LiDAR 제외 - 글로벌 대비 자율주행 다운그레이드",
+      "전좌석 자동문 민감도 이슈 등 신기술 완성도 초기 리스크",
+      "CarPlay 등 Apple 연결 일부 불안정 보고 (2026년 업데이트 진행 중)"
+    ]
+  },
+
+  "competitors": [
+    "Tesla Model Y Long Range",
+    "Kia EV6 GT-Line Long Range",
+    "Hyundai Ioniq 5",
+    "Genesis GV60 / GV70 EV",
+    "Volvo EX40 (동일 Geely 계열 하위)",
+    "Polestar 4 (동일 SEA 플랫폼)",
+    "BMW iX3",
+    "Mercedes-Benz EQE SUV (상위급)"
+  ],
+
+  "researchNotes": {
+    "koreaLaunchStatus": "2026년 4월 19일 기준 한국 미출시 상태. 지커 코리아는 2025년 2월 28일 법인 등록(Zeekr Intelligent Technology Korea) 완료. 2026년 1월 부분변경(페이스리프트) 모델을 국내 첫 출시 차량으로 확정 발표, 3월 말 공식 사양 공개('지커보고있다' 유튜브 시리즈). 환경부 인증 막바지 단계로 2026년 5~6월 출시 예정",
+    "modelChoice": "Zeekr X (소형)는 한국 미진출 확정. 지커 코리아 첫 모델은 Zeekr 7X(준중형 SUV EV)로 확정. slug는 'zeekr-7x'로 설정. 한국 판매 가능성이 가장 높은 모델",
+    "pricingBasis": "한국 공식가 미발표. 업계 복수 소스 종합: 초기 공격적 침투가 전략으로 Core RWD 4,600만원 ~ Privilege AWD 6,800만원 범위 예상. 중국가(31,800 USD ≈ 4,400만원) 및 유럽가(€56,990 ≈ 8,400만원)의 중간 지점. 예산 7천만원 내 전 트림 수용 가능",
+    "faceliftVsPreFacelift": "한국 출시 모델은 2026 페이스리프트(2025년 10월 28일 중국 발표)로 확정. 900V 아키텍처 + 103kWh Ultra 트림이 포함되나, 한국 도입은 75kWh LFP / 100kWh NCM 2종 배터리 기준으로 Core / Long Range / Privilege 3개 트림 예상",
+    "subsidyUncertainty": "2026년 전기차 보조금 정책은 (1) 5,300만원 이하 100% / (2) 5,300~8,500만원 50% / (3) 8,500만원 이상 제외 기본 구조. 중국산 LFP 배터리는 배터리 환경성 계수 가점에서 불이익 가능성 있음(정책 변경 가능). 정확한 대상 차종 및 지원액은 환경부 공식 인증 및 보조금 대상 지정 후 확정",
+    "missingData": [
+      "한국 공식 가격 및 트림별 정확한 MSRP",
+      "환경부 인증 기준 복합 주행거리/전비 수치",
+      "국내 보조금 지원액 확정치",
+      "DC 급속충전 커넥터(CCS1 전환) 공식 확인",
+      "AC 완속 충전 풀타임 공식 명시",
+      "지상고(ground clearance) 기본 수치",
+      "타이어 정확 사이즈",
+      "헤드업 디스플레이 기본/옵션 여부 트림별 상세",
+      "LiDAR 제외에 따른 ADAS 다운그레이드 범위",
+      "한국 공식 유튜브 채널 비디오 ID",
+      "3열 7인승 옵션 한국 도입 여부"
+    ],
+    "batteryCapacityDiscrepancy": "100kWh 배터리는 총 100.0kWh / 사용 가능 94.0kWh. 103kWh Ultra는 페이스리프트 한정으로 한국 도입 미정",
+    "horsepowerDiscrepancy": "RWD 416hp(310kW) / AWD 637hp(475kW, 646PS) / Ultra 795hp(585kW, 784bhp) - 일부 자료 '784마력'은 Ultra 기준이며, Privilege AWD는 637hp가 공식치",
+    "rangeDiscrepancy": "주행거리는 WLTP(유럽, 실주행 근사), CLTC(중국, 낙관적), 한국 환경부(WLTP의 85-90%) 기준이 모두 다름. 기사별 615km(WLTP) / 780km(CLTC) / 500km(국내 추정) 혼재",
+    "priceContext": "한국 출시 시점 정식 가격 발표 및 보조금 대상 지정 후 실구매가 업데이트 필요. 현재 예상가는 업계 리포트 및 유럽/중국 가격 기반 추정",
+    "sourcesVerified": [
+      "오토카뉴스 2026-02 한국 출시 확정 기사",
+      "스포츠경향 2026-03-27 공식 사양 공개 기사",
+      "파이낸셜뉴스 2026-03-27 '지커보고있다' 영상 공개",
+      "다나와 오토 2026-03 세부 사양 공개",
+      "헤이딜러 2026 종합 정리",
+      "겟차 2026 실구매가/보조금 정리",
+      "Wikipedia EN (제원) / Wikipedia KO",
+      "EV Database (유럽 사양)",
+      "EVKX.net (Long Range RWD 상세)",
+      "Zeekr EU 공식 사이트",
+      "Zeekr Life 글로벌 공식 사이트",
+      "The Driven, electrive.com, Chasing Cars, Motor Trend KR (시승)",
+      "Lowyat.NET 2026 페이스리프트 공개",
+      "CarNewsChina 2026 중국 발표"
+    ]
+  }
+}

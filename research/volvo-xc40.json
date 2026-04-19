@@ -1,0 +1,316 @@
+{
+  "slug": "volvo-xc40",
+  "name": "Volvo XC40 B4 (MHEV)",
+  "brand": "Volvo",
+  "segment": "COMPACT",
+  "fuelType": "MHEV",
+  "origin": "IMPORT",
+  "bodyType": "SUV",
+  "modelYear": 2026,
+  "releaseDate": "2025-10-15",
+  "dataAsOf": "2026-04-19",
+  "officialUrl": "https://www.volvocars.com/kr/cars/xc40/",
+  "marketNote": "2025년 10월 15일 출시된 2026년형 XC40. 한국 시장은 'B4 AWD' 단일 파워트레인 + Plus Bright / Ultra Bright / Ultra Dark 3개 구성으로 운영. 기존 Twin Motor 전기차 버전(XC40 Recharge)는 'EX40'으로 리네이밍 분리 → 'XC40' 명칭은 내연기관/MHEV 전용.",
+
+  "images": {
+    "hero": "https://commons.wikimedia.org/wiki/File:2024_Volvo_XC40_B4_facelift_front.jpg",
+    "rear": "https://commons.wikimedia.org/wiki/File:2024_Volvo_XC40_B4_facelift_rear.jpg",
+    "silverDawn_front": "https://commons.wikimedia.org/wiki/File:2025_Volvo_XC40_B5_Plus_in_Silver_Dawn,_front_right.jpg",
+    "silverDawn_rear": "https://commons.wikimedia.org/wiki/File:2025_Volvo_XC40_B5_Plus_in_Silver_Dawn,_rear_left.jpg",
+    "commonsCategory": "https://commons.wikimedia.org/wiki/Category:Volvo_XC40",
+    "note": "볼보코리아 공식 페이지(volvocars.com/kr)는 DRM/CDN으로 직접 이미지 링크 어려움. Wikimedia Commons의 2024 페이스리프트(B4) 이미지가 2026년 국내 판매 모델과 시각적으로 동일."
+  },
+
+  "specs": {
+    "lengthMm": 4440,
+    "widthMm": 1875,
+    "heightMm": 1640,
+    "wheelbaseMm": 2702,
+    "curbWeightKg": 1795,
+    "curbWeightRangeKg": "1745-1795",
+    "trunkCapacityL": 452,
+    "trunkCapacityMaxL": 1328,
+    "fuelTankL": 54,
+    "seats": 5,
+    "drivetrain": "AWD",
+    "drivetrainLabel": "상시 AWD (한국은 AWD 단일 구성, 글로벌 FWD는 미판매)",
+    "engine": "2.0L 가솔린 I4 터보 + 48V 마일드 하이브리드(MHEV/ISG)",
+    "displacementCc": 1969,
+    "horsepowerHp": 197,
+    "horsepowerRpm": 5400,
+    "torqueNm": 300,
+    "torqueKgm": 30.6,
+    "torqueRpmRange": "1500-4200",
+    "mhevMotorHp": 14,
+    "mhevMotorTorqueKgm": 4.1,
+    "transmission": "자동 8단",
+    "fuelEconomyKmL": 10.3,
+    "fuelEconomyCityKmL": 9.1,
+    "fuelEconomyHighwayKmL": 12.1,
+    "fuelEconomyRangeKmL": "10.1-10.6",
+    "realWorldFuelKmL": 11.2,
+    "co2EmissionGkm": 165,
+    "co2EmissionRangeGkm": "162-169",
+    "zeroToHundredSec": 8.5,
+    "zeroToHundredGlobalSec": 7.6,
+    "topSpeedKmh": 180,
+    "minimumTurningRadiusM": 11.8,
+    "tireSizes": ["235/50R19 (Plus)", "245/45R20 (Ultra)"],
+    "wheelSizes": "19인치 5스포크(Plus) / 20인치 5-더블 스포크 블랙 다이아몬드 컷(Ultra Dark)",
+    "specNotes": "한국 공식 제원은 4,440×1,875×1,640mm 기재(볼보코리아). 글로벌 Wikipedia/auto-data는 4,425×1,863×1,652mm. 국내 자료 우선."
+  },
+
+  "pricing": {
+    "currency": "KRW",
+    "unit": "원",
+    "priceNote": "2025-10-15 출시 2026년형 한국 공식 가격. 개별소비세(3.5% 인하분) 반영. MHEV는 HEV 세제 감면 대상 아님(2025년 취득세 감면 종료, 개소세 감면도 MHEV 비해당).",
+    "baseTrim": {
+      "name": "B4 AWD Plus Bright",
+      "priceKRW": 51900000,
+      "role": "ENTRY",
+      "note": "한국은 Core 트림 미판매로 Plus가 실질 엔트리. 360 카메라/파일럿 어시스트/무선 카플레이·AA/티맵 오토 등 필수 옵션 기본"
+    },
+    "recommendedTrim": {
+      "name": "B4 AWD Plus Bright",
+      "priceKRW": 51900000,
+      "reason": "XC40 라인업에서 필수 ADAS와 인포테인먼트가 모두 기본 탑재되는 진입 트림. 하만카돈 사운드/드리프트 우드 인테리어/크리스탈 기어노브가 없어도 실주행·안전·편의는 Ultra와 동일 수준. Ultra와의 차액 300~330만원은 감성 옵션 프리미엄"
+    },
+    "fullOption": {
+      "name": "B4 AWD Ultra Dark",
+      "priceKRW": 55200000,
+      "reason": "XC40 라인업 최상위. Ultra 기본 옵션(하만카돈/드리프트 우드/오레포스 크리스탈 기어노브/어드밴스드 공기청정) + Dark 테마(블랙 하이글로시 디테일, 20인치 5-더블 스포크 블랙 다이아몬드 컷 휠) 조합"
+    },
+    "essentials": {
+      "surroundView360": {
+        "included": true,
+        "trimAvailability": "Plus/Ultra 전 트림 기본",
+        "note": "360도 서라운드 뷰 카메라 기본 탑재"
+      },
+      "rearCamera": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "파크 어시스트 카메라 기본"
+      },
+      "appleCarPlay": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "무선 Apple CarPlay 지원 (Volvo Car UX + 티맵 오토 병행)"
+      },
+      "androidAuto": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "Android Auto 지원"
+      },
+      "pilotAssist": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "파일럿 어시스트(반자율): 어댑티브 크루즈 컨트롤 + 차선 유지 보조 + 조향 보조. Driver Assistance 패키지 기본 포함"
+      },
+      "headUpDisplay": {
+        "included": false,
+        "trimAvailability": "미적용",
+        "note": "XC40 국내 사양에서는 HUD 기본 미탑재 확인 (XC60 Ultra와 다름)"
+      },
+      "panoramicSunroof": {
+        "included": true,
+        "trimAvailability": "전 트림 기본 추정",
+        "note": "파노라마 글라스 선루프 기본 탑재 (전 세대부터 유지되는 기본 옵션)"
+      },
+      "harmanKardonAudio": {
+        "included": false,
+        "trimAvailability": "Ultra 기본, Plus 미적용",
+        "note": "하만카돈 프리미엄 사운드는 Ultra 트림 전용 기본 옵션"
+      },
+      "advancedAirCleaner": {
+        "included": false,
+        "trimAvailability": "Ultra 기본",
+        "note": "어드밴스드 공기 청정 시스템은 Ultra 트림 전용"
+      },
+      "driftWoodInterior": {
+        "included": false,
+        "trimAvailability": "Ultra 기본",
+        "note": "드리프트 우드 인테리어 트림은 Ultra 전용"
+      },
+      "orreforsCrystalGearKnob": {
+        "included": false,
+        "trimAvailability": "Ultra 기본",
+        "note": "스웨덴 오레포스 크리스탈 기어노브는 Ultra 전용"
+      },
+      "tmapNavigation": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "Volvo Car UX + 티맵 오토 + 누구 오토 + 네이버 차량용 웨일 브라우저 + 티맵 스토어 (스냅드래곤 콕핏 플랫폼 기반)"
+      },
+      "pixelLedHeadlamp": {
+        "included": true,
+        "trimAvailability": "전 트림 기본 추정",
+        "note": "픽셀 LED 헤드램프 (2024 F/L부터 적용)"
+      },
+      "digitalDisplay": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "9인치 터치스크린 센터 디스플레이 + 12.3인치 운전자 디지털 클러스터"
+      },
+      "blindSpotMonitor": {
+        "included": true,
+        "trimAvailability": "전 트림 기본",
+        "note": "사각지대 경보 + 조향 어시스트(BLIS), 후측방 경보, 교차로 긴급제동 등 플래그십급 ADAS 기본"
+      }
+    },
+    "allTrims": [
+      {
+        "name": "B4 AWD Plus Bright",
+        "priceKRW": 51900000,
+        "theme": "Bright (크롬 디테일)",
+        "wheelInch": 19,
+        "note": "엔트리 트림 - 360 카메라/파일럿 어시스트/무선 카플레이·AA/티맵 오토/파노라마 선루프 기본"
+      },
+      {
+        "name": "B4 AWD Ultra Bright",
+        "priceKRW": 54900000,
+        "theme": "Bright (크롬 디테일)",
+        "wheelInch": 20,
+        "note": "Plus + 하만카돈 프리미엄 사운드 + 드리프트 우드 인테리어 + 오레포스 크리스탈 기어노브 + 어드밴스드 공기 청정 시스템"
+      },
+      {
+        "name": "B4 AWD Ultra Dark",
+        "priceKRW": 55200000,
+        "theme": "Dark (블랙 하이글로시)",
+        "wheelInch": 20,
+        "note": "Ultra Bright 기본 사양 + 크롬→블랙 하이글로시 마감 + 20인치 5-더블 스포크 블랙 다이아몬드 컷 휠 전용"
+      }
+    ],
+    "addOnOptions": {
+      "exteriorColors": [
+        "오로라 실버 (Aurora Silver, 2026 신규)",
+        "크리스탈 화이트 (Crystal White)",
+        "오닉스 블랙 (Onyx Black)",
+        "데님 블루 (Denim Blue)",
+        "클라우드 블루 (Cloud Blue)",
+        "베이퍼 그레이 (Vapour Grey)"
+      ],
+      "wheels": [
+        "19인치 5스포크 (Plus 기본)",
+        "20인치 5-더블 스포크 (Ultra Bright 기본)",
+        "20인치 5-더블 스포크 블랙 다이아몬드 컷 (Ultra Dark 전용)"
+      ],
+      "interiorThemes": [
+        "표준 인테리어 (Plus)",
+        "드리프트 우드 인테리어 (Ultra 기본)"
+      ],
+      "note": "국내는 트림 패키지화가 강해 단품 옵션(애드온) 선택지 거의 없음. 외관 색상 + 트림 + 테마(Bright/Dark) 조합으로 스펙 결정"
+    }
+  },
+
+  "taxes": {
+    "acquisitionTaxKRW": 3633000,
+    "acquisitionTaxRate": 0.07,
+    "acquisitionTaxBaseKRW": 51900000,
+    "estimatedRegistrationKRW": 400000,
+    "evExemptions": [
+      "48V MHEV는 감면 없음",
+      "HEV 취득세 40만원 감면 2025-01-01부터 종료 → MHEV도 미해당",
+      "HEV 개별소비세 최대 70만원 감면(~2026-12-31)도 MHEV는 대상 아님",
+      "전기차 세제 혜택(개소세/교육세/취득세) 전액 비해당"
+    ],
+    "taxNotes": "Plus Bright 기준 취득세 약 363만원(차량가 × 7%). Ultra Dark(5,520만원) 기준 약 386만원. 2026년 개별소비세 3.5% 인하분은 차량 공시가에 이미 반영됨."
+  },
+
+  "media": {
+    "youtube": [
+      {
+        "title": "볼보 XC40 B4 AWD 두말하면 입아파서 별 말 안하는 리뷰",
+        "url": "https://www.youtube.com/watch?v=F0x95gZXunY",
+        "channel": "제이오토플랜 박팀장",
+        "language": "KR",
+        "note": "2025년 3월 업로드 - XC40 B4 AWD 장점 중심 리뷰"
+      },
+      {
+        "title": "[리뷰] 2023 볼보 XC40 페이스리프트 B4 AWD / 오토뷰 4K",
+        "url": "https://www.youtube.com/watch?v=Qjyzrs1Lo3E",
+        "channel": "오토뷰 AutoView",
+        "language": "KR",
+        "note": "페이스리프트 B4 AWD 4K 시승기 - 2026년형과 파워트레인 동일"
+      },
+      {
+        "title": "[리뷰] 볼보 XC40 B4 시승기 / 오토뷰 2021 4K",
+        "url": "https://www.youtube.com/watch?v=CSgPdf_zsAo",
+        "channel": "오토뷰 AutoView",
+        "language": "KR",
+        "note": "B4 MHEV 전환 초기 시승기 - 파워트레인 구조 이해에 참고"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026 볼보 XC40, '가성비 프리미엄 컴팩트 SUV'의 정답을 다시 묻다 | 오우택의카라이프",
+        "url": "https://v.daum.net/v/xAFanL2upk",
+        "source": "Daum / 오우택의카라이프",
+        "note": "2026년형 국내 출시 후 상세 시승기 - 실주행 연비 구간별 기록 포함"
+      },
+      {
+        "title": "[시승기] 작지만 강한 2026 볼보 XC40…디자인·기술·안정성의 삼박자",
+        "url": "https://www.metroseoul.co.kr/article/20251221500183",
+        "source": "메트로서울",
+        "note": "2025-12-21 서울-강릉 620km 장거리 시승기 - 실연비 11.2km/L 기록"
+      },
+      {
+        "title": "[시승기] '화려함 대신 실용성'…볼보 XC40, 3040세대 위한 현실형 프리미엄 SUV",
+        "url": "https://www.thepublic.kr/news/articleView.html?idxno=298605",
+        "source": "더퍼블릭",
+        "note": "일상 적합성 중심 시승기 - 도심 실용성/승차감 중점"
+      },
+      {
+        "title": "볼보 The New XC40 가격표, 제원 상세 정보",
+        "url": "https://www.carnoon.co.kr/newcar/vehicle/11110",
+        "source": "카눈 Carnoon",
+        "note": "2026년형 트림별 가격표 + 엔진/변속기/연비/외형 치수 DB"
+      },
+      {
+        "title": "볼보자동차코리아, XC40 연식변경 출시…5190만원부터",
+        "url": "https://v.daum.net/v/20251015100847669",
+        "source": "Daum 자동차 / 연합뉴스",
+        "note": "2025-10-15 국내 출시 공식 보도 - 트림별 가격/보증/OTA 15년 등 명시"
+      },
+      {
+        "title": "볼보코리아, 2026년형 'XC40' 출시…\"최상위 트림에 다크 테마 추가\"",
+        "url": "https://biz.heraldcorp.com/article/10593613",
+        "source": "헤럴드경제",
+        "note": "다크 테마 추가와 Ultra 트림 기본 사양(하만카돈/드리프트 우드) 상세 소개"
+      }
+    ],
+    "pressRelease": "https://www.volvocars.com/kr/news/culture/20251015-Launch-of-the-XC40/",
+    "danawa": "https://auto.danawa.com/newcar/?Work=estimate&Model=4405",
+    "wheelSize": "https://wheel-size.kr/size/volvo/xc40/2026/",
+    "namuWiki": "https://namu.wiki/w/%EB%B3%BC%EB%B3%B4%20XC40"
+  },
+
+  "pros": [
+    "48V 마일드 하이브리드 기반 매끄러운 발진 - 시동/저속 구간 거친 느낌 최소화, 전기 모터 보조로 도심 피로감 감소",
+    "플래그십급 ADAS 기본 (파일럿 어시스트 + 어댑티브 크루즈 + 360 카메라 + BLIS + 교차로 긴급제동) - Plus 엔트리 트림에도 전량 기본",
+    "볼보 고유 안전 철학 - Euro NCAP 별 5개(2018), IIHS 2025 주요 충돌항목 Good 등급",
+    "컴팩트 SUV(전장 4,440mm)로 도심 주차/골목 운전 부담 낮음 - 최소회전반경 11.8m",
+    "실내 실용성 - 452L 트렁크, 도어 포켓 수납, 12.3인치 디지털 클러스터 + 9인치 센터 디스플레이 구성",
+    "티맵 오토 + 누구 오토 + 웨일 브라우저 + 무선 카플레이/AA - 한국 특화 인포테인먼트(스냅드래곤 콕핏 플랫폼 기반)",
+    "Ultra 트림 하만카돈 프리미엄 사운드 + 드리프트 우드 + 오레포스 크리스탈 기어노브 - 북유럽 감성 인테리어",
+    "15년 무상 OTA + 5년/10만km 일반 보증 + 디지털 서비스 5년 이용권 - 업계 최장급 소프트웨어 지원 약속"
+  ],
+  "cons": [
+    "공인 연비 10.3km/L(복합)로 동급 HEV 대비 열위 - 수입 HEV(Lexus NX HEV 약 13km/L)나 국산 HEV(투싼 HEV 15.7km/L) 대비 명확한 차이",
+    "MHEV는 HEV 세제 혜택 대상 아님 - 취득세 감면(40만원)/개소세 감면(70만원)/전기차 보조금 모두 비해당",
+    "Plus 엔트리 기준 5,190만원 - 국산 컴팩트 HEV(투싼/스포티지 HEV 3,400~3,700만원대) 대비 1,500만원 이상 가격 프리미엄",
+    "축거 2,702mm로 2열 레그룸은 타이트한 편 - 동급 대비 실내 공간 여유 부족(오우택 시승기에서도 2열 레그룸 지적)",
+    "주행 모드 선택지 단순(사실상 단일 세팅) - 경쟁 독일 컴팩트 SUV(BMW X1, Audi Q3) 대비 다이나믹 설정 자유도 낮음",
+    "시내 실주행 연비 7~9km/L 구간으로 공인치 대비 하락폭이 큼 - 정속 고속 주행 시에는 14km/L 이상 양호"
+  ],
+
+  "competitors": [
+    "BMW X1 xDrive20i",
+    "Mercedes-Benz GLA 250 4MATIC",
+    "Audi Q3 35 TFSI",
+    "Lexus NX 350h",
+    "Volvo EX40 (동일 브랜드 EV 대안)",
+    "Kia Sportage 1.6 T-GDI HEV (국산 HEV 대안)"
+  ],
+
+  "researchNotes": "2026년형 XC40은 2025-10-15 볼보코리아 공식 출시. 한국은 Core 트림 미판매로 Plus Bright(5,190만원) / Ultra Bright(5,490만원) / Ultra Dark(5,520만원) 3개 구성. 파워트레인은 B4 AWD(2.0L 터보 + 48V MHEV, 197마력/30.6kgm) 단일. '다크 테마'는 2026년형에서 Ultra 전용으로 신설. 한국 공식 제원(4,440×1,875×1,640mm)과 글로벌 Wikipedia/auto-data(4,425×1,863×1,652mm)에 미세 차이 존재 - 국내 자료 우선. 0-100km/h는 국내 보도 기준 8.5초(글로벌 7.6초와 상이). 연비는 다나와/카눈 공인 10.3km/L 대표값(9.1~12.1 구간별), 실주행은 시승기 평균 11.2km/L. 트렁크 452L(글로벌/다나와 일치), 2열 폴딩 시 1,328L. MHEV는 HEV/EV 세제 감면 전량 비해당. 볼보코리아 공식 사이트(volvocars.com/kr) WebFetch 403 차단으로 공식 보도자료(2025-10-15)와 국내 자동차 매체 교차검증. 이미지는 Wikimedia Commons의 2024 B4 페이스리프트 버전이 2026년형과 시각적으로 동일."
+}

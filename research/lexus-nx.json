@@ -1,0 +1,201 @@
+{
+  "slug": "lexus-nx",
+  "name": "Lexus NX350h / NX450h+",
+  "brand": "Lexus",
+  "segment": "MIDSIZE",
+  "fuelType": "HEV",
+  "origin": "IMPORT",
+  "dataAsOf": "2026-04-19",
+  "officialUrl": "https://www.lexus.co.kr/models/NX-350h/",
+  "relatedOfficialUrls": [
+    "https://www.lexus.co.kr/models/NX-450h-plus/",
+    "https://www.lexus.co.kr/"
+  ],
+  "trims": [
+    {
+      "name": "NX350h Premium",
+      "fuelType": "HEV",
+      "price": 66950000,
+      "priceCurrency": "KRW",
+      "drivetrain": "AWD",
+      "notes": "엔트리 트림. 14인치 터치 디스플레이, 렉서스 세이프티 시스템+(LSS+), 1열 통풍/열선 시트, 스티어링 휠 열선, 무선 애플 카플레이/안드로이드 오토, 후방카메라 포함. 서라운드(파노라믹) 뷰 모니터는 미포함."
+    },
+    {
+      "name": "NX350h Luxury",
+      "fuelType": "HEV",
+      "price": 76130000,
+      "priceCurrency": "KRW",
+      "drivetrain": "AWD",
+      "notes": "HEV 풀옵션 트림. 트리플 빔 LED 헤드램프, 마크 레빈슨 17스피커 오디오, 파노라마 선루프, 디지털 리어 뷰 미러, 10인치 헤드업 디스플레이(HUD), 파노라믹 뷰 모니터(서라운드뷰) 포함."
+    },
+    {
+      "name": "NX450h+ Premium (PHEV)",
+      "fuelType": "PHEV",
+      "price": 74710000,
+      "priceCurrency": "KRW",
+      "drivetrain": "AWD",
+      "notes": "PHEV 엔트리 트림. 18.1kWh 리튬이온 배터리, 전기 주행거리 약 56km, LSS+, 무선 애플 카플레이/안드로이드 오토, 후방카메라 포함."
+    },
+    {
+      "name": "NX450h+ F SPORT (PHEV)",
+      "fuelType": "PHEV",
+      "price": 82310000,
+      "priceCurrency": "KRW",
+      "drivetrain": "AWD",
+      "notes": "풀옵션 최상위. F SPORT 전용 메쉬 그릴, 블랙 20인치 휠, 전자 제어 가변 서스펜션(AVS), 퍼포먼스 댐퍼, 10인치 HUD, 파노라믹 뷰 모니터(서라운드뷰) 포함."
+    }
+  ],
+  "recommendedTrim": {
+    "name": "NX350h Luxury",
+    "priceKrw": 76130000,
+    "reason": "7천만원 내외 예산 기준 중상위 추천. HEV 풀옵션으로 파노라믹 뷰 모니터(서라운드뷰), 파노라마 선루프, 마크 레빈슨 오디오, HUD, 디지털 리어뷰 미러, LSS+, 무선 CarPlay/AA 모두 포함. (Premium 트림은 66,950,000원으로 예산 내이나 서라운드뷰/HUD/파노라마 선루프 미포함)"
+  },
+  "fullOptionTrim": {
+    "name": "NX450h+ F SPORT",
+    "priceKrw": 82310000,
+    "reason": "PHEV 기반 풀옵션 최상위 모델. 시스템 합산 출력 307마력, 56km 순수 전기 주행 가능, 전자 제어 가변 서스펜션(AVS), 퍼포먼스 댐퍼, 파노라믹 뷰 모니터 포함."
+  },
+  "mandatoryOptions": {
+    "surroundView": {
+      "supported": true,
+      "notes": "파노라믹 뷰 모니터. NX350h Luxury 및 NX450h+ F SPORT에 기본 포함. Premium 트림은 후방카메라만 제공."
+    },
+    "rearCamera": {
+      "supported": true,
+      "notes": "전 트림 기본."
+    },
+    "carPlayAndroidAuto": {
+      "supported": true,
+      "notes": "무선 Apple CarPlay 및 Android Auto 지원 (2세대 개선 이후)."
+    },
+    "lexusSafetySystemPlus": {
+      "supported": true,
+      "notes": "Lexus Safety System+ 전 트림 기본. PCS(긴급제동 보조), LTA(차선 추적 어시스트), DRCC(다이내믹 레이더 크루즈 컨트롤), AHS/AHB(어댑티브 하이빔), BSM 포함."
+    }
+  },
+  "specs": {
+    "length_mm": 4660,
+    "width_mm": 1865,
+    "height_mm": 1640,
+    "wheelbase_mm": 2690,
+    "curbWeight_kg_HEV": 1850,
+    "curbWeight_kg_PHEV": 2030,
+    "trunkCapacity_L_HEV": 520,
+    "trunkCapacity_L_PHEV": null,
+    "seats": 5,
+    "drivetrain": "AWD (E-Four)",
+    "engine": {
+      "displacement_cc": 2487,
+      "type": "2.5L 직렬 4기통 자연흡기 A25A-FXS",
+      "enginePower_hp": 189,
+      "engineTorque_kgfm": 24.7
+    },
+    "systemPower_hp_HEV": 242,
+    "systemPower_hp_PHEV": 307,
+    "transmission": "e-CVT",
+    "fuelEconomy_kmL_combined_HEV": 14.0,
+    "fuelEconomy_kmL_combined_PHEV": 14.4,
+    "fuelEconomy_grade_HEV": "2등급",
+    "zeroToHundred_sec_HEV": 7.2,
+    "zeroToHundred_sec_PHEV": 6.0,
+    "phev": {
+      "battery_kWh": 18.1,
+      "batteryType": "리튬이온",
+      "electricRange_km_combined": 56,
+      "electricEfficiency_kmPerKWh": 3.8,
+      "chargingTime_hours_6_6kW": 2.5,
+      "chargingTime_hours_ac": 4.5
+    },
+    "fuelTank_L": null
+  },
+  "pros": [
+    "정숙성 우수 (2세대에서 풍절음 약 15% 감소, 하이브리드 정숙 주행)",
+    "안락하고 탄탄한 승차감 (세단 수준의 승차감)",
+    "실연비 우수 (공인 14.0km/L, 실주행 17~20km/L 보고)",
+    "프리미엄 실내 마감 및 디지털 클러스터/14인치 대형 터치 디스플레이",
+    "LSS+ 안전 사양 전 트림 기본 (PCS/LTA/DRCC/BSM)",
+    "무선 Apple CarPlay / Android Auto 지원",
+    "PHEV의 경우 56km 순수 전기 주행 가능 (도심 출퇴근 무연료 가능)",
+    "렉서스 특유의 높은 내구성 및 잔존가치"
+  ],
+  "cons": [
+    "뒷좌석 무릎 공간이 동급 대비 다소 좁음",
+    "급가속 시 하이브리드 특유의 엔진 회전수 상승 및 이질감",
+    "전자식 도어 핸들(e-Latch)의 초기 적응 필요",
+    "20인치 대형 휠 + 좁은 타이어 조합으로 애프터마켓 타이어 선택지 제한",
+    "Premium 트림은 파노라믹 뷰 모니터/HUD 미포함, 상위 Luxury로 갈수록 가격 급상승",
+    "옵션 추가 시 경쟁 독일 PHEV 대비 가격 메리트 축소 (F SPORT 8천만원대)"
+  ],
+  "youtube": [
+    {
+      "title": "이런 차 사면 10년 간 후회... 2026 렉서스 NX350h 리뷰 / 오토뷰 로드테스트",
+      "url": "https://www.youtube.com/watch?v=hkrzqh4917w",
+      "channel": "오토뷰 Autoview",
+      "publishedAt": "2026-01-10"
+    },
+    {
+      "title": "2026 렉서스 NX 350h 리뷰 | 하이브리드 SUV의 완벽한 진화",
+      "url": "https://www.youtube.com/watch?v=2Qe2-mbCBes",
+      "channel": null,
+      "publishedAt": "2025-09-25"
+    },
+    {
+      "title": "렉서스 NX350h 리뷰(NX450h+ 비교해보기) / 차읽남TV",
+      "url": "https://www.youtube.com/watch?v=CZVW8s_jK8E",
+      "channel": "차읽남TV",
+      "publishedAt": null
+    }
+  ],
+  "blogs": [
+    {
+      "title": "2026 렉서스 NX 가격 확정! NX350h·NX450h+ 옵션 비교 및 실구매가 총정리",
+      "url": "https://blog.carlab.kr/2026/01/20/2026-%EB%A0%89%EC%84%9C%EC%8A%A4-nx2%EC%84%B8%EB%8C%80/",
+      "source": "카랩 블로그",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "title": "렉서스 NX350h – 직접 타보니 느낀 장점과 단점",
+      "url": "https://nironironew.blogspot.com/2025/05/nx350h.html",
+      "source": "블로그",
+      "publishedAt": "2025-05"
+    },
+    {
+      "title": "[시승기] 2026년형 렉서스 NX350h",
+      "url": "https://www.autoview.co.kr/news/articleView.html?idxno=98687",
+      "source": "오토뷰",
+      "publishedAt": "2026"
+    },
+    {
+      "title": "렉서스 New Generation NX 가격표, 제원 상세 정보",
+      "url": "https://www.carnoon.co.kr/newcar/vehicle/11086",
+      "source": "카눈",
+      "publishedAt": null
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.lexus.co.kr/models/NX-350h/",
+      "caption": "NX 350h 공식 모델 페이지 (Lexus Korea)",
+      "source": "lexus.co.kr (official)"
+    },
+    {
+      "url": "https://www.lexus.co.kr/models/NX-450h-plus/",
+      "caption": "NX 450h+ 공식 모델 페이지 (Lexus Korea)",
+      "source": "lexus.co.kr (official)"
+    }
+  ],
+  "researchNotes": [
+    "가격은 2026년 모델 연식 기준 국내 공식 판매가(VAT 포함, 개소세 반영)이며 카눈/카랩 블로그 확정가를 채택: NX350h Premium 66,950,000원 / NX350h Luxury 76,130,000원 / NX450h+ Premium 74,710,000원 / NX450h+ F SPORT 82,310,000원.",
+    "fuelType은 사용자 지시에 따라 대표 모델인 NX350h(HEV) 기준으로 'HEV'로 기록. NX450h+는 PHEV로 trims 배열에 별도 엔트리로 포함.",
+    "제원 차이점(HEV vs PHEV): 공차중량 HEV 1,850kg / PHEV 2,030kg. 전고는 자료에 따라 1,640mm(나무위키)와 1,670mm(카눈) 혼재하는데 공식 브로셔 기준 1,640mm를 채택.",
+    "트렁크 용량: HEV 520L 기본(2열 전동 폴딩 시 확장 가능), 일부 자료는 558L로 기재(2열 폴딩 포함 최대치 가능성). PHEV 트렁크 용량은 배터리 탑재로 약간 축소되나 공식 수치 미확인으로 null 처리.",
+    "NX450h+ 제원: 시스템 합산 출력 307마력, 18.1kWh 리튬이온 배터리, 복합 전기 주행거리 56km, 전비 3.8km/kWh, 6.6kW 충전 기준 완충 약 2시간 30분, 일반 AC 충전 약 4시간 30분, 0-100km/h 약 6.0초.",
+    "NX350h 제원: 시스템 합산 출력 242마력, 엔진 단독 189마력/24.7kgf·m, 0-96km/h 7.2초, 복합연비 14.0km/L(2등급). 다나와/오토뷰 일부 자료는 14.3km/L로 기재되어 실측치일 가능성.",
+    "드라이브트레인: 모든 국내 판매 트림은 AWD(E-Four) 기본. 북미 2026MY는 NX350h FWD(240hp, 17km/L) 추가되었으나 한국 시장 도입 여부는 확인되지 않음.",
+    "필수 옵션 검증: Lexus Safety System+는 전 트림 기본. 무선 Apple CarPlay/Android Auto 2세대 이후 지원(단, 일부 구형 자료는 미지원 기재). 파노라믹 뷰 모니터(서라운드뷰)는 NX350h Luxury 및 NX450h+ F SPORT에 기본 포함. NX350h Premium / NX450h+ Premium은 후방카메라만 제공.",
+    "연료탱크 용량(fuelTank_L)은 공식 브로셔 접근 불가로 null 처리. 공식 PDF 브로셔 URL(https://www.lexus.co.kr/source/brochure/LEXUS_NEW%20NX_230707_WEB.pdf)은 404 반환됨.",
+    "공식 이미지 직접 URL은 lexus.co.kr이 SPA 구조로 이미지 URL 추출이 제한되어 모델 페이지 URL로 대체 기록.",
+    "가격 참고: 동일 트림에 대해 abencom/기타 블로그는 NX350h Premium 66,700,000원 등 약간 낮은 수치를 제시하나 2026MY 최신 확정가(카눈/카랩) 기준으로 수록.",
+    "출처 주요: Lexus Korea 공식 모델 페이지, 카눈(carnoon.co.kr), 카랩 블로그, 오토뷰, 나무위키(요약), 탑라이더, 카가이, EVPOST."
+  ]
+}

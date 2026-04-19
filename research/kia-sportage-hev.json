@@ -1,0 +1,228 @@
+{
+  "slug": "kia-sportage-hev",
+  "name": "Kia Sportage Hybrid",
+  "nameKo": "기아 스포티지 하이브리드",
+  "brand": "Kia",
+  "segment": "MIDSIZE",
+  "fuelType": "HEV",
+  "origin": "DOMESTIC",
+  "modelYear": 2026,
+  "dataAsOf": "2026-04-19",
+  "officialUrl": "https://www.kia.com/kr/vehicles/sportage",
+  "officialPriceUrl": "https://www.kia.com/kr/vehicles/sportage/price",
+  "officialSpecUrl": "https://www.kia.com/kr/vehicles/sportage/specification",
+  "trims": [
+    {
+      "name": "Trendy",
+      "nameKo": "트렌디",
+      "available": false,
+      "notes": "2026년형 스포티지 HEV 라인업에는 '트렌디' 트림이 존재하지 않음. HEV 최저 트림은 프레스티지(Prestige)."
+    },
+    {
+      "name": "Prestige",
+      "nameKo": "프레스티지",
+      "priceKrw": 33460000,
+      "priceKrwNoTaxBenefit": 34990000,
+      "driveType": "2WD",
+      "notes": "HEV 진입 트림. 개별소비세 3.5% + 친환경차 세제혜택 적용가. 2026년형에서 선바이저 LED, 레인센서, 독립제어 풀오토 에어컨, 공기청정 시스템, 2열 USB-C 기본화."
+    },
+    {
+      "name": "Noblesse",
+      "nameKo": "노블레스",
+      "priceKrw": 36700000,
+      "priceKrwNoTaxBenefit": 38280000,
+      "driveType": "2WD",
+      "notes": "중상위 트림. 2열 이중접합 차음 글라스, 동반석/2열 세이프티 파워윈도우 기본화. 드라이브 와이즈(HDA2), 모니터링 패키지(SVM) 선택 가능."
+    },
+    {
+      "name": "Signature",
+      "nameKo": "시그니처",
+      "priceKrw": 39310000,
+      "priceKrwNoTaxBenefit": 40930000,
+      "driveType": "2WD",
+      "notes": "상위 트림. 동승석 전동식 허리지지대 기본화. 파노라마 선루프(109만원), KRELL 프리미엄 사운드(59만원), 빌트인캠(45만원) 등 선택 가능."
+    },
+    {
+      "name": "Signature X-Line",
+      "nameKo": "시그니처 X-라인",
+      "priceKrw": 39950000,
+      "priceKrwNoTaxBenefit": 41580000,
+      "driveType": "2WD",
+      "notes": "X-Line 트림이 '그라파이트'(Graphite) 포지션을 대체. 블랙 휠, 블랙 엠블럼, 스웨이드 헤드라이닝, 전용 익스테리어. AWD 추가시 약 200만원 상향."
+    },
+    {
+      "name": "Signature X-Line AWD Premium",
+      "nameKo": "시그니처 X-라인 4WD 프리미엄",
+      "priceKrw": 49210000,
+      "priceKrwNoTaxBenefit": null,
+      "driveType": "AWD",
+      "notes": "풀옵션 최상위. 스노/머드/샌드 주행모드, 4WD 시스템, 프리미엄 옵션 묶음 포함."
+    }
+  ],
+  "recommendations": {
+    "valuePick": {
+      "trim": "Signature",
+      "reasoning": "서라운드뷰(모니터링 114만원), HDA2(드라이브 와이즈 124만원), 2열 차음글라스 등 필수옵션을 선택하면 약 4,200만원대. 풀옵션 대비 약 700만원 저렴하면서 주요 안전/편의 옵션 충족."
+    },
+    "fullOption": {
+      "trim": "Signature X-Line 4WD",
+      "reasoning": "전용 외장·내장 디자인과 오프로드 주행모드, 4WD, 파노라마 선루프, KRELL 프리미엄 사운드까지 모두 포함한 최상위 구성."
+    }
+  },
+  "essentialOptions": {
+    "surroundViewMonitor": {
+      "available": true,
+      "packageName": "모니터링 패키지",
+      "priceKrw": 1140000,
+      "trimAvailability": "Noblesse/Signature/X-Line 선택",
+      "notes": "서라운드뷰 모니터(SVM) + 3D 뷰 + 후방 주차 충돌방지 보조 포함. 후방카메라는 전 트림 기본."
+    },
+    "rearCamera": {
+      "available": true,
+      "standard": true,
+      "trimAvailability": "전 트림 기본"
+    },
+    "carPlayAndroidAuto": {
+      "available": true,
+      "wireless": true,
+      "standard": true,
+      "notes": "12.3인치 커브드 파노라마 디스플레이에 무선 애플 카플레이 / 안드로이드 오토 기본 지원."
+    },
+    "adasHda": {
+      "available": true,
+      "version": "HDA2 (고속도로 주행 보조 2)",
+      "packageName": "드라이브 와이즈",
+      "priceKrw": 1240000,
+      "trimAvailability": "Noblesse 이상 선택",
+      "notes": "HDA2, 전방충돌방지 보조(교차로/대향차 포함), 후측방 충돌방지, 핸즈온 감지(HOD) 포함. 10인치 HUD는 Signature 이상 선택."
+    }
+  },
+  "specifications": {
+    "dimensions": {
+      "lengthMm": 4685,
+      "widthMm": 1865,
+      "heightMm": 1660,
+      "heightRangeMm": "1660~1680",
+      "wheelbaseMm": 2755
+    },
+    "weight": {
+      "curbWeightKg": 1660,
+      "curbWeightRangeKg": "1650~1745"
+    },
+    "cargo": {
+      "trunkCapacityLiters": 637,
+      "maxCargoLiters": 1923,
+      "notes": "2열 폴딩 시 최대 1,923L."
+    },
+    "seating": 5,
+    "driveType": ["2WD", "AWD"],
+    "powertrain": {
+      "engineType": "1.6L 스마트스트림 가솔린 터보 하이브리드 (감마)",
+      "displacementCc": 1598,
+      "enginePowerPs": 180,
+      "engineTorqueKgfm": 27.0,
+      "engineTorqueNm": 264.8,
+      "motorPowerKw": 47.7,
+      "motorPowerPs": 64.8,
+      "systemPowerPs": 235,
+      "systemTorqueKgfm": 35.7,
+      "systemTorqueNm": 350,
+      "transmission": "6단 자동변속기 (Smartstream 6AT)"
+    },
+    "fuelEconomy": {
+      "combined_2wd_17inch_kmL": 16.3,
+      "city_2wd_17inch_kmL": 16.9,
+      "highway_2wd_17inch_kmL": 15.5,
+      "combined_4wd_19inch_kmL": 14.3,
+      "city_4wd_19inch_kmL": 14.4,
+      "highway_4wd_19inch_kmL": 14.1,
+      "ecoGrade": "1등급"
+    }
+  },
+  "youtubeReviews": [
+    {
+      "title": "스포티지 하이브리드 2026 시승기! - 연비 잘나오고, 옵션 좋아졌어요!",
+      "url": "https://www.youtube.com/watch?v=NoCtl8UmBXc",
+      "publishedDate": "2025-12-14"
+    },
+    {
+      "title": "스포티지 적당한 가격은 얼마일까? 4610만원 2026년형 최고트림 시승기",
+      "url": "https://www.youtube.com/watch?v=8ba1KkVqU9A",
+      "publishedDate": "2025-12-01"
+    },
+    {
+      "title": "\"4,577만원\" 스포티지 하이브리드 리뷰 (기아, 페이스리프트)",
+      "url": "https://www.youtube.com/watch?v=q3o88txJzx0",
+      "publishedDate": "2025-03"
+    },
+    {
+      "title": "더 뉴 스포티지 하이브리드 3,100km타고 느낀 장단점은? [차주인터뷰]",
+      "url": "https://www.youtube.com/watch?v=AmTOX7rjTnY",
+      "publishedDate": "2025-05-19"
+    }
+  ],
+  "blogReviews": [
+    {
+      "title": "2025 기아 스포티지 완벽 분석! 트림별 가격부터 풀옵션까지 총정리",
+      "url": "https://withkia.com/entry/2025-%EA%B8%B0%EC%95%84-%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80-%EC%99%84%EB%B2%BD-%EB%B6%84%EC%84%9D-%ED%8A%B8%EB%A6%BC%EB%B3%84-%EA%B0%80%EA%B2%A9%EB%B6%80%ED%84%B0-%ED%92%80%EC%98%B5%EC%85%98%EA%B9%8C%EC%A7%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+      "source": "위드 기아 블로그"
+    },
+    {
+      "title": "스포티지 하이브리드 단점 총정리, 중고차 구매 전 필수 체크포인트",
+      "url": "https://www.heydealer.com/blog/%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EB%8B%A8%EC%A0%90-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EC%A4%91%EA%B3%A0%EC%B0%A8-%EA%B5%AC%EB%A7%A4-%EC%A0%84-%ED%95%84/",
+      "source": "헤이딜러 블로그"
+    },
+    {
+      "title": "스포티지 vs 스포티지 하이브리드 2026 오너 평가로 본 실제 장점과 단점 비교",
+      "url": "https://web.getcha.kr/blog/lease-compare-17374-vs-17386/",
+      "source": "겟차"
+    },
+    {
+      "title": "2026 기아 스포티지 하이브리드 옵션별 견적까지 완전 정리",
+      "url": "https://v.daum.net/v/tEFLE4YCWN",
+      "source": "카삼 via Daum"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.kia.com/content/dam/kwcms/kr/ko/images/vehicles/nq5pe/highlights/kv/kv_pc.jpg",
+      "source": "kia.com",
+      "description": "Kia Sportage 2026 공식 메인 이미지 (플레이스홀더 - 공식 페이지에서 확인 필요)"
+    },
+    {
+      "url": "https://www.kia.com/kr/vehicles/sportage/features",
+      "source": "kia.com",
+      "description": "기아 공식 스포티지 특징 페이지 (이미지 갤러리 포함)"
+    }
+  ],
+  "pros": [
+    "공인 복합연비 16.3km/L(2WD/17인치) - 실 주행시 고속도로 20km/L 가능한 우수 연비",
+    "시스템 합산 출력 235마력의 여유로운 파워, 0-100 약 8초대의 경쾌한 가속",
+    "전장 4,685mm / 휠베이스 2,755mm의 준중형급 최대 차체로 넉넉한 2열 공간",
+    "기본 637L 트렁크, 2열 폴딩시 1,923L의 넉넉한 적재공간",
+    "12.3인치 커브드 파노라마 디스플레이 + 무선 카플레이/안드로이드오토 기본",
+    "HDA2 고속도로 주행 보조 2(드라이브 와이즈), SVM 서라운드뷰 선택 가능",
+    "2026년형에서 기본 사양 대폭 상향 (프레스티지도 레인센서/공기청정 기본화)",
+    "하이브리드 전용 앰비언트 라이트, 고급스러운 인테리어 마감"
+  ],
+  "cons": [
+    "EV→엔진 전환시 울컥거림과 진동이 저속에서 체감됨",
+    "110km/h 이상 고속 주행시 풍절음 증가",
+    "가솔린 모델 대비 약 670만원 가격 프리미엄",
+    "6단 AT로 경쟁사 대비 다단화 추세에 뒤처짐",
+    "HEV 배터리로 인해 가솔린 대비 트렁크 바닥이 약간 높아짐",
+    "출고 대기 기간이 여전히 긴 편 (취소차 대기 필요)",
+    "19인치 휠(X-Line/AWD) 옵션시 연비 14.3km/L로 하락",
+    "풀옵션 시 4,900만원대로 동급 대비 가격 부담"
+  ],
+  "researchNotes": [
+    "2026년형 스포티지 HEV는 'Trendy' 트림이 존재하지 않음 (라인업: 프레스티지/노블레스/시그니처/시그니처 X-라인).",
+    "'Signature Graphite' 트림은 현재 라인업에 없음. 대신 'Signature X-Line'이 블랙 외장/휠/엠블럼 기반 최상위 포지션.",
+    "가격은 개별소비세 3.5% + 친환경차 세제혜택 적용가 기준. 세제혜택 미적용가는 별도 표기.",
+    "시스템 합산 출력은 출처에 따라 230~235PS로 상이 표기됨. 본 데이터는 기아 최신 공식값 235PS 기준.",
+    "공식 이미지 URL은 대표값 사용 - 공식 페이지에서 최신 이미지 확인 권장. kia.com의 DAM 경로는 동적 변경 가능.",
+    "연비는 17인치/19인치 휠 구성에 따라 다름. 4WD+19인치 구성시 복합 14.3km/L.",
+    "공차중량은 트림/구동방식에 따라 1,650~1,745kg 범위.",
+    "X-Line AWD 최상위 프리미엄 구성(4,921만원)은 풀옵션 참고값. 표준 X-Line 2WD 기준가는 3,995만원."
+  ]
+}

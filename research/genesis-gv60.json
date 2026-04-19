@@ -1,0 +1,249 @@
+{
+  "slug": "genesis-gv60",
+  "name": "Genesis GV60",
+  "brand": "Genesis",
+  "segment": "MIDSIZE",
+  "fuelType": "EV",
+  "origin": "DOMESTIC",
+  "images": {
+    "hero": "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV60/list-thumbnail/2026-03-17/13-33-39/genesis-kr-admin-model-list-thumbnail-gv60-27my-desktop-630x240.png",
+    "gallery": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/highlights.html",
+    "officialImagePage": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60.html"
+  },
+  "specs": {
+    "dimensions": {
+      "length_mm": 4545,
+      "width_mm": 1890,
+      "height_mm": 1580,
+      "wheelbase_mm": 2900,
+      "note": "2025년 3월 부분변경(F/L) 이후 전장 4,515mm → 4,545mm (범퍼 디자인 변경)"
+    },
+    "curbWeight_kg": {
+      "standard_2wd": 2020,
+      "standard_awd": 2130,
+      "performance_awd": 2230,
+      "note": "다나와/EV-Database 기준(휠/옵션 구성에 따라 상이)"
+    },
+    "trunk_liters": {
+      "rear_default": 432,
+      "rear_folded_max": 1460,
+      "frunk": 20,
+      "source": "제네시스 GV60 공식 스펙 및 EV-Database"
+    },
+    "seats": 5,
+    "drivetrain": "RWD (Standard 2WD) / AWD (Standard AWD, Performance AWD) 선택 가능",
+    "battery": {
+      "capacity_kWh": 84.0,
+      "usable_kWh": 80.0,
+      "type": "리튬이온 NMC",
+      "architecture_V": 800,
+      "manufacturer": "SK On",
+      "note": "2025년 부분변경 모델에서 기존 77.4kWh → 84kWh 4세대 배터리로 교체"
+    },
+    "powertrain": {
+      "standard_2wd": {
+        "power_kW": 168,
+        "power_hp": 225,
+        "power_ps": 228,
+        "torque_Nm": 350,
+        "range_km": 481,
+        "efficiency_km_per_kWh": 5.1
+      },
+      "standard_awd": {
+        "power_kW": 234,
+        "power_hp": 314,
+        "power_ps": 318,
+        "torque_Nm": 605,
+        "range_km": 437,
+        "efficiency_km_per_kWh": 4.6,
+        "note": "전륜 74kW + 후륜 160kW 듀얼모터"
+      },
+      "performance_awd": {
+        "power_kW": 320,
+        "power_hp": 429,
+        "power_boost_kW": 360,
+        "power_boost_hp": 483,
+        "power_boost_ps": 490,
+        "torque_Nm": 605,
+        "torque_boost_Nm": 700,
+        "acceleration_0_100_sec": 4.0,
+        "range_km": 382,
+        "efficiency_km_per_kWh": 4.0,
+        "note": "부스트 모드(10초) 활성 시 360kW/700Nm"
+      }
+    },
+    "charging": {
+      "architecture_V": 800,
+      "maxDC_kW": 350,
+      "dc_10_to_80_minutes": 18,
+      "ac_onboard_kW": 11,
+      "ac_full_charge_hours": "약 7시간 55분 (11kW AC 기준, 0→100%)",
+      "v2l_W": 3600,
+      "plugAndCharge_PnC": true
+    }
+  },
+  "pricing": {
+    "currency": "KRW",
+    "taxBenefitApplied": true,
+    "note": "2025년 3월 부분변경(F/L) 출시, 2026년 4월 판매 중. 전기차 세제혜택 적용 후 가격(지역 보조금 별도)",
+    "baseTrim": {
+      "name": "Standard 2WD",
+      "priceKRW": 64900000
+    },
+    "trims": {
+      "standard_2wd": {
+        "name": "Standard 2WD",
+        "priceKRW": 64900000
+      },
+      "standard_awd": {
+        "name": "Standard AWD",
+        "priceKRW": 68510000
+      },
+      "performance_awd": {
+        "name": "Performance AWD",
+        "priceKRW": 72880000
+      },
+      "magma_awd": {
+        "name": "GV60 Magma (고성능 별도 라인업)",
+        "priceKRW": 96570000,
+        "note": "2026년 4월 뉴욕 오토쇼 공개 단일 트림, 641HP 고성능 버전"
+      }
+    },
+    "recommendedTrim": {
+      "name": "Standard AWD + 파퓰러 패키지 + 드라이빙 어시스턴스 II",
+      "priceKRW_approx": 76500000,
+      "rationale": "일상/장거리 균형. Standard AWD 기본에 파퓰러 패키지(HDA/서라운드뷰/헤드업 디스플레이/컨비니언스/하이테크 포함)로 핵심 편의사양을 풀패키지로 구성. 풀옵션 접근성이 제일 좋음",
+      "includedOptionPackages": [
+        "서라운드 뷰 모니터 (SVM) — 드라이빙 어시스턴스 패키지 I 포함",
+        "후측방 모니터 (BVM)",
+        "후방 카메라 (전 트림 기본)",
+        "지능형 헤드램프 (MLA 적용) — 하이테크 패키지",
+        "스마트 크루즈 컨트롤 / 고속도로 주행 보조 2 (HDA2)",
+        "전방 충돌방지 보조 2 — 드라이빙 어시스턴스 패키지 II",
+        "헤드업 디스플레이 (HUD)",
+        "운전석 에르고 모션 시트/앞좌석 릴렉션 컴포트 시트",
+        "원격 스마트 주차 보조 2 (RSPA2)",
+        "Apple CarPlay / Android Auto (전 트림 기본, 유선)",
+        "27인치 통합형 와이드 OLED 디스플레이(전 트림 기본)",
+        "빌트인 캠 2 (F/L 이후 기본)",
+        "디지털 센터 미러"
+      ],
+      "typicalAddOns": [
+        {
+          "name": "파퓰러 패키지 (HUD + 컨비니언스 + 하이테크 + 드라이빙 어시스턴스 I)",
+          "priceKRW_approx": 4650000
+        },
+        {
+          "name": "드라이빙 어시스턴스 패키지 II (FCA2 / SCC / HDA2 / 프리액티브 시트벨트)",
+          "priceKRW_approx": 1480000
+        },
+        {
+          "name": "시그니처 디자인 셀렉션 II (나파 가죽 + 고급 내장재)",
+          "priceKRW_approx": 2700000
+        },
+        {
+          "name": "디지털 사이드 미러",
+          "priceKRW_approx": 1500000
+        },
+        {
+          "name": "빌트인 캠 + 보조배터리",
+          "priceKRW_approx": 700000
+        }
+      ]
+    },
+    "fullOption": {
+      "name": "Performance AWD 풀옵션",
+      "priceKRW_approx": 85000000,
+      "note": "Performance AWD 기본 7,288만원 + 파퓰러 패키지 + 드라이빙 어시스턴스 II + 디지털 사이드 미러 + 시그니처 디자인 셀렉션 2 + 뱅앤올룹슨 사운드 + 비전 루프 조합. 실제 견적가 약 8,500만원 내외"
+    },
+    "essentials": {
+      "surroundViewMonitor": "드라이빙 어시스턴스 패키지 I 또는 파퓰러 패키지 선택 시 적용 (기본 아님)",
+      "rearViewCamera": "전 트림 기본",
+      "appleCarPlay_androidAuto": "전 트림 기본 (유선 연결)",
+      "adas": "기본 LKA2/FCA/BCW/DAW/HDA(기본형) 등 제공. HDA2/SCC/FCA2 등 고급 ADAS는 드라이빙 어시스턴스 패키지 II(148만원) 선택 시 포함",
+      "adasPackagePriceKRW_approx": 1480000,
+      "otherEssentials": {
+        "airbags": "10 에어백 전 트림 기본",
+        "digitalKey2": "하이테크 패키지 포함 (선택)",
+        "OTA": "기본 지원",
+        "V2L_internal_external": "기본 지원 (3.6kW)",
+        "builtInCam2": "F/L 이후 기본 탑재",
+        "digitalCenterMirror": "F/L 이후 기본 탑재",
+        "walkAwayLock": "F/L 이후 기본 탑재",
+        "faceConnect": "퍼스트클래스/상위 패키지 선택 시 (얼굴 인식 도어 잠금)",
+        "smartRegenerativeBraking": "스마트 회생제동 시스템 3.0 전 트림 기본",
+        "activeSoundDesign": "e-ASD 전 트림 기본"
+      }
+    },
+    "optionPackagesPrice_approx_KRW": {
+      "popularPackage": 4650000,
+      "convenience": 1980000,
+      "highTech": 1090000,
+      "drivingAssistance_I": 1980000,
+      "drivingAssistance_II": 1480000,
+      "signatureDesignSelection_I": 1500000,
+      "signatureDesignSelection_II": 2700000,
+      "builtInCam": 700000,
+      "digitalSideMirror": 1500000,
+      "note": "파퓰러 패키지는 HUD + 컨비니언스 + 하이테크 + 드라이빙 어시스턴스 I 묶음 (개별 합산보다 저렴)"
+    }
+  },
+  "media": {
+    "youtube": [
+      {
+        "title": "제네시스 GV60 시승기 / 25년형 페이스리프트 전기차",
+        "url": "https://www.youtube.com/watch?v=AlAOxVq2Mzk"
+      },
+      {
+        "title": "제네시스 GV60 AWD 퍼포먼스 시승기, 2025 Genesis GV60 AWD test drive, review",
+        "url": "https://www.youtube.com/watch?v=6ikUOM73fog"
+      },
+      {
+        "title": "이래서 다들 테슬라를 산다... 제네시스 GV60 페이스리프트 리뷰 / 오토뷰 로드테스트",
+        "url": "https://www.youtube.com/watch?v=RkxtePkXGME"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "[시승기] 제네시스 GV60 부분변경, 유일한 단점은 가격 책정 (탑라이더)",
+        "url": "https://www.top-rider.com/article/view/trd202507030001"
+      },
+      {
+        "title": "[시승기] '푹신한 승차감에 폭발적 가속력'···제네시스 GV60 (시사저널e)",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=411364"
+      },
+      {
+        "title": "제네시스 GV60 페이스리프트 출시! 가격표부터 보조금, 연비까지 총정리",
+        "url": "https://fly.gotrygo.com/entry/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-GV60-%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A6%AC%ED%94%84%ED%8A%B8-%EC%B6%9C%EC%8B%9C-%EA%B0%80%EA%B2%A9%ED%91%9C%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%A1%B0%EA%B8%88-%EC%97%B0%EB%B9%84%EA%B9%8C%EC%A7%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+      },
+      {
+        "title": "[시승기] GV60 후륜구동, 히터 틀고 주행보조 쓰면 얼마나 멀리 갈까? (데일리카)",
+        "url": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=43051"
+      }
+    ],
+    "officialUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60.html",
+    "priceUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/bto-entry.html",
+    "specsUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/specs.html",
+    "performanceUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/performance.html",
+    "highlightsUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/highlights.html",
+    "safetyUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60/safety.html",
+    "magmaUrl": "https://www.genesis.com/kr/ko/models/luxury-suv-genesis/gv60-magma/highlights.html"
+  },
+  "pros": [
+    "2025년 F/L로 84kWh 4세대 배터리 탑재 → 1회 충전 최대 481km(Standard 2WD), 800V 초급속 18분(10→80%) 충전",
+    "퍼포먼스 AWD의 부스트 모드(360kW/700Nm, 0-100km/h 4.0초) — 동급 최상위 가속 성능",
+    "E-GMP 플랫폼 기반 2,900mm 휠베이스로 동급 대비 우수한 실내공간과 탄탄한 주행 안정성",
+    "27인치 통합 와이드 OLED 디스플레이, 페이스 커넥트(얼굴 인식), 크리스털 스피어 전자식 변속기 등 프리미엄 감성",
+    "일상 주행 정숙성과 고급 세단급 승차감 — 흡차음재 보강 + 액티브 사운드 디자인(e-ASD) 기본 적용",
+    "빌트인 캠 2/디지털 센터 미러/워크어웨이 락/스마트 회생제동 3.0 등 편의사양이 F/L 이후 기본화"
+  ],
+  "cons": [
+    "동급(아이오닉5, EV6) 대비 동일 플랫폼에도 가격 차이 3,000만원 이상 — '가격 대비 가치' 논란 지속",
+    "트렁크 기본 432L로 동급 SUV 대비 적고, 쿠페형 루프라인으로 2열 헤드룸/후방 시야 제한",
+    "서라운드 뷰 모니터·HDA2는 기본 아님 — 드라이빙 어시스턴스 I/II 또는 파퓰러 패키지 추가 시에만 적용",
+    "Performance AWD 풀옵션은 8,000만원 초과 — G80/GV70보다 실구입가가 높아진 점이 판매 부진(월 80대 수준)의 주 원인",
+    "디지털 사이드 미러는 호불호가 갈리며, OTA 업데이트 속도/범위가 경쟁 테슬라 대비 제한적"
+  ],
+  "dataAsOf": "2026-04-19",
+  "researchNotes": "출처: 제네시스 공식(genesis.com/kr/ko/models/luxury-suv-genesis/gv60/ 하위 specs/highlights/performance/safety/bto-entry 페이지), 현대차그룹 뉴스룸(CONT0000000000171386 GV60 부분변경 출시), 엠투데이(autodaily.co.kr 528680/528631), 탑라이더, 시사저널e, 데일리카, 다나와자동차(Model=4701 GV60 F/L), tago.kr 옵션 정리, EV-Database(car/3236 Performance MY25), 스마트에프엔 GV60 Magma 보도, fly.gotrygo.com 가격정리 블로그, tip.tmddn14.com 옵션정리.\n\n가격은 2025년 3월 6일 출시된 GV60 부분변경 모델 기준 전기차 세제혜택 적용가이며, 지역 보조금(서울 기준 약 412~430만원)은 미포함. 2026년 4월 기준 판매가 변동 없음(동결).\n\nGV60 Magma는 2026년 4월 뉴욕 오토쇼에서 공개된 단일 트림(9,657만원/641hp) 별도 고성능 라인업으로 trims에 참고만 포함하고 recommendedTrim/fullOption에서는 제외.\n\n공차중량은 다나와 자동차 F/L 상세 제원의 수치(2,020kg/2,130kg)와 EV-Database Performance 2,230kg를 종합했고, 트림별/휠별 정확 수치는 공식 specs 페이지가 동적 로드로 인해 직접 추출이 어려웠음. 트렁크는 공식 스펙 기준 432L(확장 1,460L)과 프렁크 20L(AWD 기준, EV-Database/공식 자료).\n\nPerformance AWD 출력은 '일반 모드 320kW/429hp' + '부스트 모드 10초간 360kW/490ps/700Nm' 구조. 0-100km/h 4.0초는 부스트 기준 공식 수치.\n\n핵심 옵션 표준 여부: 후방카메라/CarPlay·AA(유선)는 전 트림 기본. 서라운드뷰/HDA2/MLA 헤드램프/HUD 등은 선택 패키지(드라이빙 어시스턴스 I/II, 파퓰러, 하이테크)로 제공되며 파퓰러 패키지(465만원)가 가장 보편적 선택.\n\n추천 트림 가격은 Standard AWD(6,851만원) + 파퓰러(465만원) + 드라이빙 어시스턴스 II(148만원) ≈ 7,650만원으로 계산. Standard 2WD에 동일 패키지 적용 시 약 7,290만원.\n\nYouTube/블로그는 2025년 3월 이후 페이스리프트 기준 한국어 시승 영상·기사 중심으로 선정. 오토뷰 로드테스트/탑라이더/시사저널e/데일리카 등 신뢰도 높은 매체 포함.\n\n히어로 이미지 URL은 genesis.com CDN 경로(/content/dam/genesis-p2/kr/admin/model-information/GV60/list-thumbnail/)로 2026-03-17 업로드된 27MY(2027 모델연도) 썸네일을 사용 — 공식 사이트 동적 로드로 인해 직접 노출 URL이 제한적이며, 링크가 만료될 경우 highlights.html 페이지에서 현재 공개 이미지로 재확인 필요."
+}

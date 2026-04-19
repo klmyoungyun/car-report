@@ -1,0 +1,331 @@
+{
+  "slug": "hyundai-ioniq-5",
+  "name": "Hyundai IONIQ 5",
+  "brand": "Hyundai",
+  "segment": "MIDSIZE",
+  "fuelType": "EV",
+  "origin": "DOMESTIC",
+  "images": {
+    "main": "https://www.hyundai.com/static/images/model/ioniq5/ioniq5_exterior_main.png",
+    "gallery": [
+      "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/gallery",
+      "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/intro"
+    ],
+    "officialGalleryUrl": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/gallery",
+    "colors": [
+      {"name": "사이버 그레이 메탈릭", "code": "C5G"},
+      {"name": "에코트로닉 그레이 펄", "code": "PE2"},
+      {"name": "아틀라스 화이트", "code": "SAW"},
+      {"name": "루시드 블루 펄", "code": "U3P"},
+      {"name": "디지털 틸그린 펄", "code": "M9U"},
+      {"name": "어비스 블랙 펄", "code": "A2B"},
+      {"name": "얼티메이트 레드 메탈릭 (N Line 전용)", "code": "R2P"},
+      {"name": "그래비티 골드 매트 (무광)", "code": "W3T"},
+      {"name": "셀라돈 그레이 매트 (무광)", "code": "Y2T"},
+      {"name": "프로스티드 브라운 매트 (무광)", "code": "RTE"}
+    ],
+    "note": "공식 갤러리 URL에서 이미지 확인 가능. 직접 이미지 CDN URL은 공식 API 미공개로 갤러리 페이지 안내."
+  },
+  "specs": {
+    "dimensions": {
+      "length_mm": 4655,
+      "width_mm": 1890,
+      "height_mm": 1605,
+      "wheelbase_mm": 3000
+    },
+    "curbWeight_kg": {
+      "standard_2wd": 1890,
+      "longRange_2wd_19inch": 2015,
+      "longRange_2wd_20inch": 2025,
+      "longRange_awd_19inch": 2120,
+      "longRange_awd_20inch": 2130,
+      "nLine_2wd": 2055,
+      "nLine_awd": 2160
+    },
+    "trunk_L": 531,
+    "trunkMax_L": 1591,
+    "frunk_L": {
+      "2wd": 57,
+      "awd": 24
+    },
+    "seats": 5,
+    "drivetrain": ["RWD (2WD, 후륜구동)", "AWD (HTRAC, 4륜구동)"],
+    "powertrain": {
+      "motor": "차세대 일체형 PE 시스템 (후륜 모터, 감속기, 인버터) - 영구자석 동기모터",
+      "platform": "E-GMP (Electric Global Modular Platform)"
+    },
+    "power_hp": {
+      "standard_2wd": 170,
+      "longRange_2wd": 229,
+      "longRange_awd": 325,
+      "nLine_2wd": 229,
+      "nLine_awd": 325,
+      "ioniq5_n_awd": "609 PS (N Grin Boost 활용 시 650 PS)"
+    },
+    "power_kW": {
+      "standard_2wd": 124.9,
+      "longRange_2wd": 168,
+      "longRange_awd": 239
+    },
+    "torque_Nm": {
+      "longRange_2wd": 350,
+      "longRange_awd": 605,
+      "ioniq5_n": 770,
+      "note": "공식 문서에는 kgf.m 표기 없이 kW/PS 기준. 토크 수치는 일반 자료 기준 근사치"
+    },
+    "efficiency_kmPerKWh": {
+      "standard_2wd_combined": 5.1,
+      "standard_2wd_city": 5.7,
+      "standard_2wd_highway": 4.6,
+      "longRange_2wd_combined": 5.2,
+      "longRange_2wd_city": 5.8,
+      "longRange_2wd_highway": 4.6,
+      "longRange_awd_19inch_combined": 4.8,
+      "longRange_awd_20inch_combined": 4.5,
+      "nLine_2wd_combined": 4.7,
+      "nLine_awd_combined": 4.4
+    },
+    "range_km": {
+      "standard_2wd_combined": 368,
+      "standard_2wd_city": 405,
+      "standard_2wd_highway": 322,
+      "longRange_2wd_combined": 485,
+      "longRange_2wd_city": 533,
+      "longRange_2wd_highway": 426,
+      "longRange_2wd_builtInCam_20inch_combined": 453,
+      "longRange_awd_19inch_combined": 451,
+      "longRange_awd_20inch_combined": 425,
+      "nLine_2wd_combined": 441,
+      "nLine_awd_combined": 411
+    },
+    "battery": {
+      "standard_kWh": 63.0,
+      "longRange_kWh": 84.0,
+      "voltage_V": {
+        "standard": "523V (정격 전압), 120.6Ah",
+        "longRange": "697V (정격 전압), 120.6Ah"
+      },
+      "type": "리튬 이온 배터리",
+      "chargingSystem": "400V/800V 멀티 급속 충전 시스템"
+    },
+    "charging": {
+      "fastCharge_kW": 350,
+      "fastCharge_10to80_min": 18,
+      "note": "800V 초급속 충전 시 350kW급으로 10→80% 18분 내 충전 가능",
+      "v2l_kW": 3.6,
+      "v2l_indoor": "실내 V2L (전 트림 기본)",
+      "v2l_outdoor": "실외 V2L 커넥터 (익스클루시브 이상 기본)"
+    }
+  },
+  "pricing": {
+    "currency": "KRW",
+    "asOf": "2025-05-13 출시 / 2026-04 기준 유효",
+    "taxIncentiveNote": "세제혜택 후 가격은 개별소비세 3.5% 및 개별소비세/교육세 감면(390만원 한도) 반영. 국비 보조금 별도.",
+    "trims": [
+      {
+        "name": "Standard E-Value+ (이-밸류 플러스)",
+        "battery": "스탠다드 63.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 49930000,
+        "priceAfterTaxIncentive_KRW": 47400000,
+        "priceWithNationalSubsidy_KRW": 42570000,
+        "note": "Standard 배터리 엔트리 트림"
+      },
+      {
+        "name": "Standard Exclusive (익스클루시브)",
+        "battery": "스탠다드 63.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 52980000,
+        "priceAfterTaxIncentive_KRW": 50300000,
+        "priceWithNationalSubsidy_KRW": 45470000
+      },
+      {
+        "name": "Long Range E-Lite (이-라이트)",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 53340000,
+        "priceAfterTaxIncentive_KRW": 50640000,
+        "priceWithNationalSubsidy_KRW": 44970000,
+        "note": "롱레인지 엔트리 트림 (직물시트, 수동 플러시 도어 핸들, 실내/실외 V2L 미적용)"
+      },
+      {
+        "name": "Long Range Exclusive (익스클루시브)",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 57400000,
+        "priceAfterTaxIncentive_KRW": 54500000,
+        "priceWithNationalSubsidy_KRW": 48830000,
+        "recommended": true,
+        "recommendationNote": "필수옵션(인조가죽/전동시트/열선통풍/스마트키/실외V2L 등) 다수 기본 포함된 중상위 트림"
+      },
+      {
+        "name": "Long Range N Line Exclusive",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 59510000,
+        "priceAfterTaxIncentive_KRW": 56500000,
+        "priceWithNationalSubsidy_KRW": 51090000,
+        "note": "N Line 디자인(20인치 전용 휠, Full LED, 메탈 페달) + 익스클루시브 옵션"
+      },
+      {
+        "name": "Long Range Prestige (프레스티지)",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 62300000,
+        "priceAfterTaxIncentive_KRW": 59150000,
+        "priceWithNationalSubsidy_KRW": 53480000,
+        "isTopTrim": true,
+        "note": "풀옵션급(N 제외) 최상위 트림 - HDA2, BOSE, 헤드업 디스플레이, 디지털키2, 무선충전, 천연가죽, 앰비언트무드램프 기본"
+      },
+      {
+        "name": "Long Range N Line Prestige",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "2WD",
+        "priceBeforeTaxIncentive_KRW": 63460000,
+        "priceAfterTaxIncentive_KRW": 60250000,
+        "priceWithNationalSubsidy_KRW": 54840000,
+        "note": "프레스티지 + N Line 디자인 (최고 가격, N 제외)"
+      },
+      {
+        "name": "IONIQ 5 N (고성능)",
+        "battery": "롱레인지 84.0kWh",
+        "drivetrain": "AWD",
+        "priceBeforeTaxIncentive_KRW": 77690000,
+        "priceAfterTaxIncentive_KRW_max": 80290000,
+        "note": "고성능 N 모델 - 609~650 PS, 별도 라인업 (아이오닉 5 N)"
+      }
+    ],
+    "options": {
+      "HTRAC_AWD": 2470000,
+      "BuiltInCam2_ARNavi": 450000,
+      "DigitalCenterMirror": 500000,
+      "20inchWheel_Michelin": 490000,
+      "ParkingAssist_Surround_Remote": 1500000,
+      "ParkingAssist_Lite": 800000,
+      "HyundaiSmartSense_HDA2_BSD": 1100000,
+      "Comfort": 750000,
+      "Comfort_II": 1300000,
+      "ComfortPlus": 600000,
+      "Style": 1200000,
+      "DigitalSideMirror": 1380000,
+      "VisionRoof": 740000
+    },
+    "recommendedTrim": {
+      "name": "Long Range Exclusive (익스클루시브)",
+      "reason": "필수옵션 다수 기본 포함. 인조가죽/운전석+동승석 전동시트, 열선/통풍, 실외 V2L, 가죽스티어링, 스마트 파워 테일게이트 등이 기본. 스마트센스(HDA2/BSD) + 파킹어시스트(서라운드뷰) 옵션 선택 시 실속형 구성.",
+      "priceAfterTaxIncentive_KRW": 54500000
+    },
+    "topTrim_nonN": {
+      "name": "Long Range Prestige (프레스티지)",
+      "priceAfterTaxIncentive_KRW": 59150000,
+      "note": "헤드업디스플레이, 디지털키2, BOSE 8스피커, 무선충전, 천연가죽, 앰비언트 무드램프 등 기본. HDA2와 서라운드뷰는 별도 옵션."
+    }
+  },
+  "keyFeatures": {
+    "surroundView": {
+      "included": "옵션 (파킹 어시스트 패키지 - 1,500,000원 또는 파킹 어시스트 Lite - 800,000원)",
+      "note": "서라운드뷰 모니터(SVM)는 파킹 어시스트 패키지에 포함. 단, E-Lite에서는 익스클루시브 기준 스타일 선택 시만 선택 가능."
+    },
+    "rearCamera": "기본 (전 트림 후방 모니터 기본 포함)",
+    "applePlay_androidAuto": "기본 (전 트림 12.3인치 내비 + 폰 프로젝션 기본 포함)",
+    "adas_hda2": {
+      "included": "프레스티지 기본 / 나머지 트림 현대 스마트센스 옵션 (1,100,000원)",
+      "features": "HDA2(고속도로 주행 보조2, 차로변경 보조), 후측방 충돌방지 보조(BSD), 전방충돌방지 보조(교차차량/대향차/회피조향), 내비게이션 기반 스마트 크루즈, 안전 하차 보조"
+    },
+    "basicAdas": "전 트림 기본: 전방충돌방지보조(차량/보행자/자전거), 차로 이탈방지 보조, 차로 유지 보조2, 스마트 크루즈, 일반 HDA(고속도로주행보조)",
+    "v2l": "실내 V2L(3.6kW) 기본 (E-Lite 제외), 실외 V2L 커넥터는 익스클루시브 이상 기본"
+  },
+  "media": {
+    "youtube": [
+      {
+        "title": "이러니저러니 해도 결국 현대가 짱먹는 이유? 아이오닉5 페이스리프트 시승기 (롱레인지, 2WD)",
+        "url": "https://www.youtube.com/watch?v=C7atP40eUc4",
+        "channel": "시승/리뷰 채널"
+      },
+      {
+        "title": "승차감 개선! 신형 현대 아이오닉 5 시승기!...배터리 늘리고 가격은 동결! (김한용의 MOCAR)",
+        "url": "https://www.youtube.com/watch?v=55fjDcljpbU",
+        "channel": "김한용의 MOCAR"
+      },
+      {
+        "title": "승차감도 부분변경... 아이오닉5 페이스리프트 시승기 // IONIQ5",
+        "url": "https://www.youtube.com/watch?v=IIPLzAO7QNc",
+        "channel": "자동차 리뷰 채널"
+      },
+      {
+        "title": "아이오닉5 페이스리프트 시승기! - 더 편안해지고, 주행거리도 늘어났다! 가격도 괜찮네요",
+        "url": "https://www.youtube.com/watch?v=XX9-QyBiIXY",
+        "channel": "시승기 채널"
+      },
+      {
+        "title": "더 뉴 아이오닉 5 RWD 시승기, 2024 Hyundai IONIQ5 RWD test drive review",
+        "url": "https://www.youtube.com/watch?v=q8z0Qj099RE",
+        "channel": "리뷰 채널"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "아이오닉5 2주간 시승기 (장점, 단점 비교 위주)",
+        "url": "https://www.evpost.co.kr/wp/%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%895-2%EC%A3%BC%EA%B0%84-%EC%8B%9C%EC%8A%B9%EA%B8%B0%EC%9E%A5%EC%A0%90-%EB%8B%A8%EC%A0%90-%EB%B9%84%EA%B5%90-%EC%9C%84%EC%A3%BC/",
+        "source": "EVPOST"
+      },
+      {
+        "title": "아이오닉5 33,000km 주행 후 느낀 장단점 정리!",
+        "url": "https://m.kbchachacha.com/public/web/community/commtalk/detail.kbc?postNo=89968",
+        "source": "KB차차차"
+      },
+      {
+        "title": "아이오닉 5 실구매가 완벽 분석 | 2026 전기차 보조금·트림 비교",
+        "url": "https://web.getcha.kr/blog/ioniq-5-real-price-guide-2026-ev-subsidy-trim-comparison",
+        "source": "겟차(getcha)"
+      },
+      {
+        "title": "아이오닉5 1년 간의 후기, 장점과 단점, 옵션 추천 정리",
+        "url": "https://ohtaku.net/%EC%9E%90%EB%8F%99%EC%B0%A8/%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%895-1%EB%85%84-%EA%B0%84%EC%9D%98-%ED%9B%84%EA%B8%B0-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90-%EC%98%B5%EC%85%98-%EC%B6%94%EC%B2%9C-%EC%A0%95%EB%A6%AC/",
+        "source": "OHTAKU 블로그"
+      },
+      {
+        "title": "아이오닉5 2WD 롱레인지 7개월 운용기 – 장단점 정리",
+        "url": "https://www.clien.net/service/board/cm_car/19033168",
+        "source": "클리앙"
+      }
+    ]
+  },
+  "pros": [
+    "E-GMP 플랫폼 기반 800V 초급속 충전으로 10→80% 18분(350kW급) - 동급 최고 수준 충전 속도",
+    "84.0kWh 대용량 배터리 + 복합 485km(롱레인지 2WD) 주행거리로 실주행 충분",
+    "3,000mm 긴 휠베이스 기반 넓은 실내공간, 2열 슬라이딩 + 리클라이닝, 평평한 플로어",
+    "V2L(3.6kW 실내/실외) 기본 제공 - 차박/캠핑/긴급 전원 공급 탁월",
+    "HDA2(고속도로 주행 보조2) + 스마트센스 옵션으로 동급 최상 ADAS 구현",
+    "히트펌프 기본 탑재로 겨울철 주행거리 저하 최소화",
+    "전후 V2L과 픽셀 디자인, 유니버설 아일랜드(센터콘솔 슬라이딩) 등 차별화된 UX",
+    "페이스리프트로 주파수 감응형 쇽업소버 + 차체 강성 보강으로 승차감 대폭 개선",
+    "ccNC 인포테인먼트 + OTA 업데이트 지원으로 소프트웨어 수명 연장",
+    "전기차 세제혜택 + 국비 보조금(약 600~800만원) 적용 시 롱레인지 익스클루시브 실구매 4,880만원대",
+    "현대차 전국 서비스망, 출고 후 감가 안정성(중고 시세 방어력) 양호"
+  ],
+  "cons": [
+    "후방 와이퍼 없음 - 우천 시 후방 시야 확보 어려움(페이스리프트에서 리어 와이퍼 추가되어 일부 개선)",
+    "3,000mm 긴 휠베이스로 회전반경 커서 좁은 주차장/골목 U턴 불편",
+    "배터리 팩 바닥 탑재로 시트 포지션이 높고 허벅지 지지 부족(장신 운전자 불편)",
+    "AWD 프렁크 공간 매우 좁음(24L) - 2WD(57L) 대비 크게 축소",
+    "실도로 주행거리가 인증치 대비 낮은 편(실 400km 수준으로 보고되기도)",
+    "HDA2/서라운드뷰가 중상위 트림도 별도 옵션 - 실구매 시 옵션비 부담",
+    "트렁크 잡소리, 실내 내장재 잡소리 민원 지속(고질병)",
+    "스마트센스/컴포트 등 옵션 번들링이 복잡하여 트림 선택 혼란",
+    "트렁크 수납공간/언더박스가 차체 크기 대비 아쉬움",
+    "일부 비전 루프(고정형, 개폐 불가) 등 옵션 한계",
+    "원페달(i-Pedal) 모드에서 브레이크등 미점등 이슈 지적"
+  ],
+  "officialUrls": {
+    "overview": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/intro",
+    "price": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/price",
+    "spec": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/spec",
+    "gallery": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5/gallery",
+    "ioniq5_n": "https://www.hyundai.com/kr/ko/e/vehicles/ioniq5-n/intro",
+    "priceCatalogPdf": "https://www.hyundai.com/contents/repn-car/catalog/ioniq-5-2025-price.pdf",
+    "ecoIncentive": "https://www.hyundai.com/kr/ko/e/vehicles/eco-incentive"
+  },
+  "dataAsOf": "2026-04-19",
+  "researchNotes": "현대자동차 공식 2025 IONIQ 5 가격 카탈로그 PDF(25년 5월 13일 출시, 2026년 4월 1일 국비보조금 기준 반영)를 주 소스로 사용. 2026년 4월 시점 한국 시장에서는 2025년형이 현행 판매 모델이며 공식 홈페이지의 주요 가격/제원 정보가 그대로 유효. 주요 확정 값: (1) 가격 - Standard E-Value+ 4,740만원, Standard Exclusive 5,030만원, Long Range E-Lite 5,064만원, Long Range Exclusive 5,450만원, N Line Exclusive 5,650만원, Prestige 5,915만원, N Line Prestige 6,025만원(세제혜택 후). (2) 제원 - 전장 4,655mm, 전폭 1,890mm, 전고 1,605mm, 축거 3,000mm. 공차중량 1,890~2,160kg (트림별). (3) 배터리 - Standard 63.0kWh(523V), Long Range 84.0kWh(697V). (4) 출력 - Standard 170PS(124.9kW), LR 2WD 229PS(168kW), LR AWD 325PS(239kW). (5) 주행거리(복합) - Standard 368km, LR 2WD 485km, LR AWD 451km(19인치)~425km(20인치). (6) 충전 - 800V, 350kW 초급속 10→80% 18분. (7) 트렁크 531L, 프렁크 2WD 57L/AWD 24L. 미확정/null 항목: 토크 Nm 수치는 공식 카탈로그에 kW/PS만 표기되어 근사치 기재. 2026년형(M/Y 2026) 별도 가격 개정은 2026-04-19 기준 확인 불가 - 2025-5-13 출시 가격이 현행. 서라운드뷰/HDA2는 프레스티지 일부 기본 외 대부분 트림 옵션이며 번들(파킹어시스트/스마트센스)로 제공. 이미지 URL은 공식 CDN 직링크 미공개로 갤러리 페이지 안내. 추천 중상위 트림: Long Range Exclusive(실제 판매 주력, 옵션 추가 시 풀옵션급 근접). 풀옵션급(N 제외) 최상위: Long Range Prestige(HDA2/BOSE/HUD/디지털키2/무선충전/천연가죽 모두 기본). IONIQ 5 N(고성능)은 7,769~8,029만원으로 별도 라인업."
+}

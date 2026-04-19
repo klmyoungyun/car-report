@@ -1,0 +1,186 @@
+{
+  "slug": "volvo-xc60",
+  "name": "Volvo XC60 B5",
+  "brand": "Volvo",
+  "segment": "MIDSIZE",
+  "fuelType": "MHEV",
+  "origin": "IMPORT",
+  "dataAsOf": "2026-04-19",
+  "officialUrl": "https://www.volvocars.com/kr/cars/xc60/",
+  "marketNote": "한국 시장은 Core/Plus/Ultimate 명칭 대신 Plus(Bright)/Ultra(Bright/Dark) 2트림으로 운영. 2025년 8월 출시된 2026년형 신형 XC60 기준. B5는 2.0L 가솔린 터보 + 48V 마일드 하이브리드 AWD 단일 구성.",
+  "trims": [
+    {
+      "name": "B5 AWD Plus Bright",
+      "role": "ENTRY",
+      "priceKRW": 65700000,
+      "note": "Core 트림은 한국 시장 미판매. Plus가 실질적 엔트리 트림이며, 주요 ADAS/편의 옵션이 기본 포함"
+    },
+    {
+      "name": "B5 AWD Ultra Bright / Dark",
+      "role": "RECOMMENDED_AND_FULL",
+      "priceKRW": 73300000,
+      "note": "사실상 풀옵션. 에어 서스펜션, B&W 하이파이 사운드, 전동 사이드 서포트/마사지 시트, 헤드업 디스플레이 등 프리미엄 옵션 기본. Bright/Dark 테마 선택 가능"
+    }
+  ],
+  "recommendedTrim": {
+    "name": "B5 AWD Plus Bright",
+    "priceKRW": 65700000,
+    "reason": "2트림 체계에서 가성비 우위. 360 서라운드뷰 카메라/파일럿 어시스트/애플 카플레이/안드로이드 오토/TMAP 인포테인먼트/파노라마 선루프 등 핵심 필수옵션이 기본 탑재"
+  },
+  "fullOptionTrim": {
+    "name": "B5 AWD Ultra (Bright 또는 Dark)",
+    "priceKRW": 73300000,
+    "reason": "B5 최상위 트림. 에어 서스펜션, Bowers & Wilkins 하이파이 사운드, 헤드업 디스플레이, 마사지 시트, 4존 공조 등이 기본 추가"
+  },
+  "relatedVariant": {
+    "name": "XC60 T8 AWD Ultra (PHEV 참고)",
+    "priceKRW": 91200000,
+    "note": "플러그인 하이브리드, 318+마력. B5와 별도 상위 파워트레인"
+  },
+  "essentialOptions": {
+    "surroundView360": {
+      "included": true,
+      "trimAvailability": "Plus/Ultra 전 트림 기본",
+      "note": "신형 XC60 개선된 360도 서라운드 뷰 카메라, 예상 주행 경로 오버레이 표시"
+    },
+    "rearCamera": {
+      "included": true,
+      "trimAvailability": "전 트림 기본"
+    },
+    "appleCarPlay": {
+      "included": true,
+      "trimAvailability": "전 트림 기본",
+      "note": "무선 지원, TMAP 한국 전용 인포테인먼트와 병행"
+    },
+    "androidAuto": {
+      "included": true,
+      "trimAvailability": "전 트림 기본",
+      "note": "무선 지원"
+    },
+    "pilotAssistADAS": {
+      "included": true,
+      "trimAvailability": "전 트림 기본",
+      "note": "파일럿 어시스트(반자율 주행), 차선 유지 보조, 사각지대 경보(BLIS), 전방 충돌 경보 및 긴급제동, 반대차선 접근차량 충돌회피, 후측방 경보, 교차로 긴급제동 포함"
+    }
+  },
+  "specs": {
+    "lengthMm": 4708,
+    "widthMm": 1902,
+    "heightMm": 1651,
+    "wheelbaseMm": 2865,
+    "curbWeightKg": 1930,
+    "trunkCapacityL": 483,
+    "trunkCapacityMaxL": 1543,
+    "seats": 5,
+    "drivetrain": "AWD",
+    "engine": "2.0L 가솔린 I4 터보 + 48V 마일드 하이브리드(ISG)",
+    "displacementCc": 1969,
+    "horsepowerHp": 250,
+    "horsepowerRpm": 5700,
+    "torqueNm": 350,
+    "torqueKgm": 35.7,
+    "torqueRpmRange": "1800-4800",
+    "transmission": "자동 8단",
+    "fuelEconomyKmL": 10.7,
+    "fuelEconomyRangeKmL": "9.1-11.7",
+    "co2EmissionGkm": 161,
+    "fuelTankL": 71,
+    "zeroToHundredSec": 6.9,
+    "topSpeedKmh": 180,
+    "tireSize": "255/45R20"
+  },
+  "youtube": [
+    {
+      "title": "대안이 없다 ... 2024년형 볼보 XC60 B5 리뷰 / 오토뷰 로드테스트",
+      "url": "https://www.youtube.com/watch?v=L3cJybQIbfU",
+      "channel": "오토뷰 AutoView"
+    },
+    {
+      "title": "[비교] 볼보 XC60 B5 & B6 시승기 / 오토뷰 x 중앙일보",
+      "url": "https://www.youtube.com/watch?v=yNwQkT5ckzU",
+      "channel": "오토뷰 AutoView"
+    },
+    {
+      "title": "2025 Volvo XC60 B5: Luxury Packaged for Less? Full Review & Test Drive",
+      "url": "https://www.youtube.com/watch?v=xjVkNw4Zj3Q",
+      "channel": "영문 리뷰 채널"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "2026 볼보 XC60 가격·제원·할인 조건 완벽 정리",
+      "url": "https://itreview.kr/2026-%EB%B3%BC%EB%B3%B4-xc60-%EA%B0%80%EA%B2%A9%C2%B7%EC%A0%9C%EC%9B%90%C2%B7%ED%95%A0%EC%9D%B8-%EC%A1%B0%EA%B1%B4-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC/",
+      "source": "IT Review"
+    },
+    {
+      "title": "볼보 The New XC60 가격표, 제원 상세 정보",
+      "url": "https://www.carnoon.co.kr/newcar/vehicle/11028",
+      "source": "카눈 Carnoon"
+    },
+    {
+      "title": "베스트셀러에는 이유가 있다! 볼보 XC60 리뷰",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=42464",
+      "source": "모터그래프코리아"
+    },
+    {
+      "title": "도심에선 세련되게, 장거리는 편안하게 [시승기]",
+      "url": "https://v.daum.net/v/20250822210311033",
+      "source": "Daum 자동차 시승기"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.volvocars.com/kr/cars/xc60/",
+      "type": "OFFICIAL_PAGE",
+      "note": "볼보코리아 공식 XC60 페이지 - 공식 렌더링/사진 게재"
+    },
+    {
+      "url": "https://www.volvocars.com/files/cs/v3/assets/blt84e01a6904dbd2e8/blt3bff503b4a5b3146/66d67b505458e51140ac2f13/xc60-specifications.pdf",
+      "type": "OFFICIAL_SPEC_PDF",
+      "note": "볼보코리아 공식 제원 PDF"
+    },
+    {
+      "url": "https://www.volvocars.com/kr/news/culture/20250804-New-XC60-Officially-Launched/",
+      "type": "OFFICIAL_PRESS",
+      "note": "2025-08-04 신형 XC60 공식 출시 보도자료"
+    }
+  ],
+  "pros": [
+    "48V 마일드 하이브리드 기반의 부드러운 발진과 정숙성",
+    "6.9초 0→100km/h, 35.7kg·m 저회전 토크(1,800rpm)로 시내 운전 스트레스 적음",
+    "파일럿 어시스트/360 카메라/BLIS 등 풀세트 ADAS 기본",
+    "볼보 브랜드 고유의 안전 철학과 충돌안전 신뢰도",
+    "TMAP 한국 전용 인포테인먼트와 무선 카플레이/안드로이드 오토 병행 지원",
+    "11.2인치 세로형 디스플레이로 시인성 개선(2026년형)",
+    "Ultra 트림 기본 에어 서스펜션 - 동급 대비 희소성 높은 사양",
+    "정속 장거리 주행 시 17km/L 이상 실연비 보고"
+  ],
+  "cons": [
+    "Core 엔트리 트림 부재로 진입가(6,570만원)가 다소 높음",
+    "시내 주행 실연비 7~8km/L 수준(공인 10.7km/L 대비 하락)",
+    "주행 모드 선택지가 단순(사실상 단일 모드 운용)",
+    "일부 차량에서 차선 유지 보조가 오른쪽으로 쏠리는 경향 지적",
+    "경쟁 수입 SUV 대비 절대 출력(250마력)은 평이한 편, B6(300마력) 대비 가속 차이 체감",
+    "인포테인먼트 한국 전용 TMAP이 기존 글로벌 SW와 다르므로 OTA/사용성에 호불호"
+  ],
+  "researchNotes": [
+    "한국 시장 트림 체계는 사용자 요청의 Core/Plus/Ultimate 대신 Plus(Bright)/Ultra(Bright/Dark) 2트림 구조. Core 트림은 북미 시장 전용으로 한국 미판매 - 필드별로 주석 표기.",
+    "가격은 2025년 8월 신형(2026년형) 국내 출시 발표 기준: Plus 6,570만원 / Ultra 7,330만원 / T8 Ultra 9,120만원(PHEV).",
+    "공차중량은 Plus 1,925kg, Ultra(에어서스 포함) 1,930~1,935kg 수준으로 보고됨 - 대표값 1,930kg 기재.",
+    "트렁크 용량은 5인승 기준 483L(일부 자료 468L), 2열 폴딩 시 1,543L. 차대/연식에 따라 다나와 자료와 미세 차이 존재.",
+    "공인 연비는 다나와/카눈 기준 10.7km/L(복합) 대표값. 2024년형 대비 밀러 사이클 전환으로 연비 향상 보고.",
+    "360 카메라/파일럿 어시스트/무선 카플레이·안드로이드 오토는 Plus부터 기본 포함되는 것으로 확인.",
+    "공식 볼보코리아 사이트(volvocars.com/kr) WebFetch 403 차단으로 동일 출처 보도자료/공식 PDF 링크로 대체 검증.",
+    "YouTube는 2024~2025년 B5 리뷰가 다수이며, 2026년형 국내 리뷰는 아직 제한적 - 오토뷰 리뷰를 1순위로 수록."
+  ],
+  "sources": [
+    "https://www.volvocars.com/kr/cars/xc60/",
+    "https://www.volvocars.com/kr/news/culture/20250804-New-XC60-Officially-Launched/",
+    "https://itreview.kr/2026-%EB%B3%BC%EB%B3%B4-xc60-%EA%B0%80%EA%B2%A9%C2%B7%EC%A0%9C%EC%9B%90%C2%B7%ED%95%A0%EC%9D%B8-%EC%A1%B0%EA%B1%B4-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC/",
+    "https://www.carnoon.co.kr/newcar/vehicle/11028",
+    "https://web.getcha.kr/cars/%EB%B3%BC%EB%B3%B4/XC60?id=620&gradeId=17637",
+    "https://www.dailycar.co.kr/content/news.html?type=view&autoId=58325",
+    "https://auto.danawa.com/auto/?Work=model&Model=4113&Tab=spec",
+    "https://www.ultimatespecs.com/car-specs/Volvo/144534/Volvo-XC60-2026--B5-AWD.html"
+  ]
+}

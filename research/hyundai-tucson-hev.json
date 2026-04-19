@@ -1,0 +1,325 @@
+{
+  "slug": "hyundai-tucson-hev",
+  "name": "Hyundai Tucson Hybrid",
+  "nameKr": "현대 투싼 하이브리드",
+  "brand": "Hyundai",
+  "brandKr": "현대자동차",
+  "modelCode": "NX4",
+  "modelYear": 2026,
+  "segment": "MIDSIZE",
+  "segmentKr": "준중형 SUV",
+  "fuelType": "HEV",
+  "origin": "DOMESTIC",
+  "dataAsOf": "2026-04-19",
+  "releaseDate": "2025-08-07",
+
+  "pricing": {
+    "currency": "KRW",
+    "taxNote": "개별소비세 3.5% 적용, 세제 혜택 반영 기준",
+    "trims": [
+      {
+        "name": "모던",
+        "nameEn": "Modern",
+        "drivetrain": "2WD",
+        "price": 32790000
+      },
+      {
+        "name": "모던",
+        "nameEn": "Modern",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 35020000
+      },
+      {
+        "name": "프리미엄",
+        "nameEn": "Premium",
+        "drivetrain": "2WD",
+        "price": 35270000
+      },
+      {
+        "name": "프리미엄",
+        "nameEn": "Premium",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 37500000
+      },
+      {
+        "name": "H-Pick",
+        "nameEn": "H-Pick",
+        "drivetrain": "2WD",
+        "price": 36110000
+      },
+      {
+        "name": "H-Pick",
+        "nameEn": "H-Pick",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 38340000
+      },
+      {
+        "name": "인스퍼레이션",
+        "nameEn": "Inspiration",
+        "drivetrain": "2WD",
+        "price": 38790000
+      },
+      {
+        "name": "인스퍼레이션",
+        "nameEn": "Inspiration",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 41020000
+      },
+      {
+        "name": "인스퍼레이션 블랙 익스테리어",
+        "nameEn": "Inspiration Black Exterior",
+        "drivetrain": "2WD",
+        "price": 39240000
+      },
+      {
+        "name": "인스퍼레이션 블랙 익스테리어",
+        "nameEn": "Inspiration Black Exterior",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 41470000
+      },
+      {
+        "name": "N Line 인스퍼레이션",
+        "nameEn": "N Line Inspiration",
+        "drivetrain": "2WD",
+        "price": 39440000
+      },
+      {
+        "name": "N Line 인스퍼레이션",
+        "nameEn": "N Line Inspiration",
+        "drivetrain": "HTRAC (AWD)",
+        "price": 41670000
+      }
+    ],
+    "recommendation": {
+      "primary": {
+        "trim": "H-Pick",
+        "drivetrain": "2WD",
+        "price": 36110000,
+        "reason": "프리미엄 기본에 스마트 크루즈(스탑앤고 포함), 고속도로 주행 보조(HDA), 전방 충돌방지 보조(교차로/대향차), 어드밴스드 후석 승객 알림, 운전석/동반석 전동 조절, 2열 좌석 열선 등 실사용 필수 옵션을 번들로 패키지화하여 프리미엄 대비 약 84만 원만 추가. 옵션 개별 선택 대비 약 270만 원 이득"
+      },
+      "alternative": {
+        "trim": "인스퍼레이션",
+        "drivetrain": "2WD",
+        "price": 38790000,
+        "reason": "파노라믹 커브드 디스플레이, 헤드업 디스플레이, 디지털 키 2, 퀼팅 가죽 시트, 앰비언트 무드등 등 프리미엄 편의 기능 추가. 풀옵션 선호 시 적합"
+      },
+      "fullOption": {
+        "trim": "인스퍼레이션",
+        "drivetrain": "HTRAC (AWD)",
+        "basePrice": 41020000,
+        "addOns": [
+          { "name": "파노라마 선루프", "price": 1160000 },
+          { "name": "빌트인캠 2 + AR 내비게이션", "price": 450000 },
+          { "name": "파킹 어시스트 II", "price": 1530000 },
+          { "name": "보스(BOSE) 프리미엄 사운드", "price": 590000 }
+        ],
+        "estimatedTotal": 44750000,
+        "note": "N Line 인스퍼레이션 AWD 기준 4,167만 원부터 시작. 풀옵션 구성에 따라 4,500만 원 내외"
+      }
+    }
+  },
+
+  "essentialOptions": {
+    "surroundViewMonitor": {
+      "available": true,
+      "trimAvailability": "인스퍼레이션 기본 / H-Pick 이하 옵션",
+      "note": "SVM(서라운드뷰 모니터) - 상위 트림 포함 또는 파킹 어시스트 패키지에 포함"
+    },
+    "rearViewCamera": {
+      "available": true,
+      "trimAvailability": "전 트림 기본",
+      "note": "후방 카메라는 전 트림 기본 탑재"
+    },
+    "carPlayAndroidAuto": {
+      "available": true,
+      "trimAvailability": "전 트림 기본 (무선 지원)",
+      "note": "Apple CarPlay / Android Auto 무선 지원"
+    },
+    "hdaHighwayDrivingAssist": {
+      "available": true,
+      "trimAvailability": "H-Pick 이상 기본 (모던/프리미엄은 옵션 패키지)",
+      "note": "고속도로 주행 보조(HDA) - H-Pick 트림부터 기본 적용. 모던/프리미엄은 현대 스마트센스 ADAS 패키지(약 40만 원)로 추가 가능"
+    },
+    "adasSmartCruiseControl": {
+      "available": true,
+      "trimAvailability": "H-Pick 이상 기본",
+      "note": "스마트 크루즈 컨트롤(스탑앤고 포함), 내비게이션 기반 스마트 크루즈"
+    }
+  },
+
+  "specs": {
+    "dimensions": {
+      "lengthMm": 4640,
+      "lengthMmNLine": 4650,
+      "widthMm": 1865,
+      "heightMm": 1665,
+      "wheelbaseMm": 2755
+    },
+    "weight": {
+      "curbWeightKg": {
+        "modern2WD": 1625,
+        "modern2WD18": 1645,
+        "modern2WD19": 1665,
+        "awd17": 1645,
+        "awd18": 1690,
+        "awd19": 1710
+      }
+    },
+    "cargo": {
+      "trunkCapacityL": 622,
+      "note": "VDA 기준 롱휠베이스 공칭값. 하이브리드는 배터리 탑재 영향으로 일반 가솔린 대비 높낮이 차이 존재"
+    },
+    "seating": 5,
+    "drivetrainOptions": ["2WD", "HTRAC (AWD)"],
+    "powertrain": {
+      "engineName": "Smartstream G1.6 T-GDi Hybrid",
+      "displacementCc": 1598,
+      "maxPowerPs": 180,
+      "maxPowerRpm": 5500,
+      "maxTorqueKgfm": 27.0,
+      "maxTorqueRpm": "1500-4500",
+      "motorPowerPs": 64.8,
+      "motorTorqueKgfm": 26.9,
+      "transmission": "6단 자동변속기",
+      "fuelTankL": 52,
+      "systemHpNote": "엔진 180ps + 모터 64.8ps (합산 시스템 출력은 제조사 별도 미공표, 국내 인증 기준)"
+    },
+    "fuelEconomyKmPerL": {
+      "combined": {
+        "2WD_17inch": 16.2,
+        "2WD_18inch": 16.2,
+        "2WD_19inch": 14.9,
+        "AWD_17inch": 14.7,
+        "AWD_18inch": 14.7,
+        "AWD_19inch": 14.3
+      },
+      "city": {
+        "2WD_17_18inch": 17.0,
+        "AWD_17_18inch": 14.7,
+        "2WD_19inch": 15.1,
+        "AWD_19inch": 14.4
+      },
+      "highway": {
+        "2WD_17_18inch": 15.2,
+        "AWD_17_18inch": 14.6,
+        "2WD_19inch": 14.5,
+        "AWD_19inch": 14.1
+      },
+      "co2GPerKm": {
+        "2WD_17_18inch": 99,
+        "AWD_17_18inch": 111,
+        "2WD_19inch": 109,
+        "AWD_19inch": 114
+      },
+      "note": "도심 21.9km/L(일부 조건) 국산 하이브리드 SUV 최상위권 평가"
+    }
+  },
+
+  "youtubeReviews": [
+    {
+      "title": "2026 투싼 하이브리드, 2025년에 다시 시승해봤습니다 — 여전히 살만할까?",
+      "url": "https://www.youtube.com/watch?v=fYT3CUOymWs",
+      "language": "ko",
+      "publishedDate": "2025-11-18"
+    },
+    {
+      "title": "2026 Hyundai Tucson Hybrid Review: Should You Buy It Now?",
+      "url": "https://www.youtube.com/watch?v=6OhiO4Yy-dY",
+      "language": "en",
+      "publishedDate": "2026-01-16"
+    },
+    {
+      "title": "LIVING WITH THE 2026 Hyundai Tucson [Hybrid] - 14 Things We Learned",
+      "url": "https://www.youtube.com/watch?v=33wvCaV81xI",
+      "language": "en",
+      "publishedDate": "2026-04"
+    }
+  ],
+
+  "blogReviews": [
+    {
+      "title": "투싼 하이브리드 개인적인 평가 (NX4 Facelift)",
+      "url": "https://seorenn.github.io/article/tucson-hev-nx4-facelift-review.html",
+      "type": "owner-review",
+      "language": "ko"
+    },
+    {
+      "title": "[새 차] 기본 안전・편의사항, 'H-Pick'・'블랙 익스테리어' 추가한 2026 현대 투싼",
+      "url": "https://jasonryu.net/2025/08/07/new-car-2026-hyundai-tucson/",
+      "type": "new-car-analysis",
+      "language": "ko"
+    },
+    {
+      "title": "투싼 신차가격 완벽 분석 2026: 가솔린·하이브리드·디젤 트림",
+      "url": "https://web.getcha.kr/blog/tucson-new-car-price-complete-analysis-2026/",
+      "type": "price-analysis",
+      "language": "ko"
+    },
+    {
+      "title": "현대자동차 더 뉴 투싼 HEV 가격표, 제원 상세 정보 (카눈)",
+      "url": "https://www.carnoon.co.kr/newcar/vehicle/11610",
+      "type": "spec-sheet",
+      "language": "ko"
+    }
+  ],
+
+  "images": [
+    {
+      "url": "https://www.hyundai.com/kr/ko/e/vehicles/tucson-hybrid/intro",
+      "type": "official-landing",
+      "note": "현대자동차 공식 투싼 하이브리드 하이라이트 페이지"
+    },
+    {
+      "url": "https://www.hyundai.com/contents/repn-car/catalog/tucson-hybrid-2026-price.pdf",
+      "type": "official-price-catalog",
+      "note": "2026 투싼 하이브리드 공식 가격표 PDF"
+    },
+    {
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid/gallery",
+      "type": "official-gallery",
+      "note": "Hyundai USA 2026 Tucson Hybrid 공식 갤러리 (참고용 글로벌 이미지)"
+    }
+  ],
+
+  "pros": [
+    "국산 하이브리드 SUV 최상위권 연비 (2WD 복합 16.2km/L, 도심 21.9km/L 평가)",
+    "부드럽고 조용한 저속 모터 주행감, 고급스러운 승차감",
+    "어댑티브 순항·고속도로 주행 보조(HDA) 등 ADAS 완성도 (H-Pick 이상)",
+    "622L급 넉넉한 트렁크 공간 (준중형 SUV 최상위 수준)",
+    "파라메트릭 듀얼 그릴·숨은 DRL·픽셀 리어램프 등 최신 디자인 언어",
+    "8에어백, 후측방 충돌방지, 안전 하차 경고 등 안전 사양 기본 탑재 강화 (2026년형)",
+    "H-Pick 신규 트림 출시로 필수 옵션 번들 가격 경쟁력",
+    "공영주차장 50% 할인 등 하이브리드 세제/운영 혜택",
+    "개별소비세 감면 최대 70만 원, 다자녀 취득세 추가 감면"
+  ],
+
+  "cons": [
+    "가솔린 대비 400만 원 이상 가격 프리미엄, 손익분기점 약 7년 2개월 필요",
+    "뒷좌석 단일 유리 구조로 주행 소음 체감 (전석 이중접합 대비)",
+    "후방 방향지시등이 하단에 위치해 시인성 아쉬움 (디자인 지적)",
+    "차로 유지 보조가 정전식 센서 미적용, 핸들 터치 감지 필요",
+    "야간 서라운드뷰(SVM) 화질 제한적, 보조 조명 필요",
+    "2WD 선호 소비자에게는 디자인/하체 세팅 아쉬움 지적 존재",
+    "풀옵션 구성 시 4,500만 원 근접, 싼타페 HEV 기본 트림과 가격 근접",
+    "2026년형에서 디젤 단종으로 장거리 고연비 대안 축소"
+  ],
+
+  "officialUrls": {
+    "modelPage": "https://www.hyundai.com/kr/ko/e/vehicles/tucson-hybrid/intro",
+    "priceCatalogPdf": "https://www.hyundai.com/contents/repn-car/catalog/tucson-hybrid-2026-price.pdf",
+    "usModelPage": "https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid",
+    "usGallery": "https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid/gallery",
+    "usSpecs": "https://www.hyundaiusa.com/us/en/vehicles/tucson-hybrid/compare-specs"
+  },
+
+  "researchNotes": [
+    "가격은 개별소비세 3.5% 적용, 세제 혜택 반영 기준 (출처: 카위키, 카눈, 겟차)",
+    "현대 공식 한국 페이지(hyundai.com/kr)는 WebFetch 시 렌더링 문제로 직접 스펙 추출 실패 — 공식 PDF 카탈로그 및 3rd-party DB(carwiki.co.kr, carnoon.co.kr, namu.wiki) 교차검증으로 보완",
+    "시스템 통합 출력(hp, Nm 합산)은 현대가 공식 미공표, 엔진 180ps / 모터 64.8ps 개별 수치만 확보",
+    "트렁크 용량 622L는 4세대 NX4 공식 사양으로, 하이브리드 특화 리터값은 공식 미분리 공표 — 일반 가솔린 모델 기준치 사용",
+    "2026년형 주요 변화: H-Pick 신규 트림, 블랙 익스테리어 패키지 추가, 모던 트림 안전 사양 강화(후측방 충돌방지/안전 하차 경고 기본 탑재), 디젤 엔진 단종",
+    "옵션 가격은 2025년 말 기준 카위키 자료 — 실제 2026년 4월 시점 신규 프로모션/재고 할인 별도",
+    "SVM·HDA 기본 장착 여부는 트림별 상이 — 모던/프리미엄은 현대 스마트센스 ADAS 옵션(약 40만 원)으로 추가, H-Pick부터 기본",
+    "N Line은 인스퍼레이션 단일 트림으로만 제공 (모던/프리미엄 N Line 없음)"
+  ]
+}

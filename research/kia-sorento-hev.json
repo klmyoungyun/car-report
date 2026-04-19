@@ -1,0 +1,250 @@
+{
+  "slug": "kia-sorento-hev",
+  "name": "Kia Sorento Hybrid",
+  "nameKo": "기아 쏘렌토 하이브리드",
+  "brand": "Kia",
+  "segment": "MIDSIZE",
+  "fuelType": "HEV",
+  "origin": "DOMESTIC",
+  "modelYear": 2026,
+  "dataAsOf": "2026-04-19",
+  "officialUrl": "https://www.kia.com/kr/vehicles/sorento",
+  "officialPriceUrl": "https://www.kia.com/kr/vehicles/sorento/price",
+  "officialSpecUrl": "https://www.kia.com/kr/vehicles/sorento/specification",
+  "officialFeaturesUrl": "https://www.kia.com/kr/vehicles/sorento/features",
+  "trims": [
+    {
+      "name": "Trendy",
+      "nameKo": "트렌디",
+      "priceKrwBeforeTax": null,
+      "priceKrwAfterTax": null,
+      "notes": "2026 쏘렌토 하이브리드 라인업에는 Trendy 트림이 존재하지 않음 (가솔린 2.5 터보 전용)"
+    },
+    {
+      "name": "Prestige",
+      "nameKo": "프레스티지",
+      "priceKrwBeforeTax": 40580000,
+      "priceKrwAfterTax": 39580000,
+      "drive": "2WD",
+      "priceKrw4WD": 42250000,
+      "notes": "2WD 기준. 친환경차 세제혜택 적용가 기준 3,896만~3,958만원대 (출처별 편차)"
+    },
+    {
+      "name": "Noblesse",
+      "nameKo": "노블레스",
+      "priceKrwBeforeTax": 43840000,
+      "priceKrwAfterTax": 42840000,
+      "drive": "2WD",
+      "priceKrw4WD": 45460000,
+      "keyFeatures": [
+        "12.3인치 파노라믹 커브드 디스플레이",
+        "서라운드 뷰 모니터(SVM)",
+        "원격 스마트 주차 보조",
+        "12.3인치 디지털 클러스터",
+        "전자식 변속레버(SBW)",
+        "후측방 충돌방지 보조",
+        "후방 주차 거리 경고",
+        "LED 리어콤비램프"
+      ]
+    },
+    {
+      "name": "Signature",
+      "nameKo": "시그니처",
+      "priceKrwBeforeTax": 46370000,
+      "priceKrwAfterTax": 45370000,
+      "drive": "2WD",
+      "priceKrw4WD": 47950000,
+      "keyFeatures": [
+        "후석 승객 알림",
+        "헤드업 디스플레이(HUD, 10인치)",
+        "보스 프리미엄 사운드",
+        "스웨이드 내장재",
+        "지문 인증 시스템",
+        "디지털 센터 미러"
+      ]
+    },
+    {
+      "name": "Signature Graphite / X-Line",
+      "nameKo": "시그니처 그래파이트(X-Line)",
+      "priceKrwBeforeTax": 47310000,
+      "priceKrwAfterTax": 46310000,
+      "drive": "2WD",
+      "priceKrw4WD": 48880000,
+      "notes": "2026년형에서는 'Graphite' 대신 'X-Line' 신규 트림으로 출시. 풀옵션 최상위 트림"
+    }
+  ],
+  "recommended": {
+    "midHigh": {
+      "trim": "Noblesse 또는 Signature",
+      "seats": 5,
+      "drive": "2WD",
+      "reason": "SVM/원격 스마트 주차 보조/HDA2는 노블레스부터 기본 제공, 시그니처에서 HUD/보스 사운드/디지털 센터 미러 추가로 중상위 포지션에 적합",
+      "estimatedPriceKrw": 42840000
+    },
+    "fullOption": {
+      "trim": "Signature X-Line (Graphite)",
+      "seats": 7,
+      "drive": "AWD",
+      "reason": "풀옵션 최상위 트림 + 7인승 + 4WD",
+      "estimatedPriceKrw": 49570000
+    }
+  },
+  "requiredOptions": {
+    "svmSurroundView": {
+      "available": true,
+      "standardFrom": "Noblesse",
+      "note": "서라운드 뷰 모니터(SVM) - 노블레스 트림부터 기본"
+    },
+    "rearCamera": {
+      "available": true,
+      "standardFrom": "Prestige",
+      "note": "후방 모니터(후방카메라) 전 트림 기본"
+    },
+    "appleCarPlayAndroidAuto": {
+      "available": true,
+      "standardFrom": "Prestige",
+      "note": "12.3인치 내비게이션/인포테인먼트 탑재, 폰 프로젝션(CarPlay/AA) 지원. 공식 페이지에서 명시 부족 - 딜러 확인 권장"
+    },
+    "hdaAdas": {
+      "available": true,
+      "standardFrom": "Noblesse (Drive Wise 패키지)",
+      "note": "Highway Driving Assist 2 (HDA2) + 차로변경보조 - 드라이브 와이즈 패키지(약 129만원). 전방충돌방지보조, 후측방 충돌방지 보조, 전방 보행자 감지 등 포함"
+    }
+  },
+  "specs": {
+    "dimensions": {
+      "lengthMm": 4815,
+      "widthMm": 1900,
+      "heightMm": 1695,
+      "heightMmWithRoofRack": 1700,
+      "wheelbaseMm": 2815
+    },
+    "weight": {
+      "curbWeightKg5Seat": 1820,
+      "curbWeightKg6Seat": 1850,
+      "curbWeightKg7Seat": 1860,
+      "curbWeightKg7SeatAwd": 1890
+    },
+    "trunkCapacityL": null,
+    "trunkCapacityLNote": "공식 수치 미확인 (3열 폴딩시 중형 SUV 기준 약 813L 추정, 5인승 179L(3열없음)/7인승 3열 사용시 약 187L)",
+    "seats": {
+      "options": [5, 6, 7],
+      "seatUpgradeFrom5To6Krw": 840000,
+      "seatUpgradeFrom5To7Krw": 690000
+    },
+    "drivetrain": {
+      "options": ["2WD", "AWD (4WD)"],
+      "awdSurchargeKrw": 1670000,
+      "awdSurchargeNote": "트림별 약 280~350만원 추가 (출처별 편차)"
+    },
+    "powertrain": {
+      "engine": "스마트스트림 가솔린 1.6 터보 하이브리드",
+      "displacementCc": 1598,
+      "enginePs": 180,
+      "engineHp": 178,
+      "engineRpm": 5500,
+      "engineTorqueKgfM": 27.0,
+      "engineTorqueNm": 265,
+      "engineTorqueRpmRange": "1500-4500",
+      "motorKw": 47.7,
+      "motorPs": 64.8,
+      "motorTorqueNm": 264,
+      "systemOutputPs": 235,
+      "systemOutputHp": 232,
+      "systemTorqueKgfM": 37.4,
+      "transmission": "스마트스트림 6단 자동변속기"
+    },
+    "fuelEfficiency": {
+      "unit": "km/L",
+      "twoWd5Seat": {
+        "combined": 15.7,
+        "city": 16.6,
+        "highway": 14.6
+      },
+      "twoWd6Or7Seat": {
+        "combined": 14.8,
+        "city": 15.2,
+        "highway": 14.3
+      },
+      "awdNote": "AWD는 2WD 대비 약 1.0~1.5km/L 감소 추정 (공식 수치 확인 필요)"
+    },
+    "airbags": "10에어백 (운전석/동승석 어드밴스드, 운전석 무릎, 1열 센터 사이드, 전복감지 커튼, 1열/2열 사이드) + VSM"
+  },
+  "youtube": [
+    {
+      "title": "쏘렌토 하이브리드 시승기, 2026 KIA Sorento Hybrid 2WD test drive review",
+      "url": "https://www.youtube.com/watch?v=ZbHKKsPaLqU"
+    },
+    {
+      "title": "(고속연비) 쏘렌토 하이브리드 고속주행 연비리뷰, 2026 KIA Sorento Hybrid 2WD highway fuel efficiency drive review",
+      "url": "https://www.youtube.com/watch?v=ESiuarSl4wg"
+    },
+    {
+      "title": "국내 1위 SUV, 유럽에선 1억에 팔린다 ... 2026 기아 쏘렌토 하이브리드 (EU Spec) 리뷰 / 오토뷰 로드테스트",
+      "url": "https://www.youtube.com/watch?v=M10o6x91gBU"
+    },
+    {
+      "title": "2026 기아 쏘렌토 하이브리드 리뷰 – 완벽한 가족용 하이브리드 SUV의 진화",
+      "url": "https://www.youtube.com/watch?v=uHaxvScSECY"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "The 2026 쏘렌토 5인승 HEV 1.6 시그니처 1달 후기 - 겟차 오너리뷰",
+      "url": "https://web.getcha.kr/owners-review/%EA%B8%B0%EC%95%84/176/8742"
+    },
+    {
+      "title": "2026 쏘렌토 하이브리드 기본 사양 가격, 제원, 연비, 장단점 리뷰 - 자동차감성공학LAB",
+      "url": "https://jagamlab.com/2026-%EC%8F%98%EB%A0%8C%ED%86%A0-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%96%91-%EA%B0%80%EA%B2%A9-%EC%A0%9C%EC%9B%90-%EC%97%B0%EB%B9%84-%EB%A6%AC/"
+    },
+    {
+      "title": "2026 쏘렌토 옵션 변화 총정리: 트림별 특징과 가격표 비교까지 - 헤이딜러",
+      "url": "https://www.heydealer.com/blog/2026-%EC%8F%98%EB%A0%8C%ED%86%A0-%EC%98%B5%EC%85%98-%EB%B3%80%ED%99%94-%EC%B4%9D%EC%A0%95%EB%A6%AC-%ED%8A%B8%EB%A6%BC%EB%B3%84-%ED%8A%B9%EC%A7%95%EA%B3%BC-%EA%B0%80%EA%B2%A9%ED%91%9C-%EB%B9%84/"
+    },
+    {
+      "title": "기아자동차 더 뉴 쏘렌토 HEV 가격표, 제원 상세 정보 | 카눈",
+      "url": "https://www.carnoon.co.kr/newcar/vehicle/11573"
+    }
+  ],
+  "images": [
+    {
+      "type": "feature_bg_pc",
+      "url": "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/sorento/24pe/sorento_feature_bg_pc.jpg",
+      "source": "kia.com/kr (공식)"
+    },
+    {
+      "type": "official_page",
+      "url": "https://www.kia.com/kr/vehicles/sorento",
+      "source": "kia.com/kr (공식)"
+    }
+  ],
+  "pros": [
+    "복합연비 15.7km/L(5인승 2WD)로 중형 SUV 최고 수준의 효율",
+    "출발·가속이 부드럽고 정차 시 엔진 소음 거의 없음 (정숙성 우수)",
+    "하이브리드 시스템 합산출력 235ps로 동력 성능 충분",
+    "10에어백 + HDA2 + SVM 등 첨단 ADAS/안전 사양 기본 충실",
+    "국내 판매 1위 SUV의 검증된 상품성과 패밀리카로서 공간 활용성",
+    "5/6/7인승 다양한 시트 구성 + 2WD/AWD 선택 폭",
+    "다이나믹 토크 벡터링(하이브리드 전용), 지문 인증, 디지털 키 2 등 신기술 탑재"
+  ],
+  "cons": [
+    "시작가격 상승 (프레스티지 2WD 세제혜택 후에도 약 3,958만원)",
+    "출발 직후 살짝 느껴지는 반응 지연(하이브리드 시스템 특성)",
+    "풀옵션(시그니처 X-Line AWD) 시 5,000만원 근접",
+    "Drive Wise 패키지, HUD+빌트인 캠 등 고급 ADAS/편의옵션이 별도 유료 (129~212만원대)",
+    "트렁크 용량은 3열 사용 시 제한적",
+    "6/7인승 선택 시 연비가 14.8km/L로 감소",
+    "주요 옵션(SVM, 12.3인치 디스플레이, 전자식 변속레버)이 노블레스 이상부터 기본 제공되어 엔트리 트림 가치 제한"
+  ],
+  "researchNotes": [
+    "2026 쏘렌토 하이브리드 라인업은 Prestige / Noblesse / Signature / Signature X-Line(구 Graphite) 4개 트림. Trendy 트림은 하이브리드 라인업에 존재하지 않음 (가솔린 2.5 터보 전용 또는 단종).",
+    "2026년형에서 'Graphite' 트림은 'X-Line' 신규 트림으로 재편되어 출시됨 (2025년 7월 The 2026 쏘렌토 출시 기사 기준).",
+    "트림별 가격은 출처마다 편차가 있음 (공식 kia.com 세제혜택 후 Prestige 3,958만원 vs 기사/블로그 3,896만/3,915만원). JSON에는 kia.com 공식 값을 우선 반영.",
+    "AWD 4WD 추가 가격은 출처마다 약 167만원 ~ 350만원 편차. 카눈(carnoon) 기준 2WD 대비 약 280~350만원으로 기재.",
+    "공식 Kia 페이지(kia.com/kr/vehicles/sorento/specs.html)는 404로 접근 불가 (페이지 이동). /specification 경로로 대체 확인.",
+    "트렁크 용량 공식 수치는 공식 페이지에서 확인 불가 - null 처리. 일반적으로 쏘렌토 4세대 PE(페이스리프트) 기준 3열 사용 시 약 187L, 3열 폴딩 시 약 813L로 알려져 있으나 2026년형 공식 수치 재확인 필요.",
+    "CarPlay/Android Auto(폰 프로젝션)는 공식 features 페이지에서 명시 부족. 12.3인치 인포테인먼트 탑재 및 국내 2024~2026 기아 차량 기본 지원 추세로 볼 때 지원 가능성 높으나 딜러 확인 권장.",
+    "시스템 합산출력은 공식 자료 기준 235ps, 시스템 토크 37.4kgf·m(약 367Nm). 2026년형에서 엔진 180ps, 모터 47.7kW(64.8ps)로 유지됨.",
+    "데이터 수집일: 2026-04-19 기준. 2026년형(The 2026 쏘렌토)는 2025년 7월 출시, 2026년형 Facelift/Update 모델 기준."
+  ]
+}

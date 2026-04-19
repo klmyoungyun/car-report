@@ -1,0 +1,69 @@
+{
+  "national_ev_subsidy_2026": {
+    "tiers": [
+      {"priceRangeKRW": "under_53000000", "rate": 1.0},
+      {"priceRangeKRW": "53000000_85000000", "rate": 0.5},
+      {"priceRangeKRW": "over_85000000", "rate": 0}
+    ],
+    "base_max_KRW": 5800000,
+    "conversion_bonus_max_KRW": 1000000,
+    "total_max_with_conversion_KRW": 6800000,
+    "per_model": {
+      "tesla_model_y_rwd": 1700000,
+      "tesla_model_y_long_range": 2100000,
+      "kia_ev6_long_range_2wd": 5700000,
+      "kia_ev6_standard": 5010000,
+      "hyundai_ioniq_5_2wd": 5670000,
+      "hyundai_ioniq_5_awd": 6100000,
+      "genesis_gv60_standard_2wd": 2870000,
+      "genesis_gv60_standard_awd": 2610000,
+      "genesis_gv60_performance_awd": 2360000,
+      "volvo_ex40": null
+    },
+    "notes": "2026년 기준 5,300만원/8,500만원 경계. 5,000만원 하향은 2027년 예정. 모델 대표 트림 기준, 트림·휠 사양별 차등 존재. Volvo EX40 2026년 공식 확정금액은 확인 불가(2025년 XC40 Recharge 254만원 참고).",
+    "source_urls": [
+      "https://www.mcee.go.kr/home/web/board/read.do?menuId=10525&boardMasterId=1&boardId=1832380",
+      "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156737993",
+      "https://ev.or.kr/nportal/buySupprt/initSubsidyTargetVehicleAction.do"
+    ]
+  },
+  "seongnam_ev_subsidy_2026": {
+    "local_KRW": null,
+    "local_total_estimated_max_with_national_KRW": 8800000,
+    "national_plus_seongnam_estimated_KRW": 3100000,
+    "budget_remaining_note": "성남시 공식 단일 확정 숫자는 PDF 없이 확인 불가. 추정 국비+시비 합산 상한 880만원. 실시간 예산 잔여 현황은 ev.or.kr 확인 필요.",
+    "seongnam_extras": {
+      "multi_child_KRW": {"2_children": 1000000, "3_children": 2000000, "4_plus_children": 3000000},
+      "youth_first_time_max_KRW": 1160000,
+      "seongnam_conversion_bonus_max_KRW": 1300000
+    },
+    "how_to_apply": "① 차량 계약 → ② 성남시청/구청 환경정책과 제출 → ③ 대기자 명부 등록 → ④ 출고·등록순 선정 → ⑤ 차량 출고·성남 등록 → ⑥ 보조금 지급 신청 → ⑦ 1~2개월 내 지정계좌 입금. 문의: 성남시청 환경정책과 031-729-3000번대",
+    "source_urls": [
+      "https://www.seongnam.go.kr/city/1000052/30001/bbsList.do",
+      "https://ev.or.kr/nportal/buySupprt/initPsLocalCarPirceAction.do"
+    ]
+  },
+  "ev_tax_exemptions_2026": {
+    "individual_consumption_tax_max_KRW": 3000000,
+    "education_tax_max_KRW": 900000,
+    "acquisition_tax_max_KRW": 1400000,
+    "vat_effect_approx_KRW": 390000,
+    "total_tax_benefit_approx_KRW": 5690000,
+    "period": "취득세 감면: ~2026-12-31 (2년 연장). 개별소비세 감면: 2012-01-01 ~ 2026-12-31. 교육세는 개소세 연동.",
+    "source_urls": [
+      "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1404",
+      "https://min24.energy.or.kr/xev/contents/benefit"
+    ]
+  },
+  "acquisition_tax_2026": {
+    "rate_percent": 7,
+    "rate_notes": "비영업용 승용차 기준 7%. 경차는 75만원 이하 면제(2027-12-31까지).",
+    "hev_exemption_note": "2025-01-01부터 HEV 취득세 감면(기존 40만원) 종료. 2026년 현재 HEV 취득세 감면 없음. 개별소비세 감면(최대 70만원, ~2026-12-31)은 유지.",
+    "phev_exemption_note": "중앙정부 PHEV 취득세 감면은 HEV와 함께 2025년 종료. 일부 지자체 조례는 전기차 준용 가능(지역 상이).",
+    "source_urls": [
+      "https://news.seoul.go.kr/gov/archives/200240",
+      "https://www.newsis.com/view/NISX20240813_0002847535"
+    ]
+  },
+  "dataAsOf": "2026-04-19"
+}

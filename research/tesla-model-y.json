@@ -1,0 +1,120 @@
+{
+  "slug": "tesla-model-y",
+  "name": "Tesla Model Y",
+  "brand": "Tesla",
+  "segment": "MIDSIZE",
+  "fuelType": "EV",
+  "origin": "IMPORT",
+  "images": {
+    "hero": "https://digitalassets.tesla.com/tesla-contents/image/upload/h_1400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Desktop-Global"
+  },
+  "specs": {
+    "length_mm": 4790,
+    "width_mm": 1921,
+    "height_mm": 1624,
+    "wheelbase_mm": 2890,
+    "weight_kg": 1992,
+    "trunk_liters": 854,
+    "seats": 5,
+    "drivetrain": "RWD",
+    "powerHp": 295,
+    "torqueNm": 410,
+    "efficiency": "5.4km/kWh",
+    "range_km": 500,
+    "battery_kwh": 81.6,
+    "charging": "250kW DC"
+  },
+  "pricing": {
+    "baseTrim": {
+      "name": "RWD (프리미엄)",
+      "priceKRW": 49990000
+    },
+    "recommendedTrim": {
+      "name": "Long Range AWD",
+      "priceKRW": 59990000,
+      "includedOptionPackages": [
+        "Autopilot 기본 포함 (차선 유지, 어댑티브 크루즈)",
+        "듀얼 모터 AWD",
+        "1열 통풍/열선 시트",
+        "파노라마 글래스 루프",
+        "15.4인치 센터 디스플레이",
+        "8인치 2열 디스플레이",
+        "히트펌프",
+        "15스피커 프리미엄 오디오",
+        "앰비언트 라이트"
+      ]
+    },
+    "fullOption": {
+      "name": "Performance AWD (+ FSD)",
+      "priceKRW": 79703000,
+      "note": "퍼포먼스 70,660,000원 + FSD 9,043,000원"
+    },
+    "essentials": {
+      "surroundView": "기본",
+      "rearCamera": "기본",
+      "carplayAndroidAuto": "없음",
+      "adas": "기본"
+    },
+    "addOns": {
+      "enhancedAutopilot_KRW": 4522000,
+      "fullSelfDriving_KRW": 9043000,
+      "note": "기본 Autopilot(기본 차선 유지/ACC)은 전 트림 기본 탑재. EAP는 자동 차선 변경/자동 주차/Summon 포함. FSD(감독형)는 내비게이트 온 오토파일럿 + 신호/정지표지판 인식. 단, 한국에서는 규제 문제로 FSD 활성화 범위가 제한적."
+    }
+  },
+  "media": {
+    "youtube": [
+      {
+        "videoId": "bBrbaf9_qfM",
+        "title": "10분동안 테슬라 모델Y RWD 알아보기ㅣ4,999만원, 제로백 5.8초, X3급 핸들링, 가장많은 편의사양, 동급 최고의 정숙성까지",
+        "channel": "차또바기"
+      },
+      {
+        "videoId": "gHFa8M7mHOg",
+        "title": "테슬라 모델 Y 26년형 최초 시승기! 생각보다 많이 달라졌다?",
+        "channel": "미상 (국내 자동차 리뷰 채널)"
+      },
+      {
+        "videoId": "i41PuR17z5M",
+        "title": "테슬라 모델Y 기습 가격인하! 기능은 업그레이드! 4999만원, 2026년 전기차 전쟁 시작!?",
+        "channel": "미상 (국내 자동차 리뷰 채널)"
+      }
+    ],
+    "blogs": [
+      {
+        "url": "https://www.motorgraph.com/news/articleView.html?idxno=27191",
+        "title": "[시승기] 테슬라 모델 Y 롱 레인지, '511km'의 안정감",
+        "source": "모터그래프"
+      },
+      {
+        "url": "https://www.bloter.net/news/articleView.html?idxno=634993",
+        "title": "테슬라 신형 '모델Y 주니퍼' 374㎞ 무충전 주행하니...전비 놀랍네[카미경]",
+        "source": "블로터"
+      },
+      {
+        "url": "https://www.hankyung.com/article/202504306344i",
+        "title": "\"아빠, 내리기 싫어요\"…테슬라 모델Y 주니퍼 가족과 타보니 [백수전의 '테슬람이 간다']",
+        "source": "한국경제"
+      },
+      {
+        "url": "https://www.etnews.com/20251113000082",
+        "title": "[신차 드라이브] 테슬라 모델 Y 주니퍼 … 이유있는 돌풍",
+        "source": "전자신문"
+      }
+    ],
+    "officialUrl": "https://www.tesla.com/ko_kr/modely"
+  },
+  "pros": [
+    "트림 구성이 단순하고 기본 상태에서도 Autopilot(차선 유지+ACC), 15.4인치 센터 디스플레이, 파노라마 루프, 후방/서라운드 뷰 카메라, 8인치 2열 디스플레이 등 편의사양이 풍부함",
+    "주니퍼 페이스리프트 이후 승차감과 정숙성이 크게 개선(주파수 감응형 댐핑 서스펜션, 이중 접합 어쿠스틱 글래스)되고 히트펌프로 저온 주행거리 방어력 향상",
+    "롱레인지 AWD 기준 환경부 인증 1회 충전 500km(도심 522km) + 전비 5.4km/kWh로 동급 최상위 효율, 슈퍼차저 최대 250kW DC 급속충전으로 15분 만에 약 90km 주행거리 확보",
+    "OTA 무선 업데이트로 출고 후에도 기능이 지속 추가·개선되며, 국내 전기차 판매 1위(2025년 5만대 이상 판매)로 A/S·커뮤니티 인프라가 탄탄함",
+    "2026년 1월 최대 940만원 기습 인하로 RWD 4,999만원 → 국고·지자체 보조금 적용 시 실구매가 4,000만원대 진입 가능(RWD 기준 보조금 100% 수령)"
+  ],
+  "cons": [
+    "Apple CarPlay/Android Auto를 지원하지 않고 Tesla 자체 UI만 사용 가능하며, 물리 버튼을 거의 전부 삭제하고 터치·스티어링 스크롤로 통합해 운전 중 조작 편의성이 떨어진다는 지적",
+    "FSD(감독형)는 904만원의 고가 옵션이지만 한국 규제 및 중국산 HW4 차량 대상 제한으로 북미 대비 기능 활성화 범위가 좁고, 기본 Autopilot만으로는 자동 차선 변경이 불가",
+    "초음파 센서가 제거된 비전 전용 시스템으로 좁은 지하주차장·벽면 인접 주차 시 거리감 오차가 발생하며, 글래스 루프는 한여름 직사광 시 열 전달이 크다는 오너 후기 다수"
+  ],
+  "dataAsOf": "2026-04-19",
+  "researchNotes": "자료 기준일 2026-04-19. 가격은 2026년 1월 기습 인하 이후 가격으로 반영: RWD(프리미엄) 4,999만원, Long Range AWD(19인치) 5,999만원~6,399만원(소스별 편차 있음, 다나와/테슬라차저 기준 5,999만원 채택), Performance AWD 7,066만원(테슬라차저 견적 기준). FSD 904.3만원, Enhanced Autopilot 452.2만원 별도. 2026년 4월 3일 출시된 모델 Y L(6인승, 6,499만원→4월 10일 6,999만원 인상)은 별도 라인업으로 본 문서의 기본 Model Y 5인승 트림에는 포함하지 않음. 제원은 환경부 인증 기준(RWD 62.1kWh/400km, Long Range 81.6kWh/500km)과 evspecifications 2026 Premium RWD(전장 4,790mm, 공차 약 1,901~1,992kg) 기준을 종합. 전장은 국내 카눈/모터그래프/evspecifications 모두 4,790mm로 일치(질문 예시의 4,751mm는 구형 2024년형 수치로 추정되어 2026년형 수치인 4,790mm 채택). Long Range 출력은 모터그래프 자료상 507PS(373kW)/60.2kgf·m(590Nm)이며 0-100 km/h 4.3초, Performance는 461kW(618hp)/0-100 3.3초. specs 섹션은 Long Range 기준으로 채웠으나 drivetrain은 스키마 예시에 맞춰 RWD로 기재(기본 트림). 공식 hero 이미지 URL은 Tesla CDN(digitalassets.tesla.com)의 전역 Model Y 홈페이지 이미지 템플릿을 기재했으며 접근 가능성은 변동될 수 있음. 한국 판매 트림은 RWD·Long Range AWD·Performance AWD 3종으로 확인되며, Performance 트림의 한국 환경부 인증 공식 전비는 본 조사 범위에서 확정치를 얻지 못해 Long Range 수치(5.4km/kWh)로 대체 기재. tesla.com/ko_kr/modely 및 tesla.com/ko_kr/support/range-calculator-ref는 403 응답으로 직접 파싱 실패하여 제3자 소스(다나와, 카눈, 모터그래프, 오토뷰, 블로터, 한국경제, 전자신문, 모터플렉스, 오토트리뷴, evspecifications, 게차 블로그 등)를 교차 검증하여 작성."
+}

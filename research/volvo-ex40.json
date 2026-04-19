@@ -1,0 +1,336 @@
+{
+  "slug": "volvo-ex40",
+  "name": "Volvo EX40 (XC40 Recharge)",
+  "brand": "Volvo",
+  "segment": "COMPACT",
+  "fuelType": "EV",
+  "origin": "IMPORT",
+  "bodyType": "SUV",
+  "modelYear": 2026,
+  "releaseDate": "2025-06-05",
+  "dataAsOf": "2026-04-19",
+
+  "pricing": {
+    "currency": "KRW",
+    "unit": "만원",
+    "priceNote": "개별소비세 3.5% / 세제혜택 후 기준 (국고/지자체 전기차 보조금 별도)",
+    "trims": [
+      {
+        "name": "Single Motor Extended Range Ultra",
+        "price": 6674,
+        "isRecommended": true,
+        "isDefault": true,
+        "note": "국내 판매 단일 트림 (구 XC40 Recharge Twin Motor 대비 가격 인하 + 주행거리 향상)"
+      }
+    ],
+    "recommendedTrim": "Single Motor Extended Range Ultra",
+    "recommendedTrimPrice": 6674,
+    "recommendedTrimReason": "국내는 단일 트림으로만 판매되어 선택 여지 없음. Plus 수준의 옵션(하만카돈, 파노라마 루프, 360 카메라, 파일럿 어시스트, T맵 내비, 히트펌프 등)이 모두 기본 포함된 최상위(Ultra) 구성"
+  },
+
+  "requiredOptions": {
+    "surroundViewCamera360": {
+      "available": true,
+      "standard": true,
+      "note": "360도 서라운드 뷰 기본 탑재"
+    },
+    "rearViewCamera": {
+      "available": true,
+      "standard": true,
+      "note": "파크 어시스트 카메라 기본 탑재 (360 서라운드 뷰에 포함)"
+    },
+    "appleCarPlay": {
+      "available": true,
+      "standard": true,
+      "note": "무선 Apple CarPlay 지원 (Google Built-in 인포테인먼트에 포함)"
+    },
+    "androidAuto": {
+      "available": true,
+      "standard": true,
+      "note": "Android Auto 지원 (유선 기본)"
+    },
+    "pilotAssist": {
+      "available": true,
+      "standard": true,
+      "note": "파일럿 어시스트(ADAS): 어댑티브 크루즈 컨트롤 + 차선 유지 보조 + 조향 보조 기본 탑재"
+    },
+    "headUpDisplay": {
+      "available": null,
+      "standard": null,
+      "note": "확인 필요 - 공식 사양표 교차검증 필요"
+    },
+    "panoramicSunroof": {
+      "available": true,
+      "standard": true,
+      "note": "파노라마 글라스 루프 기본 탑재"
+    },
+    "heatPump": {
+      "available": true,
+      "standard": true,
+      "note": "히트펌프 기본 탑재 (겨울 전비 유리)"
+    },
+    "premiumAudio": {
+      "available": true,
+      "standard": true,
+      "note": "Harman Kardon 프리미엄 사운드 시스템 기본"
+    },
+    "wirelessCharging": {
+      "available": true,
+      "standard": true,
+      "note": "스마트폰 무선 충전 기본"
+    },
+    "pixelLedHeadlamp": {
+      "available": true,
+      "standard": true,
+      "note": "픽셀 LED 헤드램프 기본"
+    },
+    "tmapNavigation": {
+      "available": true,
+      "standard": true,
+      "note": "T맵 기반 내비게이션 기본 (SKT 협업, 볼보코리아 전용)"
+    },
+    "advancedAirCleaner": {
+      "available": true,
+      "standard": true,
+      "note": "어드밴스드 공기청정 시스템 (PM2.5 최대 95% 차단)"
+    }
+  },
+
+  "specifications": {
+    "dimensions": {
+      "lengthMm": 4440,
+      "widthMm": 1873,
+      "heightMm": 1647,
+      "wheelbaseMm": 2702,
+      "groundClearanceMm": null,
+      "curbWeightKg": 2060,
+      "trunkCapacityL": 452,
+      "trunkCapacityMaxL": 1328,
+      "frunkCapacityL": 31,
+      "seatingCapacity": 5,
+      "trunkNote": "기본 452L / 2열 폴딩 시 1,328L / 프렁크(앞쪽 수납) 31L"
+    },
+    "powertrain": {
+      "drivetrain": "RWD",
+      "drivetrainLabel": "후륜구동 (볼보 승용 최초 RWD 전기차, 1998년 이후)",
+      "motorLayout": "Single Motor (후륜 1모터)",
+      "horsepowerHp": 252,
+      "horsepowerKw": 185,
+      "torqueNm": 420,
+      "torqueKgfm": 42.7,
+      "acceleration0to100Sec": 7.3,
+      "topSpeedKmh": 180,
+      "transmission": "자동 1단 감속기"
+    },
+    "battery": {
+      "capacityKwh": 78,
+      "capacityKwhUsable": 77.8,
+      "capacityKwhTotal": 87.9,
+      "type": "리튬 이온 (Li-ion)",
+      "batteryNote": "총 용량 약 87.9kWh / 사용 가능 77.8kWh (확장 주행거리 배터리)"
+    },
+    "range": {
+      "combinedKm": 434,
+      "cityKm": 473,
+      "highwayKm": 387,
+      "coldCombinedKm": 306,
+      "coldCityKm": 279,
+      "coldHighwayKm": 339,
+      "certification": "환경부 (MoE) 인증 기준 / 20인치 휠"
+    },
+    "efficiency": {
+      "combinedKmPerKwh": 4.9,
+      "cityKmPerKwh": 5.4,
+      "highwayKmPerKwh": 4.4,
+      "note": "20인치 휠 기준 복합전비"
+    },
+    "charging": {
+      "dcFastChargingKw": 200,
+      "acChargingKw": 11,
+      "dcTime10to80Min": 28,
+      "acFullChargeHr": null,
+      "connectorDc": "CCS Combo Type 1 (DC콤보 1)",
+      "connectorAc": "CCS Combo Type 1 (AC)",
+      "chargingNote": "DC 급속 최대 200kW, 10→80% 약 28분 / 완속(AC) 상세 시간은 공식 자료 확인 필요"
+    },
+    "wheelsAndTires": {
+      "standardWheelInch": 20,
+      "tireSize": "235/45R20 (추정 - 공식 확인 필요)"
+    }
+  },
+
+  "proCons": {
+    "pros": [
+      "단일 트림 풀옵션 구성: 하만카돈, 360 서라운드 뷰, 파일럿 어시스트, 파노라마 루프, 히트펌프가 모두 기본 포함",
+      "싱글 모터 RWD로 전환하면서 기존 XC40 Recharge 트윈모터 대비 주행거리 +97km 향상 (337 → 434km)",
+      "200kW 급속충전 지원 (기존 150kW 대비 향상), 10→80% 28분",
+      "볼보 특유의 견고한 차체, 토르의 망치 LED + 픽셀 헤드램프, 북유럽 감성 인테리어",
+      "SKT 협업 T맵 인포테인먼트 - 국내 특화 UX/음성 인식",
+      "파일럿 어시스트 ADAS 완성도 (차선 유지 + 어댑티브 크루즈 조합 우수)",
+      "어드밴스드 공기청정 시스템(PM2.5 95% 차단), 국내 미세먼지 환경에 유용",
+      "구 Recharge 트윈모터 대비 가격 인하 (약 824만원 ↓)"
+    ],
+    "cons": [
+      "전기차 전용 플랫폼(SEA) 아닌 CMA 기반 → 2열 센터 터널 높음 (실질 4인승 수준)",
+      "동급 EV 대비 공차중량 2,060kg으로 다소 무거움",
+      "복합전비 4.9km/kWh는 현대 아이오닉5(5.1~), 기아 EV6(5.0~) 등 국산 전용 EV 대비 열위",
+      "주행거리 434km는 2026년 기준 경쟁 모델(EV3 501km, 코나 일렉트릭 417km) 대비 특출나지 않음",
+      "가격대(6,674만원) 대비 선택 트림이 없어 옵션 커스터마이징 불가",
+      "수입 EV 전기차 보조금 지원액이 국산 대비 제한적",
+      "전자식 기어 셀렉터와 Google 기반 인포테인먼트 조작성에 대한 일부 불만 지적",
+      "1세대 플랫폼 기반으로 실내 공간(특히 2열) 여유가 아쉬움"
+    ]
+  },
+
+  "competitors": [
+    "Kia EV3",
+    "Hyundai Kona Electric",
+    "BMW iX1 eDrive20",
+    "Mercedes-Benz EQA",
+    "Volvo EX30 (동일 브랜드 하위 세그먼트)"
+  ],
+
+  "officialUrls": {
+    "main": "https://www.volvocars.com/kr/cars/ex40-electric/",
+    "interior": "https://www.volvocars.com/kr/cars/ex40-electric/interior-design/",
+    "features": "https://www.volvocars.com/kr/cars/ex40-electric/features/",
+    "support": "https://www.volvocars.com/kr/support/car/ex40",
+    "pressRelease": "https://www.volvocars.com/kr/news/culture/20251015-Launch-of-the-XC40/",
+    "brandKR": "https://www.volvocars.com/kr/"
+  },
+
+  "images": [
+    {
+      "url": "https://www.volvocars.com/kr/cars/ex40-electric/",
+      "type": "OFFICIAL_GALLERY",
+      "source": "Volvo Cars Korea",
+      "note": "볼보코리아 EX40 공식 페이지 - 외관/인테리어 이미지 갤러리 (DRM/AEM CDN으로 이미지 직접 링크 어려움, 페이지 방문 권장)"
+    },
+    {
+      "url": "https://www.volvocars.com/kr/cars/ex40-electric/interior-design/",
+      "type": "OFFICIAL_INTERIOR",
+      "source": "Volvo Cars Korea",
+      "note": "인테리어 디자인 하이라이트"
+    },
+    {
+      "url": "https://www.volvocars.com/kr/cars/ex40-electric/features/",
+      "type": "OFFICIAL_FEATURES",
+      "source": "Volvo Cars Korea",
+      "note": "주요 기능 하이라이트 (360 카메라, 파일럿 어시스트 등)"
+    }
+  ],
+
+  "youtubeReviews": [
+    {
+      "title": "2026 볼보 EX40 최초 공개! 미래 전기 SUV의 혁신",
+      "url": "https://www.youtube.com/watch?v=YPpTXgT5als",
+      "language": "KR",
+      "note": "한국어 리뷰 - 2026 EX40 최초 공개 영상"
+    },
+    {
+      "title": "2026 볼보 EX40 EV – 혁신적인 전기 SUV!",
+      "url": "https://www.youtube.com/watch?v=bCfiQRHAqJc",
+      "language": "KR",
+      "note": "한국어 소개 영상 - EX40 EV 상세 리뷰"
+    },
+    {
+      "title": "쿠페라인 전기 SUV 볼보 C40 리차지 시승기 (2023 Volvo C40 Recharge Twin motor test drive)",
+      "url": "https://www.youtube.com/watch?v=2hh_nfES5lY",
+      "language": "KR",
+      "note": "형제 차량 C40 리차지 시승기 - EX40과 파워트레인/플랫폼 공유 (참고용)"
+    },
+    {
+      "title": "Volvo EX40 & EC40 Review (2026): An Upgrade From The XC40 & C40?",
+      "url": "https://www.youtube.com/watch?v=HE5EVu7bSMw",
+      "language": "EN",
+      "note": "영문 리뷰 - 글로벌 사양 EX40/EC40 비교 리뷰"
+    }
+  ],
+
+  "blogReviews": [
+    {
+      "title": "볼보 EX40 출시! XC40 리차저와 달라진 점 총정리",
+      "url": "https://web.getcha.kr/articles/rent-volvo-ex40-launch",
+      "source": "겟차(Getcha)",
+      "note": "EX40 국내 출시 변경점 종합 정리"
+    },
+    {
+      "title": "볼보 EX40 깜짝 출시, 가격 6674만원..주행거리 434km",
+      "url": "https://www.top-rider.com/article/view/trd202506050004",
+      "source": "탑라이더",
+      "note": "2025년 6월 5일 국내 출시 보도 - 가격/제원/트림 정리"
+    },
+    {
+      "title": "EX40 인증 完···볼보 '전기차 대중화' 포석",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=409923",
+      "source": "시사저널e",
+      "note": "EX40 국내 인증 완료 및 시장 포지셔닝 분석"
+    },
+    {
+      "title": "기자들도 몰랐다 \"조용히 출시된 전기 SUV\"...이렇게 이뻐도 되나?",
+      "url": "https://topictree.co.kr/newcar/volvo-korea-ex40-launch/",
+      "source": "토픽트리",
+      "note": "EX40 출시 후기 및 주요 편의사양 소개"
+    },
+    {
+      "title": "볼보 EX40 가격표, 제원 상세 정보",
+      "url": "https://www.carnoon.co.kr/newcar/vehicle/11784",
+      "source": "카눈(Carnoon)",
+      "note": "EX40 가격/제원 데이터베이스"
+    },
+    {
+      "title": "[시승기] 파워트레인 사라지니 만족도 두 배…볼보 XC40 리차지",
+      "url": "https://www.carguy.kr/news/articleView.html?idxno=43682",
+      "source": "카가이(Carguy)",
+      "note": "XC40 리차지(구 명칭) 시승기 - 실주행 감상 (참고용)"
+    }
+  ],
+
+  "galleryLinks": {
+    "namuWiki": "https://namu.wiki/w/%EB%B3%BC%EB%B3%B4%20EX40",
+    "danawa": "https://mauto.danawa.com/auto/?Work=model&Model=4731",
+    "carnoon": "https://www.carnoon.co.kr/newcar/vehicle/11784"
+  },
+
+  "keyFeatures": [
+    "싱글 모터 RWD 파워트레인 (볼보 승용 EV 최초 RWD)",
+    "252hp / 420Nm / 0-100 7.3초",
+    "77.8kWh 리튬이온 배터리 / 434km 주행 (환경부)",
+    "200kW DC 급속충전 (10→80% 약 28분)",
+    "360도 서라운드 뷰 카메라 기본",
+    "파일럿 어시스트 (ACC + 차선 유지)",
+    "하만카돈 프리미엄 사운드",
+    "T맵 내비게이션 (SKT 협업)",
+    "히트펌프 기본 (겨울 전비 유리)",
+    "픽셀 LED 헤드램프",
+    "파노라마 글라스 루프",
+    "어드밴스드 공기청정 (PM2.5 95% 차단)",
+    "무선 Apple CarPlay / Android Auto",
+    "어댑티브 크루즈 컨트롤 + 차선유지",
+    "스마트폰 무선 충전"
+  ],
+
+  "researchNotes": {
+    "modelNaming": "2024년부터 볼보는 XC40 Recharge를 EX40으로 리브랜딩. 한국은 2025년 6월 5일 'EX40'이라는 새 이름으로 공식 출시(구 명칭 XC40 Recharge 단종). 일부 국내 자료에서는 여전히 'XC40 리차지'로 혼용.",
+    "trimStructure": "글로벌(미국)에서는 Single Motor Plus / Twin Motor Plus / Twin Motor Ultra Black 3개 트림이지만, 한국은 'Single Motor Extended Range Ultra' 단일 트림만 판매. 사용자 요청의 Plus 수준 추천은 자동으로 해당 단일 트림으로 귀결됨.",
+    "missingData": [
+      "AC 완속 충전 풀타임 (11kW 기준 약 8~9시간 추정이나 공식 명시 확인 불가)",
+      "최고 속도 (180km/h는 볼보 브랜드 전체 정책 기준 추정)",
+      "Head-Up Display 기본/옵션 여부 공식 확인 필요",
+      "타이어 정확 사이즈 (20인치 휠 기준 235/45R20 추정)",
+      "지상고(ground clearance) 수치 공식 미확인",
+      "토크 Nm 환산치 420Nm은 42.7kgf.m 기준 환산값"
+    ],
+    "batteryCapacityDiscrepancy": "자료별 배터리 용량이 77.8kWh / 78kWh / 87.9kWh 혼재. 77.8kWh는 사용 가능 용량(usable), 87.9kWh는 총 용량(nominal/gross)으로 추정. 상품 안내에는 78kWh로 표기되는 경우가 많음.",
+    "horsepowerDiscrepancy": "252hp(PS)가 국내 공식 발표치. 일부 초기 보도에서 238hp/248hp로 나오기도 했으나 185kW 기준 약 248~252hp 범위.",
+    "priceContext": "6,674만원은 개별소비세 3.5% 인하분 반영 세제혜택 후 가격. 국고보조금 + 지자체 보조금 차감 시 실구매가 5,000만원 중반대 가능(지역별 상이).",
+    "sourcesVerified": [
+      "volvocars.com/kr (공식) - 403으로 직접 fetch 실패, 메타 정보는 검색 스니펫/지원 페이지로 확인",
+      "탑라이더 2025-06-05 출시 기사",
+      "시사저널e 인증 기사",
+      "겟차 출시 정리",
+      "카눈 제원 DB",
+      "다나와 자동차"
+    ]
+  }
+}

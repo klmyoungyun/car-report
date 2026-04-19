@@ -37,6 +37,11 @@ export const AddOnOptionSchema = z.object({
   priceKRW: z.number(),
   description: z.string().optional(),
   recommended: z.boolean().optional(),
+  /**
+   * 같은 exclusiveGroup 값을 가진 옵션들은 단일 선택만 가능.
+   * 예: "exterior-color" — 색상은 한 번에 하나만, "wheels" — 휠 한 세트만.
+   */
+  exclusiveGroup: z.string().optional(),
 });
 
 export const PricingSchema = z.object({

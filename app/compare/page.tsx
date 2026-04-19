@@ -165,27 +165,81 @@ export default async function ComparePage({
       </div>
 
       {vehicles.length >= 2 && (
-        <section className="mt-8">
-          <div className="flex items-center gap-2 mb-3">
+        <section className="mt-10">
+          <div className="flex items-center gap-2 mb-2">
             <Sparkles className="h-5 w-5 text-primary" />
             <h2 className="text-xl font-semibold">AI 비교 인사이트</h2>
           </div>
-          <p className="text-sm text-muted-foreground mb-4">
-            선택한 차량들에 대한 구체적인 비교 의견입니다. 실제 리서치 데이터를 바탕으로 작성되었습니다.
+          <p className="text-sm text-muted-foreground mb-5">
+            실제 리서치 데이터를 기반으로 작성한 차량별 비교 분석입니다. 1~2인 가구, 성남 정자동 거주, 아파트 충전 가능 조건을 기준으로 판단했습니다.
           </p>
-          <div className="space-y-3">
-            {getAllInsights(vehicles.map((v) => v.slug)).map(({ pair, text }, idx) => {
-              const [sa, sb] = pair;
+          <div className="space-y-5">
+            {getAllInsights(vehicles.map((v) => v.slug)).map((ins, idx) => {
+              const [sa, sb] = ins.pair;
               const va = vehicles.find((v) => v.slug === sa)!;
               const vb = vehicles.find((v) => v.slug === sb)!;
               return (
-                <div key={idx} className="rounded-lg border bg-gradient-to-br from-primary/5 to-transparent p-4">
-                  <div className="flex flex-wrap items-center gap-2 text-sm font-semibold mb-2">
-                    <span>{va.name}</span>
-                    <span className="text-muted-foreground">vs</span>
-                    <span>{vb.name}</span>
+                <div
+                  key={idx}
+                  className="overflow-hidden rounded-xl border bg-card shadow-sm"
+                >
+                  {/* 헤더: vs 타이틀 + 헤드라인 */}
+                  <div className="border-b bg-gradient-to-r from-primary/10 via-primary/5 to-transparent p-4">
+                    <div className="flex flex-wrap items-center gap-2 text-base font-bold">
+                      <Link href={`/vehicles/${va.slug}`} className="hover:underline">
+                        {va.name}
+                      </Link>
+                      <span className="rounded-full bg-muted px-2 py-0.5 text-xs font-normal text-muted-foreground">
+                        vs
+                      </span>
+                      <Link href={`/vehicles/${vb.slug}`} className="hover:underline">
+                        {vb.name}
+                      </Link>
+                    </div>
+                    <p className="mt-1.5 text-sm font-medium text-primary">
+                      {ins.headline}
+                    </p>
                   </div>
-                  <p className="text-sm leading-relaxed text-foreground/90">{text}</p>
+
+                  {/* 본문: A 유리 vs B 유리 */}
+                  <div className="grid gap-0 md:grid-cols-2">
+                    <div className="border-b md:border-b-0 md:border-r p-4">
+                      <div className="mb-2.5 flex items-center gap-1.5 text-sm font-semibold">
+                        <FuelBadge fuelType={va.fuelType} />
+                        <span className="truncate">{va.name} 유리</span>
+                      </div>
+                      <ul className="space-y-1.5 text-sm">
+                        {ins.whenA.map((item, i) => (
+                          <li key={i} className="flex gap-2 leading-relaxed">
+                            <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="p-4">
+                      <div className="mb-2.5 flex items-center gap-1.5 text-sm font-semibold">
+                        <FuelBadge fuelType={vb.fuelType} />
+                        <span className="truncate">{vb.name} 유리</span>
+                      </div>
+                      <ul className="space-y-1.5 text-sm">
+                        {ins.whenB.map((item, i) => (
+                          <li key={i} className="flex gap-2 leading-relaxed">
+                            <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* 결론 */}
+                  <div className="border-t bg-accent/40 p-4">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1">
+                      결론 (1-2인·성남·아파트 충전 기준)
+                    </div>
+                    <p className="text-sm font-medium leading-relaxed">{ins.verdict}</p>
+                  </div>
                 </div>
               );
             })}

@@ -12,7 +12,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "IMPORT",
     images: {
-      hero: "https://i.ytimg.com/vi/bBrbaf9_qfM/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2023_Tesla_Model_Y_Long_Range_All-Wheel_Drive_in_Pearl_White_Multi-Coat%2C_front_right%2C_2024-09-25.jpg/1280px-2023_Tesla_Model_Y_Long_Range_All-Wheel_Drive_in_Pearl_White_Multi-Coat%2C_front_right%2C_2024-09-25.jpg",
     },
     specs: {
       length_mm: 4790,
@@ -108,7 +108,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/peaUUPKa30A/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/1280px-2021_Kia_EV6_GT-Line_S.jpg",
     },
     specs: {
       length_mm: 4695,
@@ -204,7 +204,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/55fjDcljpbU/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg/1280px-Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg",
     },
     specs: {
       length_mm: 4655,
@@ -300,7 +300,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/RkxtePkXGME/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Genesis_GV60_1X7A5760.jpg/1280px-Genesis_GV60_1X7A5760.jpg",
     },
     specs: {
       length_mm: 4545,
@@ -397,7 +397,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "IMPORT",
     images: {
-      hero: "https://i.ytimg.com/vi/YPpTXgT5als/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2019_Volvo_XC40_T5_Momentum_in_Bright_Silver_Metallic%2C_front_left%2C_2025-09-22.jpg/1280px-2019_Volvo_XC40_T5_Momentum_in_Bright_Silver_Metallic%2C_front_left%2C_2025-09-22.jpg",
     },
     specs: {
       length_mm: 4440,
@@ -495,7 +495,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "IMPORT",
     images: {
-      hero: "https://i.ytimg.com/vi/hkrzqh4917w/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2023_Lexus_NX_450h%2C_front_4.5.23.jpg/1280px-2023_Lexus_NX_450h%2C_front_4.5.23.jpg",
     },
     specs: {
       length_mm: 4660,
@@ -581,7 +581,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/NoCtl8UmBXc/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2025_Kia_Sportage_S_front_only.jpg/1280px-2025_Kia_Sportage_S_front_only.jpg",
     },
     specs: {
       length_mm: 4685,
@@ -666,7 +666,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/fYT3CUOymWs/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg/1280px-2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg",
     },
     specs: {
       length_mm: 4640,
@@ -751,7 +751,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://i.ytimg.com/vi/ZbHKKsPaLqU/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2024_Kia_Sorento_X-Line_SX_Prestige_%28facelift%29%2C_front_12.20.24.jpg/1280px-2024_Kia_Sorento_X-Line_SX_Prestige_%28facelift%29%2C_front_12.20.24.jpg",
     },
     specs: {
       length_mm: 4815,
@@ -837,7 +837,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "MHEV",
     origin: "IMPORT",
     images: {
-      hero: "https://i.ytimg.com/vi/L3cJybQIbfU/maxresdefault.jpg",
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg/1280px-2018_Volvo_XC60_R-Design_D5_P-Pulse_2.0_Front.jpg",
     },
     specs: {
       length_mm: 4708,

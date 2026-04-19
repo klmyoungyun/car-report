@@ -12,7 +12,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "IMPORT",
     images: {
-      hero: "https://digitalassets.tesla.com/tesla-contents/image/upload/h_1400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Desktop-Global",
+      hero: "https://i.ytimg.com/vi/bBrbaf9_qfM/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4790,
@@ -108,7 +108,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/ev6/myPage/2026/kv/ev6_mypage_kv_pc.jpg",
+      hero: "https://i.ytimg.com/vi/peaUUPKa30A/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4695,
@@ -204,7 +204,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.hyundai.com/static/images/model/ioniq5/ioniq5_exterior_main.png",
+      hero: "https://i.ytimg.com/vi/55fjDcljpbU/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4655,
@@ -300,7 +300,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.genesis.com/content/dam/genesis-p2/kr/admin/model-information/GV60/list-thumbnail/2026-03-17/13-33-39/genesis-kr-admin-model-list-thumbnail-gv60-27my-desktop-630x240.png",
+      hero: "https://i.ytimg.com/vi/RkxtePkXGME/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4545,
@@ -397,7 +397,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "EV",
     origin: "IMPORT",
     images: {
-      hero: "https://www.volvocars.com/kr/cars/ex40-electric/",
+      hero: "https://i.ytimg.com/vi/YPpTXgT5als/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4440,
@@ -495,7 +495,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "IMPORT",
     images: {
-      hero: "https://www.lexus.co.kr/models/NX-350h/",
+      hero: "https://i.ytimg.com/vi/hkrzqh4917w/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4660,
@@ -581,7 +581,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.kia.com/content/dam/kwcms/kr/ko/images/vehicles/nq5pe/highlights/kv/kv_pc.jpg",
+      hero: "https://i.ytimg.com/vi/NoCtl8UmBXc/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4685,
@@ -666,7 +666,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.hyundai.com/kr/ko/e/vehicles/tucson-hybrid/intro",
+      hero: "https://i.ytimg.com/vi/fYT3CUOymWs/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4640,
@@ -751,7 +751,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "HEV",
     origin: "DOMESTIC",
     images: {
-      hero: "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/sorento/24pe/sorento_feature_bg_pc.jpg",
+      hero: "https://i.ytimg.com/vi/ZbHKKsPaLqU/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4815,
@@ -837,7 +837,7 @@ export const VEHICLES: Vehicle[] = [
     fuelType: "MHEV",
     origin: "IMPORT",
     images: {
-      hero: "https://www.volvocars.com/kr/cars/xc60/",
+      hero: "https://i.ytimg.com/vi/L3cJybQIbfU/maxresdefault.jpg",
     },
     specs: {
       length_mm: 4708,

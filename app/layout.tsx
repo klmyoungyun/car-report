@@ -4,6 +4,7 @@ import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 import { CompareProvider } from "@/components/compare/CompareProvider";
 import { CompareFloatingBar } from "@/components/compare/CompareFloatingBar";
+import { AccessibilityProvider } from "@/components/common/AccessibilityProvider";
 
 export const metadata: Metadata = {
   title: "SUV 구매 가이드 2026",
@@ -17,14 +18,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className="h-full antialiased">
+    <html lang="ko" className="h-full antialiased font-size-default">
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <CompareProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <CompareFloatingBar />
-        </CompareProvider>
+        <AccessibilityProvider>
+          <CompareProvider>
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <CompareFloatingBar />
+          </CompareProvider>
+        </AccessibilityProvider>
       </body>
     </html>
   );

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { VEHICLES, getVehicleBySlug } from "@/data/vehicles";
+import { VEHICLE_OPTIONS } from "@/data/vehicle-options";
 import { SpecTable } from "@/components/vehicle/SpecTable";
 import { PriceTable } from "@/components/vehicle/PriceTable";
 import { EssentialsChecklist } from "@/components/vehicle/EssentialsChecklist";
@@ -9,6 +10,8 @@ import { SubsidyCard } from "@/components/vehicle/SubsidyCard";
 import { YoutubeEmbed } from "@/components/vehicle/YoutubeEmbed";
 import { BlogLinkCard } from "@/components/vehicle/BlogLinkCard";
 import { ProsConsList } from "@/components/vehicle/ProsConsList";
+import { TrimList } from "@/components/vehicle/TrimList";
+import { Configurator } from "@/components/vehicle/Configurator";
 import { FuelBadge, Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { SEGMENT_LABEL, ORIGIN_LABEL } from "@/lib/constants";
@@ -80,12 +83,40 @@ export default async function VehicleDetailPage({
       </div>
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold">가격 구성</h2>
+        <h2 className="text-xl font-semibold">가격 구성 (요약)</h2>
         <PriceTable vehicle={vehicle} />
         <p className="text-xs text-muted-foreground">
           ※ 가격은 {vehicle.dataAsOf} 기준. 친환경차 세제혜택(해당 시) 적용가이며, 실제 판매가는 프로모션에 따라 다를 수 있습니다.
         </p>
       </section>
+
+      {VEHICLE_OPTIONS[vehicle.slug] && (
+        <>
+          <section className="mt-8 space-y-3">
+            <h2 className="text-xl font-semibold">모든 트림 구성</h2>
+            <p className="text-sm text-muted-foreground">
+              트림별 기본 탑재 옵션과 가격 차이를 확인하세요.
+            </p>
+            <TrimList
+              trims={VEHICLE_OPTIONS[vehicle.slug].trims}
+              recommendedName={vehicle.pricing.recommendedTrim.name}
+            />
+            {VEHICLE_OPTIONS[vehicle.slug].notes && (
+              <p className="text-xs text-muted-foreground italic">
+                {VEHICLE_OPTIONS[vehicle.slug].notes}
+              </p>
+            )}
+          </section>
+
+          <section className="mt-8">
+            <Configurator
+              vehicle={vehicle}
+              trims={VEHICLE_OPTIONS[vehicle.slug].trims}
+              addOnOptions={VEHICLE_OPTIONS[vehicle.slug].addOnOptions}
+            />
+          </section>
+        </>
+      )}
 
       {vehicle.fuelType === "EV" && vehicle.subsidy && (
         <section className="mt-8">

@@ -61,3 +61,62 @@ body {
   outline: 2px solid hsl(var(--ring));
   outline-offset: 2px;
 }
+
+/* ===== Accessibility: 어르신 모드 ===== */
+
+/* 글자 크기 스케일 */
+html.font-size-default {
+  font-size: 16px;
+}
+html.font-size-large {
+  font-size: 19px;
+}
+html.font-size-xlarge {
+  font-size: 22px;
+}
+
+html.font-size-large body,
+html.font-size-xlarge body {
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+}
+
+html.font-size-large button,
+html.font-size-large a,
+html.font-size-xlarge button,
+html.font-size-xlarge a {
+  min-height: 44px;
+}
+
+/* 고대비 모드 */
+html.high-contrast {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --muted: 0 0% 94%;
+  --muted-foreground: 0 0% 20%;
+  --border: 0 0% 30%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --primary: 221 100% 30%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 0 0% 90%;
+  --accent-foreground: 0 0% 0%;
+  --ring: 221 100% 30%;
+  --ev: 152 100% 20%;
+  --hev: 221 100% 30%;
+  --phev: 180 100% 25%;
+  --mhev: 0 0% 15%;
+}
+
+html.high-contrast * {
+  border-width: 2px !important;
+}
+
+html.high-contrast a,
+html.high-contrast button {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+html.high-contrast button {
+  text-decoration: none;
+}

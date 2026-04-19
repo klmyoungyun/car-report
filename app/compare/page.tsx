@@ -8,7 +8,8 @@ import { Button } from "@/components/ui/button";
 import { formatKRW, formatNumber } from "@/lib/format";
 import { calculateRealPrice } from "@/lib/calculations";
 import { SEGMENT_LABEL, ORIGIN_LABEL } from "@/lib/constants";
-import { ArrowLeft } from "lucide-react";
+import { getAllInsights } from "@/data/insights";
+import { ArrowLeft, Sparkles } from "lucide-react";
 
 export const metadata = {
   title: "차량 비교 — SUV 구매 가이드 2026",
@@ -162,6 +163,35 @@ export default async function ComparePage({
           </TBody>
         </Table>
       </div>
+
+      {vehicles.length >= 2 && (
+        <section className="mt-8">
+          <div className="flex items-center gap-2 mb-3">
+            <Sparkles className="h-5 w-5 text-primary" />
+            <h2 className="text-xl font-semibold">AI 비교 인사이트</h2>
+          </div>
+          <p className="text-sm text-muted-foreground mb-4">
+            선택한 차량들에 대한 구체적인 비교 의견입니다. 실제 리서치 데이터를 바탕으로 작성되었습니다.
+          </p>
+          <div className="space-y-3">
+            {getAllInsights(vehicles.map((v) => v.slug)).map(({ pair, text }, idx) => {
+              const [sa, sb] = pair;
+              const va = vehicles.find((v) => v.slug === sa)!;
+              const vb = vehicles.find((v) => v.slug === sb)!;
+              return (
+                <div key={idx} className="rounded-lg border bg-gradient-to-br from-primary/5 to-transparent p-4">
+                  <div className="flex flex-wrap items-center gap-2 text-sm font-semibold mb-2">
+                    <span>{va.name}</span>
+                    <span className="text-muted-foreground">vs</span>
+                    <span>{vb.name}</span>
+                  </div>
+                  <p className="text-sm leading-relaxed text-foreground/90">{text}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <div className="rounded-lg border bg-ev/5 p-4">

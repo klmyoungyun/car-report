@@ -22,6 +22,23 @@ export const SpecsSchema = z.object({
   charging: z.string().nullable().optional(),
 });
 
+export const TrimSchema = z.object({
+  name: z.string(),
+  priceKRW: z.number().nullable(),
+  keyFeatures: z.array(z.string()).optional(),
+  drivetrain: z.string().optional(),
+  note: z.string().optional(),
+});
+
+export const AddOnOptionSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  category: z.enum(["안전", "편의", "외관", "실내", "오디오", "ADAS", "기타"]),
+  priceKRW: z.number(),
+  description: z.string().optional(),
+  recommended: z.boolean().optional(),
+});
+
 export const PricingSchema = z.object({
   baseTrim: z.object({
     name: z.string(),
@@ -41,6 +58,8 @@ export const PricingSchema = z.object({
     carplayAndroidAuto: EssentialStatusSchema,
     adas: EssentialStatusSchema,
   }),
+  allTrims: z.array(TrimSchema).optional(),
+  addOnOptions: z.array(AddOnOptionSchema).optional(),
 });
 
 export const SubsidySchema = z.object({
@@ -101,4 +120,6 @@ export type FuelType = z.infer<typeof FuelTypeSchema>;
 export type Segment = z.infer<typeof SegmentSchema>;
 export type Origin = z.infer<typeof OriginSchema>;
 export type EssentialStatus = z.infer<typeof EssentialStatusSchema>;
+export type Trim = z.infer<typeof TrimSchema>;
+export type AddOnOption = z.infer<typeof AddOnOptionSchema>;
 export type Vehicle = z.infer<typeof VehicleSchema>;
